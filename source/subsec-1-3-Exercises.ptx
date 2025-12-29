@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="subsec-1-3-Exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Exercises</title>
+
+                <!-- 1. Matching Problem - text-->
+                <exercise>
+                    <statement>
+                        <p>Match the IPA symbol to its closest English sound approximation:</p>
+                        <ol label="A">
+                            <li>[y]</li>
+                            <li>[ə]</li>
+                            <li>[ɔ]</li>
+                            <li>[ʒ]</li>
+                        </ol>
+                        <ol label="1">
+                            <li>The "au" in <em>bought</em> </li>
+                            <li>The "ew" in <em>pewter</em> </li>
+                            <li>The "s" in <em>leisure</em> </li>
+                            <li>The "u" in <em>butter</em> </li>
+                        </ol>
+                    </statement>
+                    <hint><p>Remember that [y] is a rounded vowel inherited from French.</p></hint>
+                    <solution><p>A-2, B-4, C-1, D-3</p></solution>
+                </exercise>               
+
+                 <!-- 2. Matching - interactive-->
+                <exercise >
+            <statement>
+                <p>Match the IPA symbol to its sound description by clicking and dragging:</p>
+            </statement>
+            <cardsort>
+                <match>
+                    <premise order="2">[y]</premise>
+                    <response>Round your lips like you're about to say "O" and say "ee"</response>
+                </match>
+                <match>
+                    <premise order="3">[œ]</premise>
+                    <response>Round your lips like you're about to say "O" and say "eh"</response>
+                </match>
+                <match>
+                    <premise order="1">[ø]</premise>
+                    <response>Round your lips like you're about to say "O" and say "ay"</response>
+                </match>                
+            </cardsort>
+        </exercise>
+
+                <!-- 3. True/False Problem - text -->
+                <exercise>
+                    <statement>
+                        <p>True or False: The IPA symbol <em>[ʃ]</em> represents the "ch" sound in the English word <em>church</em>.</p>
+                    </statement>
+                    <hint><p>Review the difference between [ʃ] and [tʃ] in the consonant table.</p></hint>
+                    <solution><p><em>False.</em> [ʃ] represents "sh" (as in <em>shine</em>); the "ch" sound is represented by [tʃ].</p></solution>
+                </exercise>
+
+                <!-- 4. T/F with button - interactive-->
+                 <exercise>
+            <statement correct="yes">
+                <p>[kyb] is pronounced as "cube" in English.</p>
+            </statement>
+            <feedback>
+                <p>[y] makes the sound "ew".</p>
+            </feedback>
+            <hint>
+                <p>What does sound does [y] make?</p>
+            </hint>
+             </exercise>
+
+                <!-- 5. Multiple Choice Problem - text-->
+                <exercise>
+                    <statement>
+                        <p>Which IPA symbol represents the sound of the bolded letter in the English word <alert>J</alert>am?</p>
+                        <ol>
+                            <li>[ʒ]</li>
+                            <li>[z]</li>
+                            <li>[dʒ]</li>
+                            <li>[j]</li>
+                            <li>[y]</li>
+                        </ol>
+                    </statement>
+                    <solution><p><em>3. [dʒ]</em>.</p></solution>
+                </exercise>
+
+                <!-- 6. MC - Text-->
+                <exercise>
+                    <statement>
+                        <p>Which IPA symbol represents the sound of the bolded letter in the English word <alert>Y</alert>outh?</p>
+                        <ol>
+                            <li>[ʒ]</li>
+                            <li>[z]</li>
+                            <li>[dʒ]</li>
+                            <li>[j]</li>
+                            <li>[y]</li>
+                        </ol>
+                    </statement>
+                    <solution><p><em>4. [j]</em>.</p></solution>
+                </exercise>
+
+                <!-- 7. MC - Text-->
+                <exercise>
+                    <statement>
+                        <p>Which IPA symbol represents the sound of the bolded letter in the English word <alert>You</alert>th?</p>
+                        <ol>
+                            <li>[ʒ]</li>
+                            <li>[z]</li>
+                            <li>[dʒ]</li>
+                            <li>[j]</li>
+                            <li>[y]</li>
+                        </ol>
+                    </statement>
+                    <solution><p><em>5. [y]</em>.</p></solution>
+                </exercise>
+
+               <!-- 8. Multiple Choice - interactive-->
+                 <exercise>
+            <statement>
+                <p>Which IPA symbol represents the sound of the letter "a" in the English word <em><insert>A</insert></em>gent?</p>
+            </statement>
+            <choices randomize="yes">
+                <choice>
+                    <statement>
+                        <p>[a]</p>
+                    </statement>
+                    <feedback>
+                        <p>[a] is used in father</p>
+                    </feedback>
+                </choice>
+                <choice correct="yes">
+                    <statement>
+                        <p>[e]</p>
+                    </statement>
+                </choice>
+                <choice>
+                    <statement>
+                        <p>[i]</p>
+                    </statement>
+                    <feedback>
+                        <p>[i] is used in sheep.</p>
+                    </feedback>
+                </choice>
+            </choices>
+            <hint>
+                <p>It's ok to check the tables first.</p>
+            </hint>
+        </exercise>
+
+                <!-- 9. Fill in the Blank Problem text-->
+                <exercise>
+                    <statement>
+                        <p>Find the IPA vowel for the English word given:</p>
+                        <ol>
+                            <li> "a" in the English word apple.</li>
+                            <li> "s" in the English word usual.</li>
+                        </ol>
+                    </statement>
+                    <solution>
+                        <p>1. [æ]; 2. [ʒ] </p>
+                    </solution>
+                </exercise>
+            
+                <!-- 10. Fill in the blank not case sensitive - interactive-->
+                <exercise>
+            <statement>
+                <p> The IPA symbol <fillin width="5" answer="\[i\]"/> represents "ee" in the English word h<em>ee</em>l.  </p>
+            </statement>
+            <evaluation>
+                <evaluate>
+                    <!-- Example A -->
+                    <test correct="yes">
+                        <strcmp use-answer="yes"/>
+                    </test>
+                    <!-- Example B -->
+                    <test>
+                        <strcmp>i</strcmp>
+                        <feedback><p> You forgot the square brackets!</p></feedback>
+                    </test>
+                    <!-- Example C -->
+                    <test>
+                        <strcmp>[0-9]+</strcmp>
+                        <feedback><p>You typed a word made out of digits.</p></feedback>
+                    </test>
+                    <!-- Example D -->
+                    <test>
+                        <strcmp use-answer="yes" strip="no"/>
+                        <feedback><p>Your answer includes the correct word but has extra text.</p></feedback>
+                    </test>
+                    <!-- Example E -->
+                    <test>
+                        <strcmp strip="no" case="insensitive">z.+z</strcmp>
+                        <feedback><p>Your answer includes text surrounded by z's.</p></feedback>
+                    </test>
+                </evaluate>
+            </evaluation>
+            <hint><p>Don't forget the brackets!</p></hint>
+        </exercise>
+
+
+                <!-- 11. Horizontal Parsons Problem - text -->
+                <exercise>
+                    <statement>
+                        <p> Arrange the following IPA symbols in the correct order to represent the phonetic transcription of the word <em>choose</em>. Not all symbols will be used.</p>
+                        <p><em>Blocks:</em> [e] , [t] , [ʃ] , [u] , [c] , [tʃ] , [z] , [ə]</p>
+                        <p>Order: [ <fillin characters="3"/> ] + [ <fillin characters="3"/> ] + [ <fillin characters="3"/> ]</p>
+                    </statement>
+                    <hint><p>Start with the "ch" sound, followed by the "oo" , and ending with the "s" sound.</p></hint>
+                    <solution><p>[tʃ] + [u] + [z]</p></solution>
+                </exercise>
+            
+        <!-- 12. Horizontal parsons - interactive-->
+                <exercise language="natural" >            
+            <statement>
+                <p>Use the IPA symbols to form the English word "betray". Not all of the symbols are needed.</p>
+            </statement>
+            <blocks layout="horizontal" >                
+                <block order="4">b</block>
+                <block order="6">i</block>
+                <block order="5">t</block>
+                <block order="1">r</block>
+                <block order="2">e</block> 
+                <block correct="no" order="3">a</block>               
+            </blocks>
+        </exercise>
+
+        
+            
+    
+            </worksheet>

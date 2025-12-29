@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <subsection xml:id="subsec-1-2-Examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Examples</title>
+                <p>Let's show how this works with some simple examples in English. Any symbol that gets shown in square brackets for an IPA pronunciation guide gets sounded, nothing remains silent.              
+                </p>
+                        <table>
+                    <title>English IPA Examples</title>
+                    <tabular halign="center">
+                        <row>
+                            <cell>block</cell>
+                            <cell>[blɔk]</cell>
+                        </row>
+                        <row>
+                            <cell>jump</cell>
+                            <cell>[dʒəmp]</cell>
+                        </row>
+                        <row>
+                            <cell>voter</cell>
+                            <cell>[votər]</cell>
+                        </row>
+                        <row>
+                            <cell>bottle</cell>
+                            <cell>[bɔtl]</cell>
+                        </row>
+                        <row>
+                            <cell>excuse</cell>
+                            <cell>[ɛkskys]</cell>
+                        </row>
+                        <row>
+                            <cell>replace</cell>
+                            <cell>[riples]</cell>
+                        </row>
+                        <row>
+                            <cell>badge</cell>
+                            <cell>[bædʒ]</cell>
+                        </row>
+                        <row>
+                            <cell>choose</cell>
+                            <cell>[tʃus]</cell>
+                        </row>
+                        <row>
+                            <cell>sheet</cell>
+                            <cell>[ʃit]</cell>
+                        </row>
+                        <row>
+                            <cell>resolution</cell>
+                            <cell>[rɛsoluʃjɔn]</cell>
+                        </row>
+                        <row>
+                            <cell>achievment</cell>
+                            <cell>[atʃivmɛnt]</cell>
+                        </row>
+                        <row>
+                            <cell>supplementary</cell>
+                            <cell>[səpləmɛntæri]</cell>
+                        </row>
+                        <row>
+                            <cell>year</cell>
+                            <cell>[jir]</cell>
+                        </row>
+                        <row>
+                            <cell>country</cell>
+                            <cell>[kəntri]</cell>
+                        </row>
+                        <row>
+                            <cell>teenager</cell>
+                            <cell>[tineʒr]</cell>
+                        </row>
+                        <row>
+                            <cell>fault</cell>
+                            <cell>[fɔlt]</cell>
+                        </row>
+                        <row>
+                            <cell>clay</cell>
+                            <cell>[kle]</cell>
+                        </row>
+                    </tabular>
+                    </table>
+</subsection>
+       

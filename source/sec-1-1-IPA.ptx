@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-1-IPA" >
+    <title>International Phonetic Alphabet</title>
+    
+    <introduction>
+        <p>The vowels in KV are similar to those for standard French. Some sounds don't have an equivalent in English. I try to provide a note for those instead of an example.</p> 
+    </introduction>
+
+    <xi:include href="subsec-1-1-Charts.ptx" />
+
+    <xi:include href="subsec-1-2-Examples.ptx" />
+    
+    <xi:include href="subsec-1-3-Exercises.ptx" />       
+    
+       
+    
+</section>
+           

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-1-IPA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Reading, Writing and Speaking Kouri Vini</title>
+
+  <introduction>
+    <p> In order to read, write and speak in Kouri Vini we should first be
+     familiar with the current orthography, the spelling system being used. We will
+     start the lesson by going over the IPA, international phonetic alphabet, needed
+     for Kouri Vini.
+    The IPA is an international standard for writing a symbol to represent as many
+     sounds as a human can make with their mouth when communicating. We are only
+      interested in a small subset of symbols to be able to represent Kouri Vini. </p>
+  </introduction>
+
+  <!-- include sections -->
+
+  <xi:include href="sec-1-1-IPA.ptx" />
+ 
+
+</chapter>
