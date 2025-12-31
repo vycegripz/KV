@@ -231,7 +231,7 @@
             </blocks>
         </exercise>
 
-        <!-- 13. Match names to their IPA
+        <!-- 13. Match names to their IPA -->
              <exercise>
             <statement>
               <p>
@@ -242,20 +242,20 @@
                  <image source="ipa.PNG" width="50%"></image>        
             </hint>
             <matching>
-                <premise ref="1">[]</premise>
-                <premise ref="2">[]</premise>
-                <premise ref="3">[]</premise>
-                <premise ref="4">[]</premise>
-                <premise ref="5">[]</premise>
-                <premise ref="6">[]</premise>
-                <!
-                <response xml:id="1" order="4"></response>
-                <response xml:id="2" order="5"></response>
-                <response xml:id="3" order="1"></response>
-                <response xml:id="4" order="3"></response>
-                <response xml:id="5" order="6"></response>
-                <response xml:id="6" order="2"></response>
+                <premise ref="location">[lokeʒɔn]</premise>
+                <premise ref="contrast">[kɔntræst]</premise>
+                <premise ref="dance">[dæns]</premise>
+                <premise ref="dunce">[dəns]</premise>
+                <premise ref="here">[hir]</premise>
+                <premise ref="her">[hɛr]</premise>
+                <!-- -->
+                <response xml:id="location" order="4">location</response>
+                <response xml:id="contrast" order="5">contrast</response>
+                <response xml:id="dance" order="1">dance</response>
+                <response xml:id="dunce" order="3">dunce</response>
+                <response xml:id="here" order="6">here</response>
+                <response xml:id="her" order="2">her</response>
             </matching>
-        </exercise>  -->
+        </exercise>  
     
             </worksheet>
