@@ -5,14 +5,26 @@
     <title>International Phonetic Alphabet</title>
     
     <introduction>
-        <p>The vowels in KV are similar to those for standard French. Some sounds don't have an equivalent in English. I try to provide a note for those instead of an example.</p> 
+        <p> <title>What's Covered</title>
+        <p> After completing this section you should be at least some what familiar with:  
+            <ul>
+                <li><p> What the IPA is </p></li>
+                <li><p> The sounds the different symbols in the IPA make </p></li>
+                <li><p> How to read the IPA chart </p></li>
+                <li><p> How to apply the IPA to some English words </p></li>
+            </ul>
+                </p>            
+            </p> 
     </introduction>
 
-    <xi:include href="subsec-1-1-Charts.ptx" />
+   
+    <xi:include href="subsec-1-1-Tables.ptx" />
 
-    <xi:include href="subsec-1-2-Examples.ptx" />
+    <xi:include href="subsec-1-2-Chart.ptx" />
+
+    <xi:include href="subsec-1-3-Examples.ptx" />
     
-    <xi:include href="subsec-1-3-Exercises.ptx" />       
+    <xi:include href="subsec-1-4-Exercises.ptx" />       
     
        
     

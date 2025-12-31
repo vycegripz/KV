@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<worksheet xml:id="subsec-1-3-Exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="subsec-1-4-Exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <title>Exercises</title>
 
                 <!-- 1. Matching Problem - text-->
@@ -19,7 +19,7 @@
                             <li>The "u" in <em>butter</em> </li>
                         </ol>
                     </statement>
-                    <hint><p>Remember that [y] is a rounded vowel inherited from French.</p></hint>
+                    <hint><image source="ipa.PNG" width="50%"></image></hint>
                     <solution><p>A-2, B-4, C-1, D-3</p></solution>
                 </exercise>               
 
@@ -30,6 +30,16 @@
                 Match the IPA symbol to its sound description by dragging from one box to it's appropriate pair:
               </p>
             </statement>
+            <feedback>
+                <p>
+                    Compare your answers with the chart in the hint.
+                </p>
+            </feedback>
+            <hint>
+                <p>
+                    <image source="ipa.PNG" width="50%"></image>            
+                </p>
+            </hint>
             <matching>
                 <premise ref="1">[œ]</premise>
                 <premise ref="2">[ø]</premise>
@@ -41,7 +51,7 @@
                 <response xml:id="jack" order="5">Round your lips like you're about to say "O" and say "O"</response>
                 <response xml:id="heart" order="4">Round your lips like you're about to say "O" and say "ah"</response>
             </matching>
-        </exercise>
+        </exercise> 
 
                 <!-- 3. True/False Problem - text -->
                 <exercise>
@@ -62,6 +72,7 @@
             </feedback>
             <hint>
                 <p>What does sound does [y] make?</p>
+                <image source="ipa.PNG" width="50%"></image>
             </hint>
              </exercise>
 
@@ -139,7 +150,7 @@
                 </choice>
             </choices>
             <hint>
-                <p>It's ok to check the tables first.</p>
+                <image source="ipa.PNG" width="50%"></image>
             </hint>
         </exercise>
 
@@ -220,7 +231,31 @@
             </blocks>
         </exercise>
 
-        
-            
+        <!-- 13. Match names to their IPA
+             <exercise>
+            <statement>
+              <p>
+                Match the IPA phonetics to its word by dragging from one box to it's appropriate pair:
+              </p>
+            </statement>
+            <hint>
+                 <image source="ipa.PNG" width="50%"></image>        
+            </hint>
+            <matching>
+                <premise ref="1">[]</premise>
+                <premise ref="2">[]</premise>
+                <premise ref="3">[]</premise>
+                <premise ref="4">[]</premise>
+                <premise ref="5">[]</premise>
+                <premise ref="6">[]</premise>
+                <!
+                <response xml:id="1" order="4"></response>
+                <response xml:id="2" order="5"></response>
+                <response xml:id="3" order="1"></response>
+                <response xml:id="4" order="3"></response>
+                <response xml:id="5" order="6"></response>
+                <response xml:id="6" order="2"></response>
+            </matching>
+        </exercise>  -->
     
             </worksheet>

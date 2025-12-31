@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="subsec-1-1-Charts" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="subsec-1-1-Tables" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>IPA Reference Tables</title>
                 
                 <table>
                     <title>Core Vowel Sounds</title>
+
+                   <p> The vowels in KV are similar to those for standard French. Some sounds don't have an equivalent in English. I try to provide a note for those instead of an example.</p>
+                   
                     <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
                         <row header="yes">
                             <cell>IPA Symbol</cell>
@@ -117,4 +120,6 @@
                         </row>
                     </tabular>
                 </table>
-</subsection>
+
+            </subsection>
+
