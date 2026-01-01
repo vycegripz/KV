@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-2-Orthography" >
+    <title>Orthography </title>
+    
+    <introduction>
+        <p> <title>What's Covered</title>
+        <p> After completing this section you should be at least some what familiar with:  
+            <ul>
+                <li><p>The orthograpy for Kouri Vini </p></li>
+                <ul>
+                    <li><p> nasalized vowels</p>
+                    </li>
+                    <li> <p>accents</p>
+                    </li>
+                </ul>
+                <li><p>How to apply the orthography  </p></li>
+              <!--  <li><p>  </p></li>
+                <li><p>  </p></li> -->
+            </ul>
+                </p>            
+            </p> 
+    </introduction>
+
+
+    <p> We start with the orthography because it is an important guide that forms the 
+        foundation of the modern writing system for Louisiana Creole (LC). We will review 
+        and practice the important concepts from the guide here but it is highly suggested 
+        you read the guide in it's entirety: </p>
+
+
+     <p>   <url href="https://www.mylhcv.com/wp-content/uploads/2016/01/Creole-Orthographic-Guide.pdf">Kouri Vini: A Guide to Louisiana Creole Orthography</url>
+     </p>
+    
+
+     <p>
+        I feel it is important to note here that before the orthography there were other
+         stages of convention for writing Louisiana Creole (LC). Since LC is a vernacular
+          language the written word varies from person to person. Early text 
+          (19th century court documents, newspaper personals, books, etc...) 
+          were written as close to French as possible. Some good resources where you will
+          see this is the books <url href="https://www.editionstintamarre.com/catalogue/gazet">Kréyol dan la Gazèt by Taalib Pierre-Auguste</url>, <url href="https://archive.org/details/b24865424">Louisiana Folk Tales in French and English by Fortier</url>,
+          <url href="https://archive.org/details/louisianacreoled0000brou">Louisiana Creole Dialect by Broussard</url>,
+           and various dissertations from <url href="https://repository.lsu.edu/gradschool_disstheses/index.80.html#year_1937">Louisiana State University</url> 
+        (the last 6 or so on the page in the link). In more recent times Creole orthographies
+         from other French Creole languages have were used to adopt a more uniform approach to
+         writing, specifically the <url href="https://en.wikibooks.org/wiki/Haitian_Creole/Alphabet">Haitian Creole Orthography</url>.
+          <url href="https://cls.louisiana.edu/dictionary-louisiana-cr%C3%A9ole/30319">The Dictionary of Louisiana Creole</url>,
+           one of the best resources available, is written using this orthography. Currently you 
+         will often see individuals mixing the Haitian Orthography and the current orthography
+        together since The Dictionary of Louisiana Creole is such an important source of
+         information for us. The <url href="https://ankiweb.net/shared/info/518896926">anki deck</url> linked in the front matter of this workbook contains
+          all of the entries from the Dictionary and is extremely helpful for building vocabulary.
+     </p>
+
+
+    <xi:include href="subsec-1-2-1-nasalized-vowels.ptx" />
+
+     <xi:include href="subsec-1-2-2-accents-generalities.ptx" />
+
+  <!-- <xi:include href="subsec-1-2-3-vowel-nn-mm.ptx" />
+
+     <xi:include href="subsec-1-2-4-accents.ptx" />
+
+    <xi:include href="subsec-1-2-5-Generalities.ptx" />  
+
+    <xi:include href="subsec-1-2-6-external-resources.ptx" />    
+    
+    <xi:include href="subsec-1-2-7-Examples.ptx" />    
+    
+    <xi:include href="subsec-1-2-8-Exercises.ptx" />    -->
+    
+       
+    
+</section>

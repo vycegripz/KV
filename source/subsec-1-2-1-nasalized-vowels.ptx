@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-1-2-1-nasalized-vowels" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Nasalized Vowels</title>
+                
+<p>
+    Nasalized vowels are the same vowels we learned in the previous section, <xref ref="subsec-1-1-1-Tables" />, 
+    but nasalized. This means that the consonant next to the nasalized vowel is only partially pronounced. 
+    Nasalized vowels are identified by a tilda, ~ , as a little hat on top of the vowel. </p>
+    
+<p> [ɑ̃] represents the nasalized form of [a]. When a vowel is nasalized we "half" pronounce the consonant that follows it.
+    An example would be the French word "bon" which means good. You probably read that with a hard "n" at the end
+     (ending with the same sound made by "nnnnn"). In French, and Kouri Vini, the "n" would not be fully sounded, 
+     your tongue floats in your mouth the whole time and never touches the top of your mouth at the end. 
+     We let are tongue get as close as we can to touching the top of our mouth without actually touching. 
+     You can think of it as more like saying "<m>baw^n</m>" where you are almost pronouncing the "n" at the end. 
+     We are trying to say "bon" as much as possible without pronouncing the actual "n". </p>
+    
+<p> Our first form of bon, pronounced with the hard "n", would have ipa [bɔn], the nasalized version would have ipa [bɔ̃]. </p>
+    
+<p>You can determine if you are pronouncing a nasalized vowel correctly or not by pinching your nose with your fingers. 
+    If the sound gets blocked it is being nasalized.  Nasalized vowels in Kouri Vini have no equivalent in English. </p>
+
+
+     <p> The nasalized vowels in KV occur when a vowel "a", "e", "i", "o" or "u" occur before the consonants "n" or "m".
+                        There is a marker we put over one of these vowels when they precede an "n" or "m" but are not nasalized, 
+                        we will discuss these accent marks later in this section.
+                   </p>
+                   <p> To summarize, whenever we see "an", "am", "en", "em", "in", "im", "on", "om", "un" or "um" when reading KV the vowel is nasalized
+                    and the consonant is barely pronounced. </p>
+
+                <table>
+                    <title>Nasalized Vowel Sounds</title>                  
+                   
+                    <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+                        <row header="yes">
+                            <cell>  KV  </cell>
+                            <cell>  IPA  </cell>
+                            <cell>English Approx.</cell>                            
+                        </row>
+                        <row>
+                            <cell>an</cell>
+                            <cell>[ɑ̃]</cell>                            
+                            <cell><m>aw^n</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>am</cell>
+                            <cell>[ɑ̃]</cell>                            
+                            <cell><m>aw^m</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>en</cell>
+                            <cell>[ɑ̃]</cell>                            
+                            <cell><m>aw^n</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>em</cell>
+                            <cell>[ɑ̃]</cell>                            
+                            <cell><m>aw^m</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>in</cell>
+                            <cell>[ɛ̃]</cell>                            
+                            <cell><m>eh^n</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>im</cell>
+                            <cell>[ɛ̃]</cell>                            
+                            <cell><m>eh^m</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>on</cell>
+                            <cell>[ɔ̃]</cell>                            
+                            <cell><m>au^n</m></cell>                        
+                        </row>
+                        <row>
+                            <cell>om</cell>
+                            <cell>[ɔ̃]</cell>                            
+                            <cell><m>au^m</m></cell>                        
+                        </row>  
+                        <row>
+                            <cell>un</cell>
+                            <cell>[œ̃]</cell>                            
+                            <cell><m></m></cell>                        
+                        </row> 
+                        <row>
+                            <cell>um</cell>
+                            <cell>[œ̃]</cell>                            
+                            <cell><m></m></cell>                        
+                        </row>                        
+                    </tabular>
+                </table>
+               
+<p> A quick few things of importance:</p>
+    <ul>    
+        <li>
+            <p> There is a special case of "inn" and "imm". Whenever we see this combination of three letters 
+                    the pronunciation is [in], <m>een</m>,  and [im], <m>eem</m>, respectively.  </p>
+     </li>
+        <li>
+               <p>
+                This creates a problem since "in" and "im" give us the nasalized [ɛ̃] and [ɛ̃], respectively,
+                and there are times when we need to represent [ɛ̃n] and [ɛ̃m].</p>
+            </li>
+            <li>
+            <p> We use "ènn" and "èmm" when we need to represent [ɛ̃n] and [ɛ̃m], respectively.
+            </p>
+        </li>
+    </ul>
+
+           
+
+                <p>Let's go over a few examples for how to pronounce Kouri Vini words using the IPA.</p>
+
+               <example>
+                <tabular halign="center">
+                    <row header="yes">
+                        <cell>KV</cell>
+                        <cell>IPA</cell>
+                        <cell>English Approximation</cell>
+                    </row>
+                    <row>
+                        <cell>shyin</cell>
+                        <cell>[ʃjɛ̃]</cell>
+                        <cell><m>shyeh^n</m></cell>
+                    </row>
+                    <row>
+                        <cell>byin</cell>
+                        <cell>[bjɛ̃]</cell>
+                        <cell><m>byeh^n</m></cell>
+                    </row>
+                    <row>
+                        <cell>manjé</cell>
+                        <cell>[mɑ̃ʒe]</cell>
+                        <cell><m>maw^n-zhay</m></cell>
+                    </row>
+                    <row>
+                        <cell>bonswa</cell>
+                        <cell>[bɔ̃swa]</cell>
+                        <cell><m>bau^n-swa</m></cell>
+                    </row>
+                    <row>
+                        <cell>gin</cell>
+                        <cell>[gɛ̃]</cell>
+                        <cell><m>geh^n</m></cell>
+                    </row>
+                    <row>
+                        <cell>jambalaya</cell>
+                        <cell>[ʒɑ̃balaja]</cell>
+                        <cell><m>jaw^m-baw-law-yaw</m></cell>
+                    </row>
+                    <row>
+                        <cell>kompren</cell>
+                        <cell>[kɔ̃prɑ̃]</cell>
+                        <cell><m>kau^m-praw^n</m></cell>
+                    </row>
+                     <row>
+                        <cell>montré</cell>
+                        <cell>[mɔ̃tre]</cell>
+                        <cell><m>mau^n-tray</m></cell>
+                    </row>
+                    <row>
+                        <cell>bonjour</cell>
+                        <cell>[bɔ̃ʒur]</cell>
+                        <cell><m>bau^n-zhoor</m></cell>
+                    </row>
+                    <row>
+                        <cell>enfan</cell>
+                        <cell>[ɑ̃fɑ̃]</cell>
+                        <cell><m>aw^n-faw^n</m></cell>
+                    </row>
+                    <row>
+                        <cell>aprenn</cell>
+                        <cell>[apɑ̃n]</cell>
+                        <cell><m>awpraw^nn</m></cell>
+                    </row>
+                     <row>
+                        <cell>enmær</cell>
+                        <cell>[ɑ̃mær]</cell>
+                        <cell><m>aw^n-mare</m></cell>
+                    </row>
+                    <row>
+                        <cell>ensenm</cell>
+                        <cell>[ɑ̃sɑ̃m]</cell>
+                        <cell><m>aw^n-saw^nm</m></cell>
+                    </row>
+                    <row>
+                        <cell>nonm</cell>
+                        <cell>[nɔ̃m]</cell>
+                        <cell><m>nau^nm</m></cell>
+                    </row>
+                    <row>
+                        <cell>janm</cell>
+                        <cell>[ʒɑ̃m]</cell>
+                        <cell><m>zhaw^nm</m></cell>
+                    </row>
+                    <row>
+                        <cell>minm</cell>
+                        <cell>[mɛ̃m]</cell>
+                        <cell><m>meh^nm</m></cell>
+                    </row>
+                    <row>
+                        <cell>tinmbré</cell>
+                        <cell>[tɛ̃mbre]</cell>
+                        <cell><m>teh^nm-bray</m></cell>
+                    </row>
+                    <row>
+                        <cell>promnad</cell>
+                        <cell>[prɔ̃nad]</cell>
+                        <cell><m>prau^mn-awd</m></cell>
+                    </row>
+                    <row>
+                        <cell>ennwiyé</cell>
+                        <cell>[ɑ̃nwije]</cell>
+                        <cell><m>aw^nn-wee-yay</m></cell>
+                    </row>
+                    <row>
+                        <cell>mashinn</cell>
+                        <cell>[mɑʃin]</cell>
+                        <cell><m>maw-sheen</m></cell>
+                    </row>
+                </tabular>
+               </example>
+
+            </subsection>
+

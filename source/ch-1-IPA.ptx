@@ -5,17 +5,21 @@
 
   <introduction>
     <p> In order to read, write and speak in Kouri Vini we should first be
-     familiar with the current orthography, the spelling system being used. We will
-     start the lesson by going over the IPA, international phonetic alphabet, needed
-     for Kouri Vini.
-    The IPA is an international standard for writing a symbol to represent as many
-     sounds as a human can make with their mouth when communicating. We are only
+     familiar with the current orthography, the spelling system we use. We will
+     start the chapter by first going over the IPA, international phonetic alphabet, 
+     and then using that understanding to become familiar with our orthography. Once 
+     the orthography is understood we can then talk about reading, writing and 
+     speaking in Kouri Vini.
+    </p>
+    <p> The <em>IPA</em> is an international standard for writing a symbol to represent any
+     sound a human can make with their mouth when communicating. We are only
       interested in a small subset of symbols to be able to represent Kouri Vini. </p>
   </introduction>
 
   <!-- include sections -->
 
   <xi:include href="sec-1-1-IPA.ptx" />
+  <xi:include href="sec-1-2-Orthography.ptx" />
  
 
 </chapter>

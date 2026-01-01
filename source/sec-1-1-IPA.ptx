@@ -18,13 +18,13 @@
     </introduction>
 
    
-    <xi:include href="subsec-1-1-Tables.ptx" />
+    <xi:include href="subsec-1-1-1-Tables.ptx" />
 
-    <xi:include href="subsec-1-2-Chart.ptx" />
+    <xi:include href="subsec-1-1-2-Chart.ptx" />
 
-    <xi:include href="subsec-1-3-Examples.ptx" />
+    <xi:include href="subsec-1-1-3-Examples.ptx" />
     
-    <xi:include href="subsec-1-4-Exercises.ptx" />       
+    <xi:include href="subsec-1-1-4-Exercises.ptx" />       
     
        
     
