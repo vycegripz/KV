@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-1-2-2-alphabet-generalities" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Louisiana Creole Alphabet</title>
+                
+<p>
+    In <xref ref="sec-1-1-IPA"/> we covered the symbols we will need from the IPA. However, 
+    we have not talked about the letters that represent them in LC. We will list the full list here
+    along with a few additional special letters and combinations we have not discussed yet.
+</p>
+<table>
+    <title>Louisiana Creole Alphabet</title>
+
+<tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+                       
+                        
+                        <row header="yes">
+                            <cell>LC Letter</cell>
+                            <cell>IPA Symbol</cell>
+                            <cell>English Phonetic Approximation</cell>
+                            <cell>English Example or Note</cell>
+                        </row>
+                        <row>
+                            <cell colspan="4" ><m>Vowels</m></cell>
+                        </row>
+                        <row>
+                            <cell>a</cell>
+                            <cell>[a]</cell>
+                            <cell><em>aw</em></cell>
+                            <cell>f<em><insert>a</insert></em>ther, <em><insert>au</insert></em>nt, l<em><insert>aw</insert></em>n</cell>
+                        </row>
+                        <row>
+                            <cell>æ</cell>
+                            <cell>[æ]</cell>
+                            <cell><em>aa</em></cell>
+                            <cell><em><insert>a</insert></em>pple, b<em><insert>a</insert></em>t, <em><insert>a</insert></em>nt </cell>
+                        </row>
+                        <row>
+                            <cell>é</cell>
+                            <cell>[e]</cell>
+                            <cell><em>ay</em></cell>
+                            <cell><em><insert>a</insert></em>, p<em><insert>ay</insert></em>, <em><insert>a</insert></em>ble </cell>
+                        </row>
+                        <row>
+                            <cell>e</cell>
+                            <cell>[ø]</cell>
+                            <cell><em>eugh</em></cell>
+                            <cell> note: no english equivalent. Round your lips like you're about to say "Oh" but say "ay" instead.</cell>
+                        </row>
+                        <row>
+                            <cell>e</cell>
+                            <cell>[ə]</cell>
+                            <cell><em>uh</em></cell>
+                            <cell>th<em><insert>e</insert></em>, <em><insert>a</insert></em>bout, syst<em><insert>e</insert></em>m </cell>
+                        </row>
+                        <row>
+                            <cell>è</cell>
+                            <cell>[ɛ]</cell>
+                            <cell><em>eh</em></cell>
+                            <cell>b<em><insert>e</insert></em>t, s<em><insert>ai</insert></em>d, br<em><insert>ea</insert></em>d, n<em><insert>e</insert></em>ver </cell>
+                        </row>
+                        <row>
+                            <cell>o</cell>
+                            <cell>[o]</cell>
+                            <cell><em>oh</em></cell>
+                            <cell>t<em><insert>ow</insert></em>, h<em><insert>o</insert></em>me, b<em><insert>oa</insert></em>t </cell>
+                        </row>
+                        <row>
+                            <cell>œ</cell>
+                            <cell>[œ]</cell>
+                            <cell><em>ugh</em></cell>
+                            <cell>note: no english equivalent. Round your lips like you're about to say "Oh" but say "eh" instead.</cell>
+                        </row>
+                        <row>
+                            <cell>ò</cell>
+                            <cell>[ɔ]</cell>
+                            <cell><em>au</em></cell>
+                            <cell>l<em><insert>o</insert></em>st, th<em><insert>ough</insert></em>t, d<em><insert>o</insert></em>g, <em><insert>aw</insert></em>ful, s<em><insert>au</insert></em>ce </cell>
+                        </row>
+                        <row>
+                            <cell>i</cell>
+                            <cell>[i]</cell>
+                            <cell><em>ee</em></cell>
+                            <cell>s<em><insert>ee</insert></em>d, happ<em><insert>y</insert></em> </cell>
+                        </row>
+                        <row>
+                            <cell>ou</cell>
+                            <cell>[u]</cell>
+                            <cell><em>oo</em></cell>
+                            <cell>p<em><insert>oo</insert></em>l, d<em><insert>u</insert></em>ty, m<em><insert>oo</insert></em>n</cell>
+                        </row>
+                        <row>
+                            <cell>u</cell>
+                            <cell>[y]</cell>
+                            <cell><em>ew</em></cell>
+                            <cell><em><insert>u</insert></em>se, n<em><insert>ew</insert></em>  
+                                note: Round your lips like you're about to say "Oh" but say "ee" instead.</cell>
+                        </row>
+                        <row>
+                            <cell colspan="4"><m>Consonants</m></cell>
+                        </row>
+                        <row>
+                            <cell>y</cell>
+                            <cell>[j]</cell>
+                            <cell><em>y</em></cell>
+                            <cell><em><insert>y</insert></em>ou, be<em><insert>y</insert></em>ond, b<em><insert>eau</insert></em>tiful      </cell>
+                        </row>
+                        <row>
+                            <cell>ch</cell>
+                            <cell>[tʃ]</cell>
+                            <cell><em>ch</em></cell>
+                            <cell><em><insert>ch</insert></em>ur<em><insert>ch</insert></em> </cell>
+                        </row>
+                        <row>
+                            <cell>dj</cell>
+                            <cell>[dʒ]</cell>
+                            <cell><em>j</em></cell>
+                            <cell><em><insert>j</insert></em>am, <em><insert>gy</insert></em>m, sol<em><insert>di</insert></em>er, bri<em><insert>dge</insert></em>  </cell>
+                        </row>
+                        <row>
+                            <cell>j</cell>
+                            <cell>[ʒ]</cell>
+                            <cell><em>zh</em></cell>
+                            <cell>mer<em><insert>g</insert></em>e, trea<em><insert>su</insert></em>re, vi<em><insert>si</insert></em>on  
+                            Note: Think of saying "jjjjjump" </cell>
+                        </row>
+                        <row>
+                            <cell>sh</cell>
+                            <cell>[ʃ]</cell>
+                            <cell><em>sh</em></cell>
+                            <cell><em><insert>sh</insert></em>are, na<em><insert>ti</insert></em>on, spe<em><insert>ci</insert></em>al </cell>
+                        </row>
+                        <row>
+                            <cell>ny or ñ</cell>
+                            <cell>[ɲ]</cell>
+                            <cell><em>ny</em></cell>
+                            <cell> ca<em><insert>ny</insert></em>on, jalape<em><insert>ñ</insert></em>o</cell>
+                        </row>
+                        <row>
+                            <cell>ç</cell>
+                            <cell>[s]</cell>
+                            <cell><em>ss</em></cell>
+                            <cell><em><insert>s</insert></em>top</cell>
+                        </row>
+                        <row>
+                            <cell colspan="4"><m>Special</m>  <m>Cases</m></cell>
+                        </row>
+                        <row>
+                            <cell>ay</cell>
+                            <cell>[aj]</cell>
+                            <cell><em>awy</em></cell>
+                            <cell>say the english word "eye" but starting with "aw"</cell>
+                        </row>
+                        <row>
+                            <cell>ai</cell>
+                            <cell>[ai]</cell>
+                            <cell><em>aw-ee</em> or <em>aw-yee</em></cell>
+                            <cell>n<em>ai</em>ve</cell>
+                        </row>
+                        <row>
+                            <cell>inn</cell>
+                            <cell>[in]</cell>
+                            <cell><em>een</em></cell>
+                            <cell>mach<em>i</em>ne</cell>
+                        </row>
+                        <row>
+                            <cell>imm</cell>
+                            <cell>[im]</cell>
+                            <cell><em>eem</em></cell>
+                            <cell>t<em>eam</em></cell>
+                        </row>
+                        <row>
+                            <cell>ènn</cell>
+                            <cell>[ɛ̃n]</cell>
+                            <cell><m>eh^nn</m></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>èmm</cell>
+                            <cell>[ɛ̃m]</cell>
+                            <cell><m>eh^mm</m></cell>
+                            <cell></cell>
+                        </row>
+                    </tabular>
+                </table>
+
+<p> Some important points to note:</p>
+ 
+<p>
+ <ul>
+    <li> <p> All accented vowels are non-nasalized if they show up before "n" or "m" except <em>ènn</em>
+        and <em>èmm</em>.
+        </p>
+    </li>
+    <li> <p> All non-accented vowels that show up before "n" or "m" are nasalized except for <em>inn</em>
+        and <em>imm</em>.
+        </p>
+    </li>
+    <li> <p> There are times when <em>é</em> can be replaced with <em>è</em>.
+        </p>
+    </li>
+    <li> <p> <em>è</em> at the end of a word can generally be replaced with <em>e</em>.
+        </p>
+    </li>
+    <li> <p> <em>èr</em> can generally be replaced with either <em>ær</em> or <em>œr</em> but not interchangeably.
+        </p>
+    </li>
+    <li> <p> <em>ay</em> can be pronounced as "awye" or "eye". So bayou can be pronounced as
+         "baw-yoo" or "bye-oo"
+        </p>
+    </li>
+    <li> <p> LC is a spectrum and as such, regional pronunciations vary between more
+         "French" and more "Creole" (mesolectal and basilectal, respectively)
+        </p>
+    </li>
+    <li> <p> LC has a mainly French vocabulary. The main difference between French 
+        and LC is the grammar structure. The vocabulary in LC also is often pronounced
+         (and spelled) differently than it is in French. For those familiar with French
+          a generalization of the vocabularly differences is as follows: </p>
+       <p> <ul>
+                <li>  <p> [u] vowels in French are pronounced with an [i] in LC:  plus vs. pli (<m>ploo</m> vs <m>plee</m>)
+                    </p>
+                </li>
+                <li>  <p>  <em>eux</em> in French is pronounced <em>é</em> in LC: deux vs dé (<m>deuh</m> vs <m>day</m>)
+                    </p>
+                </li>
+                <li>  <p> Some words in French are avoided and hardly used (<em>du</em>, <em>de</em>, <em>très</em>, ...)
+                    </p>
+                </li>
+                <li>  <p>  Some words are abbreviated by dropping the initial syllable (<em>regarder->gardé</em>)
+                    </p>
+                </li>
+                <li>  <p> Sometimes words are abbreviated by dropping the initial and final syllable (<em>regarder->gar</em>, or <em>ga</em>)
+                    </p>
+                </li>
+                <li>  <p> There is little to no distinction of gender
+                    </p>
+                </li>
+           </ul>
+        </p>
+    </li>
+ </ul> 
+</p>
+
+
+<p>Some helpful videos:</p>
+<p>
+<ul><li> <p> <url href="https://en.wikipedia.org/wiki/Help:IPA/French">French IPA with examples and audio</url>
+    </p>
+    </li>
+    <li> <p> <url href="https://open-dict-data.github.io/ipa-lookup/fr/?#">French IPA pronunciation searcher</url>
+    </p>
+    </li>
+    <li> <p> <url href="https://youtu.be/vz59hkAEWZc?si=05JLYd7NKVcMpErx">Panel Discussion LC Orthography Review</url>
+    </p>
+    </li>
+    <li> <p> <url href="https://youtu.be/2iKAqEDkldc?si=1E1U3_S9sSNJcAed">LC Alphabet</url>
+    </p>
+    </li>
+</ul>
+</p>   
+
+
+
+            </subsection>
+

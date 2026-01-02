@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <subsection xml:id="subsec-1-2-3-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Examples</title>
+                <p>We now have the tools to pronounce or write any word in LC, let's practice:              
+                </p>
+                        <table>
+                    
+                    <tabular halign="center" left="minor" bottom="minor" right="minor" top="minor">
+                        <row header="yes">
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                            <cell>Pronunciation</cell>
+                            <cell>English Meaning</cell>
+                        </row>
+                        <row>
+                            <cell>laj</cell>
+                            <cell>[laʒ]</cell>
+                            <cell><m>lazh</m></cell>
+                            <cell>age</cell>
+                        </row>
+                        <row>
+                            <cell>vrémen</cell>
+                            <cell>[vremɑ̃]</cell>
+                            <cell><m>vray-maw^n</m></cell>
+                            <cell>really</cell>
+                        </row>
+                        <row>
+                            <cell>gin</cell>
+                            <cell>[gɛ̃]</cell>
+                            <cell><m>geh^n</m></cell>
+                            <cell>to have</cell>
+                        </row>
+                        <row>
+                            <cell>ole</cell>
+                            <cell>[ole]</cell>
+                            <cell><m>olay</m></cell>
+                            <cell>to want</cell>
+                        </row>
+                        <row>
+                            <cell>m'ole</cell>
+                            <cell>[m ole]</cell>
+                            <cell><m>m^a-ohlay</m></cell>
+                            <cell>I want</cell>
+                        </row>
+                        <row>
+                            <cell>pe</cell>
+                            <cell>[pø]</cell>
+                            <cell><m>peugh</m></cell>
+                            <cell>a few, a little</cell>
+                        </row>
+                        <row>
+                            <cell>zye</cell>
+                            <cell>[zyø]</cell>
+                            <cell><m>zyeugh</m></cell>
+                            <cell>eye</cell>
+                        </row>
+                        <row>
+                            <cell>zyé</cell>
+                            <cell>[zye]</cell>
+                            <cell><m>zyay</m></cell>
+                            <cell>eye</cell>
+                        </row>
+                        <row>
+                            <cell>astœr</cell>
+                            <cell>[astœr]</cell>
+                            <cell><m>awstughr</m></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>astèr</cell>
+                            <cell>[astɛr]</cell>
+                            <cell><m>awstehr</m></cell>
+                            <cell>now</cell>
+                        </row>
+                        <row>
+                            <cell>rekommandé</cell>
+                            <cell>[rəkɔ̃mɑ̃de]</cell>
+                            <cell><m>ruh-kau^m-maw^n-day</m></cell>
+                            <cell>to order</cell>
+                        </row>
+                        <row>
+                            <cell>rèkommandé</cell>
+                            <cell>[rɛkɔ̃mɑ̃de]</cell>
+                            <cell><m>reh-kau^m-maw^n-day</m></cell>
+                            <cell>to order</cell>
+                        </row>
+                        <row>
+                            <cell>rékommandé</cell>
+                            <cell>[rekɔ̃mɑ̃de]</cell>
+                            <cell><m>ray-kau^m-maw^n-day</m></cell>
+                            <cell>to order</cell>
+                        </row>
+                        <row>
+                            <cell>rékòmandé</cell>
+                            <cell>[rekɔmɑ̃de]</cell>
+                            <cell><m>ruh-kau-maw^n-day</m></cell>
+                            <cell>to order</cell>
+                        </row>
+                        <row>
+                            <cell>labichud</cell>
+                            <cell>[labitʃyd]</cell>
+                            <cell><m>la-bee-chood</m></cell>
+                            <cell>habit, to be accustomed to</cell>
+                        </row>
+                    </tabular>
+                    </table>
+</subsection>
+       

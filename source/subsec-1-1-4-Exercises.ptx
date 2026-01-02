@@ -41,13 +41,13 @@
                 </p>
             </hint>
             <matching>
-                <premise ref="1">[œ]</premise>
-                <premise ref="2">[ø]</premise>
-                <premise ref="3">[y]</premise>
+                <premise ref="eh">[œ]</premise>
+                <premise ref="ay">[ø]</premise>
+                <premise ref="ee">[y]</premise>
                 <!--  -->
-                <response xml:id="3" order="1">Round your lips like you're about to say "O" and say "ee"</response>
-                <response xml:id="2" order="2">Round your lips like you're about to say "O" and say "ay"</response>
-                <response xml:id="1" order="3">Round your lips like you're about to say "O" and say "eh"</response>
+                <response xml:id="ee" order="1">Round your lips like you're about to say "O" and say "ee"</response>
+                <response xml:id="ay" order="2">Round your lips like you're about to say "O" and say "ay"</response>
+                <response xml:id="eh" order="3">Round your lips like you're about to say "O" and say "eh"</response>
                 <response xml:id="jack" order="5">Round your lips like you're about to say "O" and say "O"</response>
                 <response xml:id="heart" order="4">Round your lips like you're about to say "O" and say "ah"</response>
             </matching>
