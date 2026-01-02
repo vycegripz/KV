@@ -5,9 +5,10 @@
                 <p>We now have the tools to pronounce or write any word in LC, let's practice:              
                 </p>
                         <table>
-                    
+                    <title>Reading and Writing LC Examples</title>
                     <tabular halign="center" left="minor" bottom="minor" right="minor" top="minor">
-                        <row header="yes">
+                       
+                     <row header="yes">
                             <cell>LC</cell>
                             <cell>IPA</cell>
                             <cell>Pronunciation</cell>
