@@ -207,24 +207,22 @@
                                 Match the Louisiana Creole word to it's IPA.
                             </p>
                         </statement>
-                        <matches>
-                            <match order="1">
-                                <premise>fim</premise>
-                                <response>[fɛ̃]</response>
-                            </match>
-                            <match order="2">
-                                <premise>fenm</premise>
-                                <response>[fɑ̃m]</response>
-                            </match>
-                            <match order="3">
-                                <premise>fimm</premise>
-                                <response>[fim]</response>
-                            </match>
-                            <match order="4">
-                                <premise>fum</premise>
-                                <response>[fym]</response>
-                            </match>                            
-                        </matches>      
+                        <matching>
+                            
+                                                       
+                                <premise ref="fim" order="1">fim</premise>
+                                <response xml:id="fim">[fɛ̃]</response>
+                            
+                                 <premise ref="fenm" order="2">fenm</premise>
+                                <response xml:id="fenm">[fɑ̃m]</response>
+                            
+                                <premise ref="fimm" order="3">fimm</premise>
+                                <response xml:id="fimm">[fim]</response>
+                            
+                                <premise ref="fum" order="4">fum</premise>
+                                <response xml:id="fum">[fym]</response>
+                                     
+                        </matching>      
 
                     </exercise>
                 </subsection>

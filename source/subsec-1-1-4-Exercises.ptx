@@ -6,6 +6,7 @@
                 <exercise>
                     <statement>
                         <p>Match the IPA symbol to its closest English sound approximation:</p>
+                        <sidebyside margins="auto">
                         <ol label="A">
                             <li>[y]</li>
                             <li>[ə]</li>
@@ -18,6 +19,7 @@
                             <li>The "s" in <em>leisure</em> </li>
                             <li>The "u" in <em>butter</em> </li>
                         </ol>
+                    </sidebyside>
                     </statement>
                     <hint><image source="ipa.PNG" width="50%"></image></hint>
                     <solution><p>A-2, B-4, C-1, D-3</p></solution>
