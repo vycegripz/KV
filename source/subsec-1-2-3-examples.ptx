@@ -199,5 +199,33 @@
                         first this might worry you because you want to get everything perfect, eventually
                         you begin to realize that this allows for lot's of flexibility.
                     </p>
+
+
+                    <exercise>
+                        <statement>
+                            <p>
+                                Match the Louisiana Creole word to it's IPA.
+                            </p>
+                        </statement>
+                        <matches>
+                            <match order="1">
+                                <premise>fim</premise>
+                                <response>[fɛ̃]</response>
+                            </match>
+                            <match order="2">
+                                <premise>fenm</premise>
+                                <response>[fɑ̃m]</response>
+                            </match>
+                            <match order="3">
+                                <premise>fimm</premise>
+                                <response>[fim]</response>
+                            </match>
+                            <match order="4">
+                                <premise>fum</premise>
+                                <response>[fym]</response>
+                            </match>                            
+                        </matches>      
+
+                    </exercise>
                 </subsection>
        

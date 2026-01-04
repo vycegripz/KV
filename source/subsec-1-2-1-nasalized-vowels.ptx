@@ -22,11 +22,11 @@
     If the sound gets blocked it is being nasalized.  Nasalized vowels in LC have no equivalent in English. </p>
 
 
-     <p> The nasalized vowels in LC occur when a vowel "a", "e", "i", "o" or "u" occur before the consonants "n" or "m".
+     <p> The nasalized vowels in LC occur when a vowel "a", "e", "i", or "o" occur before the consonants "n" or "m".
                         There is a marker we put over one of these vowels when they precede an "n" or "m" but are not nasalized, 
                         we will discuss these accent marks later in this section.
                    </p>
-                   <p> To summarize, whenever we see "an", "am", "en", "em", "in", "im", "on", "om", "un" or "um" when reading LC the vowel is nasalized
+                   <p> To summarize, whenever we see "an", "am", "en", "em", "in", "im", "on", or "om" when reading LC the vowel is nasalized
                     and the consonant is barely pronounced. </p>
 
                 <table>
@@ -77,17 +77,7 @@
                             <cell>om</cell>
                             <cell>[ɔ̃]</cell>                            
                             <cell><m>au^m</m></cell>                        
-                        </row>  
-                        <row>
-                            <cell>un</cell>
-                            <cell>[œ̃]</cell>                            
-                            <cell><m></m></cell>                        
-                        </row> 
-                        <row>
-                            <cell>um</cell>
-                            <cell>[œ̃]</cell>                            
-                            <cell><m></m></cell>                        
-                        </row>                        
+                        </row>                      
                     </tabular>
                 </table>
                
@@ -106,11 +96,17 @@
             <p> We use "ènn" and "èmm" when we need to represent [ɛ̃n] and [ɛ̃m], respectively.
             </p>
         </li>
+        <li>
+            <p> "u" is a special case, we do not generally use the nasalization when u is paired with "n" or "m"
+                but if we do, "un" and "um" would be [œ̃].
+                
+            </p>
+        </li>
     </ul>
 
            
 
-                <p>Let's go over a few examples for how to pronounce Kouri Vini words using the IPA.</p>
+                <p>Let's go over a few examples for how to pronounce Louisiana Creole words using the IPA.</p>
 
                <example>
                 <tabular halign="center">
