@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-3-Counting" >
+    <title>Counting</title>
+    
+    <introduction>
+        <title>What's Covered</title>
+
+        <p> After completing this section you should be at least some what familiar with:  
+            <ul>
+                <li><p>Counting in Louisiana Creole </p></li>
+                
+                <li><p>Naming the order of things in Louisiana Creole</p>
+                    </li>
+                
+            
+                             
+              <!--  <li><p>  </p></li>
+                <li><p>  </p></li> -->
+            </ul>
+                </p>            
+             
+    </introduction>
+
+
+    <p>
+        We will learn how to write and pronounce the different numbers for Louisiana Creole.
+         Note that there are many dialects of Louisiana Creole and it would be impossible to capture
+         everything here. As such, when there are multiple ways to pronounce the same word I 
+         will put the IPA but not the LC spelling differences. It is up to the reader to understand
+         how the variation would be written. Remember the general rules from <xref ref="subsec-1-2-2-alphabet-generalities"/>
+         to help guide you.</p>
+
+         <p> An example of this is "de" (two) in the next subsection <xref ref="subsec-1-3-1-vocab"/>. 
+            The IPA provided for it is [dø, de] but I did not write the entry for two as "de, dé". 
+            Some words can have up to 10 variations or more, some more similar to others
+            (we saw this in one of the example problems <xref ref="subsec-1-2-3-examples"/>), and 
+            I don't want to bog this reader/workbook down with focusing on the variation. Therefore, 
+            variations that are very different from each other will be noted with their IPA.</p>
+        
+        <p>
+        Another notation that you will see is letters in a word in parenthesis. This is to help designate 
+        other spellings of the same word. For instance, for 4 you will see kat(r). This is
+        because we use "kat" if the next word after it in a sentence starts with a consonant and "katr" if 
+        the next word starts with a vowel. It is <em>not</em> the case that parenthesis are always used according
+        to a potential liaison (blending of ending consonant of one word with beginning vowel of the next
+         as seen in French) or not.
+    </p>
+
+    <p>
+        For instance the word "(la)sal(i)té" has been documented as being pronounced/spelled as lasalité,
+         lasalté, salité and as salté.
+    
+    </p>
+
+    <p>
+        If you see terms separated backslash inside parenthesis then that means
+        any of the terms in the parenthesis are valid as well. For instance "(l/n/z)ami" means that
+        lami, nami, zami and ami are all commonly used words/variations.
+    </p> 
+
+
+    <xi:include href="subsec-1-3-1-vocab.ptx" />
+
+ <!--   <xi:include href="subsec-1-3-2-examples.ptx" />
+
+    <xi:include href="subsec-1-3-3-exercises.ptx" />
+
+    
+    -->
+       
+    
+</section>

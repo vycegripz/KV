@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-2-Grammar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grammar</title>
+
+  <introduction>
+    <p> In my opinion the best way to learn a language is to learn the
+         grammar rules and then build your vocabulary. We can practice 
+        reading and writing in this workbook but not listening and speaking. </p>
+    
+    <p>  Make sure to practice these skills on your own by talking to other speakers (our yourself)
+         and finding resources to listen to. If you find it hard to find material to listen
+        to I suggest listening to Louisiana French as there are more resources available to find
+    and it can help you get an ear for both languages since many pronunciations are the same or very similar. </p>
+
+</introduction>
+
+  <!-- include sections -->
+
+  <xi:include href="sec-2-1-Family.ptx" />
+ 
+
+</chapter>

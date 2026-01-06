@@ -13,6 +13,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-1-IPA.ptx" />
+    <xi:include href="./ch-2-Grammar.ptx" />
 
 
     <!-- Include backmatter -->

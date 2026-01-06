@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-1-Family" >
+    <title>Family</title>
+
+    <introduction>
+        <p> <title>What's Covered</title>
+        <p> After completing this section you should be at least some what familiar with:  
+            <ul>
+                <li><p>The structure of basic sentences </p></li>
+                
+                    <li><p>How to make a basic sentence</p>
+                    </li>
+                    <li> <p>How to read a basic sentence</p>
+                    </li>
+                    
+              <!--  <li><p>  </p></li>
+                <li><p>  </p></li> -->
+            </ul>
+                </p>            
+            </p> 
+    </introduction>
+
+
+    <p> 
+     </p>
+
+
+    <!--
+     <xi:include href="subsec-2-1-1-vocab.ptx" />
+
+    <xi:include href="subsec-2-1-2-sentences.ptx" />
+
+    <xi:include href="subsec-2-1-3-reading.ptx" />
+
+    <xi:include href="subsec-2-1-4-Exercises.ptx" />
+
+    -->
+    
+       
+    
+</section>

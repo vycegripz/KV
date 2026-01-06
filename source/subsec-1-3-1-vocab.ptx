@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-1-3-1-vocab" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Counting 1 - 100</title>
+                
+ <introduction>
+    
+    
+    <p> The numbers 1-20 are probably the most important to learn as well as the numbers for the 
+        10's places. Knowing these will make it much easier to count. The last 40 numbers before 
+        100 is us counting to 20 twice.
+    </p>
+
+    
+ </introduction>
+
+ <sidebyside>
+                <table>
+                    <title>Numbers 1-10</title>
+
+                        
+
+                    <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>ènn</cell>
+                            <cell>[ɛ̃n]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>2</cell>
+                            <cell>de</cell>
+                            <cell>[dø, de]</cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell>trwa</cell>
+                            <cell>[trwa, trɔ]</cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell>kat(r)</cell>
+                            <cell>[katr]</cell>
+                        </row>
+                        <row>
+                            <cell>5</cell>
+                            <cell>sink</cell>
+                            <cell>[sɛ̃k]</cell>
+                        </row>
+                        <row>
+                            <cell>6</cell>
+                            <cell>sis</cell>
+                            <cell>[sis]</cell>
+                        </row>
+                        <row>
+                            <cell>7</cell>
+                            <cell>sèt</cell>
+                            <cell>[sɛt]</cell>
+                        </row>
+                        <row>
+                            <cell>8</cell>
+                            <cell>wit</cell>
+                            <cell>[wit]</cell>
+                        </row>
+                        <row>
+                            <cell>9</cell>
+                            <cell>nœf</cell>
+                            <cell>[nœf, nɛf]</cell>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>dis</cell>
+                            <cell>[dis]</cell>
+                        </row>
+                        
+                    </tabular>
+
+                </table>
+            <table>
+               <title>Numbers 11-20</title>
+                     <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>11</cell>
+                            <cell>onz</cell>
+                            <cell>[ɔ̃z]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>12</cell>
+                            <cell>douz</cell>
+                            <cell>[duz]</cell>
+                        </row>
+                        <row>
+                            <cell>13</cell>
+                            <cell>trèz</cell>
+                            <cell>[trɛz]</cell>
+                        </row>
+                        <row>
+                            <cell>14</cell>
+                            <cell>katòrz</cell>
+                            <cell>[katɔrz]</cell>
+                        </row>
+                        <row>
+                            <cell>15</cell>
+                            <cell>kinz</cell>
+                            <cell>[kɛ̃z]</cell>
+                        </row>
+                        <row>
+                            <cell>16</cell>
+                            <cell>sèz</cell>
+                            <cell>[sɛz]</cell>
+                        </row>
+                        <row>
+                            <cell>17</cell>
+                            <cell>dis-sèt</cell>
+                            <cell>[dis sɛt]</cell>
+                        </row>
+                        <row>
+                            <cell>18</cell>
+                            <cell>dis-wit</cell>
+                            <cell>[dis wit]</cell>
+                        </row>
+                        <row>
+                            <cell>19</cell>
+                            <cell>dis-nœf</cell>
+                            <cell>[dis nœf]</cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell>vin(t)</cell>
+                            <cell>[vɛ̃]</cell>
+                        </row>
+                        
+                    </tabular>
+</table>
+                
+            </sidebyside>
+                
+        <p>
+            For counting 21 - 59 we just say the word for the tens number with the word
+             for the ones digit after.
+        </p>
+
+        <sidebyside>
+ <table>
+               <title>Numbers 21-39</title>
+                     <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>21</cell>
+                            <cell>vint-ènn</cell>
+                            <cell>[vɛ̃t-ɛ̃n]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>22</cell>
+                            <cell>vin-de</cell>
+                            <cell>[vɛ̃ dø]</cell>
+                        </row>
+                        <row>
+                            <cell>23</cell>
+                            <cell>vin-trwa</cell>
+                            <cell>[vɛ̃ trwa]</cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                            <cell><m>\vdots</m></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>29</cell>
+                            <cell>vin-nœf</cell>
+                            <cell>[vɛ̃ nœf]</cell>
+                        </row>
+                        <row>
+                            <cell>30</cell>
+                            <cell>trent</cell>
+                            <cell>[trɑ̃t]</cell>
+                        </row>
+                        <row>
+                            <cell>31</cell>
+                            <cell>trent-ènn</cell>
+                            <cell>[trɑ̃t ɛ̃n]</cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                            <cell><m>\vdots</m></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>39</cell>
+                            <cell>trent-nœf</cell>
+                            <cell>[trɑ̃t nœf]</cell>
+                        </row>
+                    </tabular>
+                    </table>
+        <table>
+               <title>Numbers 40-59</title>
+                     <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>40</cell>
+                            <cell>karant</cell>
+                            <cell>[karɑ̃t]</cell>
+                        </row>
+                        <row>
+                            <cell>41</cell>
+                            <cell>karant-ènn</cell>
+                            <cell>[karɑ̃t ɛ̃n]</cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                            <cell><m>\vdots</m></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>41</cell>
+                            <cell>karant-nœf</cell>
+                            <cell>[karɑ̃t nœf]</cell>
+                        </row>
+                        <row>
+                            <cell>50</cell>
+                            <cell>sinkant</cell>
+                            <cell>[sɛ̃kɑ̃t]</cell>
+                        </row>
+                        <row>
+                            <cell>51</cell>
+                            <cell>sinkant ènn</cell>
+                            <cell>[sɛ̃kɑ̃t ɛ̃n]</cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                            <cell><m>\vdots</m></cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>59</cell>
+                            <cell>sinkant-nœf</cell>
+                            <cell>[sɛ̃kɑ̃t nœf]</cell>
+                        </row>
+                        <row>
+                            <cell>60</cell>
+                            <cell>swasant</cell>
+                            <cell>[swasɑ̃t]</cell>
+                        </row>
+                        
+                    </tabular>
+</table>
+</sidebyside>
+
+<p>
+    For 60 - 79 we say the word for sixty and then count to 20. So we can think of
+    70 - 79 as sixty-ten, sixty-eleven, ..., sixty-nineteen.
+</p>
+
+
+<sidebyside>
+                <table>
+                    <title>Numbers 61-69</title>
+                        
+
+                    <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>61</cell>
+                            <cell>swasant-ènn</cell>
+                            <cell>[swasɑ̃t ɛ̃n]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>62</cell>
+                            <cell>swasant-de</cell>
+                            <cell>[swasɑ̃t dø]</cell>
+                        </row>
+                        <row>
+                            <cell>63</cell>
+                            <cell>swasant-trwa</cell>
+                            <cell>[swasɑ̃t trwa]</cell>
+                        </row>
+                        <row>
+                            <cell>64</cell>
+                            <cell>swasant-kat(r)</cell>
+                            <cell>[swasɑ̃t kat]</cell>
+                        </row>
+                        <row>
+                            <cell>65</cell>
+                            <cell>swasant-sink</cell>
+                            <cell>[swasɑ̃t sɛ̃k]</cell>
+                        </row>
+                        <row>
+                            <cell>66</cell>
+                            <cell>swasant-sis</cell>
+                            <cell>[swasɑ̃t sis]</cell>
+                        </row>
+                        <row>
+                            <cell>67</cell>
+                            <cell>swasant-sèt</cell>
+                            <cell>[swasɑ̃t sɛt]</cell>
+                        </row>
+                        <row>
+                            <cell>68</cell>
+                            <cell>swasant-wit</cell>
+                            <cell>[swasɑ̃t wit]</cell>
+                        </row>
+                        <row>
+                            <cell>69</cell>
+                            <cell>swasant-nœf</cell>
+                            <cell>[swasɑ̃t nœf]</cell>
+                        </row>
+                        
+                    </tabular>
+
+                </table>
+            <table>
+               <title>Numbers 70-79</title>
+                     <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>70</cell>
+                            <cell>swasant-dis</cell>
+                            <cell>[swasɑ̃t dis]</cell>
+                        </row>
+                        <row>
+                            <cell>71</cell>
+                            <cell>swasant-onz</cell>
+                            <cell>[swasɑ̃t ɔ̃z]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>72</cell>
+                            <cell>swasant-douz</cell>
+                            <cell>[swasɑ̃t duz]</cell>
+                        </row>
+                        <row>
+                            <cell>73</cell>
+                            <cell>swasant-trèz</cell>
+                            <cell>[swasɑ̃t trɛz]</cell>
+                        </row>
+                        <row>
+                            <cell>74</cell>
+                            <cell>swasant-katòrz</cell>
+                            <cell>[swasɑ̃t katɔrz]</cell>
+                        </row>
+                        <row>
+                            <cell>75</cell>
+                            <cell>swasant-kinz</cell>
+                            <cell>[swasɑ̃t kɛ̃z]</cell>
+                        </row>
+                        <row>
+                            <cell>76</cell>
+                            <cell>swasant-sèz</cell>
+                            <cell>[swasɑ̃t sɛz]</cell>
+                        </row>
+                        <row>
+                            <cell>77</cell>
+                            <cell>swasant-dis-sèt</cell>
+                            <cell>[swasɑ̃t dis sɛt]</cell>
+                        </row>
+                        <row>
+                            <cell>78</cell>
+                            <cell>swasant-dis-wit</cell>
+                            <cell>[swasɑ̃t dis wit]</cell>
+                        </row>
+                        <row>
+                            <cell>79</cell>
+                            <cell>swasant-dis-nœf</cell>
+                            <cell>[swasɑ̃t dis nœf]</cell>
+                        </row>
+                    
+                    </tabular>
+</table>
+                
+            </sidebyside>
+
+    <p>
+        For 80 - 99 we also say the word for eighty then count to twenty. Our word for 80 
+        is four - twenties. So we count four-twenty, four-twenty-one, ..., four-twenty-ten,
+         four-twenty-eleven, ..., four-twenty-nineteen.
+    </p>
+
+    <sidebyside>
+                <table>
+                    <title>Numbers 80-89</title>
+                        
+
+                    <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>80</cell>
+                            <cell>katre-vin</cell>
+                            <cell>[katrə vɛ̃]</cell>
+                        </row>
+                        <row>
+                            <cell>81</cell>
+                            <cell>katre-vin-ènn</cell>
+                            <cell>[katrə vɛ̃ ɛ̃n]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>82</cell>
+                            <cell>katre-vin-de</cell>
+                            <cell>[katrə vɛ̃ dø]</cell>
+                        </row>
+                        <row>
+                            <cell>83</cell>
+                            <cell>katre-vin-trwa</cell>
+                            <cell>[katrə vɛ̃ trwa]</cell>
+                        </row>
+                        <row>
+                            <cell>84</cell>
+                            <cell>katre-vin-kat</cell>
+                            <cell>[katrə vɛ̃ kat]</cell>
+                        </row>
+                        <row>
+                            <cell>85</cell>
+                            <cell>katre-vin-sink</cell>
+                            <cell>[katrə vɛ̃ sɛ̃k]</cell>
+                        </row>
+                        <row>
+                            <cell>86</cell>
+                            <cell>katre-vin-sis</cell>
+                            <cell>[katrə vɛ̃ sis]</cell>
+                        </row>
+                        <row>
+                            <cell>87</cell>
+                            <cell>katre-vin-sèt</cell>
+                            <cell>[katrə vɛ̃ sɛt]</cell>
+                        </row>
+                        <row>
+                            <cell>88</cell>
+                            <cell>katre-vin-wit</cell>
+                            <cell>[katrə vɛ̃ wit]</cell>
+                        </row>
+                        <row>
+                            <cell>89</cell>
+                            <cell>katre-vin-nœf</cell>
+                            <cell>[katrə vɛ̃ nœf]</cell>
+                        </row>
+                        
+                    </tabular>
+
+                </table>
+            <table>
+               <title>Numbers 90-99</title>
+                     <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                            <cell>Number</cell>
+                            <cell>LC</cell>
+                            <cell>IPA</cell>
+                        </row>
+                        <row>
+                            <cell>90</cell>
+                            <cell>katre-vin-dis</cell>
+                            <cell>[katrə vɛ̃ dis]</cell>
+                        </row>
+                        <row>
+                            <cell>91</cell>
+                            <cell>katre-vin-onz</cell>
+                            <cell>[katrə vɛ̃ ɔ̃z]</cell>
+                        </row>
+                        
+                        <row>
+                            <cell>92</cell>
+                            <cell>katre-vin-douz</cell>
+                            <cell>[katrə vɛ̃ duz]</cell>
+                        </row>
+                        <row>
+                            <cell>93</cell>
+                            <cell>katre-vin-trèz</cell>
+                            <cell>[katrə vɛ̃ trɛz]</cell>
+                        </row>
+                        <row>
+                            <cell>94</cell>
+                            <cell>katre-vin-katòrz</cell>
+                            <cell>[katrə vɛ̃ katɔrz]</cell>
+                        </row>
+                        <row>
+                            <cell>95</cell>
+                            <cell>katre-vin-kinz</cell>
+                            <cell>[katrə vɛ̃ kɛ̃z]</cell>
+                        </row>
+                        <row>
+                            <cell>96</cell>
+                            <cell>katre-vin-sèz</cell>
+                            <cell>[katrə vɛ̃ sɛz]</cell>
+                        </row>
+                        <row>
+                            <cell>97</cell>
+                            <cell>katre-vin-dis-sèt</cell>
+                            <cell>[katrə vɛ̃ dis sɛt]</cell>
+                        </row>
+                        <row>
+                            <cell>98</cell>
+                            <cell>katre-vin-dis-wit</cell>
+                            <cell>[katrə vɛ̃ dis wit]</cell>
+                        </row>
+                        <row>
+                            <cell>99</cell>
+                            <cell>katre-vin-dis-nœf</cell>
+                            <cell>[katrə vɛ̃ dis nœf]</cell>
+                        </row>
+                        
+                    </tabular>
+</table>
+                
+            </sidebyside>
+
+
+      <p>   100 sen(t) [sɑ̃t]   </p>
+
+      <p>
+        For counting over one hundred we count just like we do in English, one-hundred-one,..., 
+        one-hundred-ninety-one (in LC that would then be one-hundred-four-twenty-eleven).
+      </p>
+
+      <p>
+        372 would be trwa-sen-swasant-douz.
+      </p>
+
+      <p>
+        A mil [mil] is 1000.
+      </p>
+
+
+            </subsection>
+
