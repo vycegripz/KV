@@ -367,7 +367,70 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Family",
-  "body": " Family    What's Covered  After completing this section you should be at least some what familiar with:  The structure of basic sentences  How to make a basic sentence    How to read a basic sentence           "
+  "body": " Family    What's Covered  After completing this section you should be at least some what familiar with:  The structure of basic sentences  How to make a basic sentence           Vocabulary    Basic Sentence Structure    Immersive Reading     nonm     fenm       fiy     garçon     garçon     fiy     Misyé Duclos çé ìn nonm. Madamm Duclos çé ìn fenm. Jean çé ìn garçon, é Henri çé ìn garçon. Jean é Henri çé dé garçon. Nicole çé ìn fiy, é Yvonne çé ìn fiy osit. Nicole é Yvonne çé dé fiy.   Minet çé ìn sha. Médor çé ìn shyin. Fido çé ìn shyin osit. Médor é Fido çé dé shyin.  Médor çé ìn shyin, li? Wé, li çé ìn shyin.  Minet çé ìn shyin itou, li? Non, li çé pa ìn shyin, li çé ìn sha.  Fido çé ìn shyin, li? Wé, li çé ìn shyin.  Misyé Duclos çé ìn nonm, li? Wé, li çé ìn nonm.  Madamm Duclos çé ìn fenm? Wé, li çé ìn fenm.  Jean çé ìn fenm itou,li? Non, li çé pa ìn fenm, li çé ìn garçon.  Yvonne çé ìn garcon itou, li? Non, li çé pa ìn garçon, li çé ìn fiy.  Henri çé ìn garçon? Wé, li çé ìn garçon.  Garçon-la1 çé Jean. Fiy-la çé Nicole. Shyin-layé2 çé Médor é Fido.  Ki fenm-la yê? Fenm-la çé Madamm Duclos.  Ki nonm-la yê? Nonm-la çé Misyé Duclos.  Ki dé shyin yê? Dé shyin çé Médor é Fido.  Ki garçon-la yê? Garçon-la çé Jean.  Ki fiy-la yê? Fiy-la çé Nicole.  Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, dé garçon, Jean é Henri, é dé fiy, Nicole é Yvonne.  Jean gìn ìn shyin, é Nicole gìn ìn shyin osit. Médor shyin-la a Jean, é Fido shyin-la a Nicole. Yvonne gìn ìn sha; Minet shat-la a Yvonne.  Médor çé shyin-la a Henri? Non, li çé shyin-la a Jean.  Minet çé sha-la a Nicole? Non, li çé sha-la a Yvonne.  Fido çé shyin-la a Nicole? Wé, li çé shyin-la a Nicole.  Nonm-la çé Misyé Duclos? Wé, nonm-la çé Misyé Duclos.  Fenm-la çé Madamm Duclos?, Wé, fenm-la çé Madamm Duclos.   Famiy Duklos     Misyé Duclos çé pær a Jean; Jean çé fis a Misyé Duclos. Henri çé fis a Misyé Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gìn dé fis; li gìn dé fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne. Madamm Duclos gìn dé fis é li gìn dé fiy.    Jean, li gin in pær, li? Wé, li gin ìn pær.  Ki çé pær a Jean? Misyé Duclos.  Misyé Duclos, li gìn dé fis, li? Wé, li gìn dé fis.  Ki çé lê fis a Misyé Duclos? Yé çé Jean é Henri.  Yvonne, li gìn ìn mær? Wé, li gìn ìn mær.      Exercises    "
+},
+{
+  "id": "subsec-2-1-3-reading-2-1",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-2-1",
+  "type": "Figure",
+  "number": "2.1.1",
+  "title": "",
+  "body": " nonm   "
+},
+{
+  "id": "subsec-2-1-3-reading-2-2",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-2-2",
+  "type": "Figure",
+  "number": "2.1.2",
+  "title": "",
+  "body": " fenm   "
+},
+{
+  "id": "subsec-2-1-3-reading-3-1",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-3-1",
+  "type": "Figure",
+  "number": "2.1.3",
+  "title": "",
+  "body": " fiy   "
+},
+{
+  "id": "subsec-2-1-3-reading-3-2",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-3-2",
+  "type": "Figure",
+  "number": "2.1.4",
+  "title": "",
+  "body": " garçon   "
+},
+{
+  "id": "subsec-2-1-3-reading-3-3",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-3-3",
+  "type": "Figure",
+  "number": "2.1.5",
+  "title": "",
+  "body": " garçon   "
+},
+{
+  "id": "subsec-2-1-3-reading-3-4",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-3-4",
+  "type": "Figure",
+  "number": "2.1.6",
+  "title": "",
+  "body": " fiy   "
+},
+{
+  "id": "subsec-2-1-3-reading-27",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-27",
+  "type": "Figure",
+  "number": "2.1.7",
+  "title": "",
+  "body": " Famiy Duklos    "
 },
 {
   "id": "backmatter-2",
