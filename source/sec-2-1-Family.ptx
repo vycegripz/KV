@@ -12,8 +12,7 @@
                 
                     <li><p>How to make a basic sentence</p>
                     </li>
-                    <li> <p>How to read a basic sentence</p>
-                    </li>
+                    
                     
               <!--  <li><p>  </p></li>
                 <li><p>  </p></li> -->
@@ -27,7 +26,7 @@
      </p>
 
 
-    <!--
+    
      <xi:include href="subsec-2-1-1-vocab.ptx" />
 
     <xi:include href="subsec-2-1-2-sentences.ptx" />
@@ -36,7 +35,7 @@
 
     <xi:include href="subsec-2-1-4-Exercises.ptx" />
 
-    -->
+  <!--  -->
     
        
     
