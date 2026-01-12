@@ -11,9 +11,7 @@
             <ul>
                 <li><p>Counting in Louisiana Creole </p></li>
                 
-                <li><p>Naming the order of things in Louisiana Creole</p>
-                    </li>
-                
+                             
             
                              
               <!--  <li><p>  </p></li>
@@ -63,12 +61,12 @@
 
     <xi:include href="subsec-1-3-1-vocab.ptx" />
 
- <!--   <xi:include href="subsec-1-3-2-examples.ptx" />
+    <xi:include href="subsec-1-3-2-examples.ptx" />
 
-    <xi:include href="subsec-1-3-3-exercises.ptx" />
+   <xi:include href="subsec-1-3-3-exercises.ptx" />
 
     
-    -->
+    
        
     
 </section>

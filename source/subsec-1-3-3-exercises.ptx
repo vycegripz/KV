@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="subsec-1-3-3-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Exercises</title>
+
+               
+
+               <!-- 1. gemini pizzazz! puzzle-->
+                <exercise xml:id="exercise-slobster-kouri-vini">
+    <title>Parése Krèbis</title>
+    <statement>
+        <p>
+            Match each written number in the table to its numerical value to solve the riddle at the bottom.
+        </p>
+        <p>
+            <em>What do you call a lazy crawdad?</em>
+        </p>
+
+        
+            <table xml:id="table-kouri-bank">
+                <title>The Number Bank</title>
+                <tabular bottom="minor" top="minor" left="minor" right="minor">
+                    <row header="yes">
+                        <cell>Number</cell>
+                        <cell>Letter</cell>
+                    </row>
+                    <row><cell>Katre vin ènn</cell><cell halign="center">P</cell></row>
+                    <row><cell>Sink mil de sen katre vin</cell><cell halign="center">E</cell></row>                   
+                     <row><cell>Sen karant</cell><cell halign="center">D</cell></row>
+                   <row><cell>Sèt</cell><cell halign="center">W</cell></row>
+                    <row><cell>Sis</cell><cell halign="center">O</cell></row>
+                    <row><cell>Onz</cell><cell halign="center">A</cell></row>
+                    <row><cell>Wit san katre vin onz</cell><cell halign="center">R</cell></row>
+                    <row><cell>Sinkant wit</cell><cell halign="center">B</cell></row>
+                    <row><cell>Nœf mil de sen sèz</cell><cell halign="center">U</cell></row>
+                    <row><cell>Mil kat sen trent sink</cell><cell halign="center">G</cell></row>                    
+                     <row><cell>Karant de</cell><cell halign="center">S</cell></row>
+                    <row><cell>De mil sen kat</cell><cell halign="center">K</cell></row>
+                    <row><cell>Trwa sen kinz</cell><cell halign="center">M</cell></row>
+                    <row><cell>Vin nœf</cell><cell halign="center">T</cell></row>                   
+                    <row><cell>Sen sis</cell><cell halign="center">N</cell></row>                    
+                    <row><cell>Swasant sèz</cell><cell halign="center">L</cell></row>
+                    
+                </tabular>
+            </table>
+
+        
+
+        <p><strong>ANSWER:</strong></p>
+
+        <tabular halign="center">
+            <row>
+                <cell bottom="medium"> </cell>
+                <cell> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+                <cell bottom="medium"> </cell>
+            </row>
+            <row>
+                <cell>11</cell>
+                <cell> </cell>
+                <cell>42</cell>
+                <cell>76</cell>
+                <cell>6</cell>
+                <cell>58</cell>
+                <cell>42</cell>
+                <cell>29</cell>
+                <cell>5,280</cell>
+                <cell>891</cell>
+            </row>
+        </tabular>
+    </statement>
+    <solution>
+        <p>
+            A Slobster
+        </p>
+    </solution>
+</exercise>
+
+       
+    
+            </worksheet>

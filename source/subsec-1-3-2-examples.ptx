@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <subsection xml:id="subsec-1-3-2-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Examples</title>
+                <p>Here's a list of some random numbers:             
+                </p>
+                       
+              <table>
+                <title>Translating Some Numbers</title>                
+                
+                    <tabular halign="center" >
+                    <row header="yes" bottom="minor">
+                        <cell>Number</cell>
+                        <cell>LC</cell>                        
+                    </row>
+                    <row><cell>42</cell><cell halign="left">Karant-de</cell></row>
+                    <row><cell>87</cell><cell halign="left">Katre vin-sèt</cell></row>
+                    <row><cell>153</cell><cell halign="left">Sen sinkant-trwa</cell></row>
+                    <row><cell>490</cell><cell halign="left">Kat sen katre vin-dis</cell></row>
+                    <row><cell>612</cell><cell halign="left">Sis sen douz</cell></row>
+                    <row><cell>738</cell><cell halign="left">Sèt sen trent-wit</cell></row>
+                    <row><cell>925</cell><cell halign="left">Nœf sen vin-sink</cell></row>
+                    <row><cell>12,460</cell><cell halign="left">Douz mil kat sen swasant</cell></row>
+                    <row><cell>54,301</cell><cell halign="left">Sinkant-kat mil trwa sen ènn</cell></row>
+                    <row><cell>218,705</cell><cell halign="left">De sen dizwit mil sèt sen sink</cell></row>
+                </tabular>
+            </table>
+
+            
+
+
+</subsection>
+       
