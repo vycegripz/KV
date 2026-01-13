@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Counting",
-  "body": " Counting   What's Covered  After completing this section you should be at least some what familiar with:  Counting in Louisiana Creole      We will learn how to write and pronounce the different numbers for Louisiana Creole. Note that there are many dialects of Louisiana Creole and it would be impossible to capture everything here. As such, when there are multiple ways to pronounce the same word I will put the IPA but not the LC spelling differences. It is up to the reader to understand how the variation would be written. Remember the general rules from to help guide you.  An example of this is \"de\" (two) in the next subsection . The IPA provided for it is [dø, de] but I did not write the entry for two as \"de, dé\". Some words can have up to 10 variations or more, some more similar to others (we saw this in one of the example problems ), and I don't want to bog this reader\/workbook down with focusing on the variation. Therefore, variations that are very different from each other will be noted with their IPA.  Another notation that you will see is letters in a word in parenthesis. This is to help designate other spellings of the same word. For instance, for 4 you will see kat(r). This is because we use \"kat\" if the next word after it in a sentence starts with a consonant and \"katr\" if the next word starts with a vowel. It is not the case that parenthesis are always used according to a potential liaison (blending of ending consonant of one word with beginning vowel of the next as seen in French) or not.  For instance the word \"(la)sal(i)té\" has been documented as being pronounced\/spelled as lasalité, lasalté, salité and as salté.  If you see terms separated backslash inside parenthesis then that means any of the terms in the parenthesis are valid as well. For instance \"(l\/n\/z)ami\" means that lami, nami, zami and ami are all commonly used words\/variations.   Counting 1 - 100   The numbers 1-20 are probably the most important to learn as well as the numbers for the 10's places. Knowing these will make it much easier to count. The last 40 numbers before 100 is us counting to 20 twice.     Numbers 1-10    Number  LC  IPA    1  ènn  [ɛ̃n]    2  de  [dø, de]    3  trwa  [trwa, trɔ]    4  kat(r)  [katr]    5  sink  [sɛ̃k]    6  sis  [sis]    7  sèt  [sɛt]    8  wit  [wit]    9  nœf  [nœf, nɛf]    10  dis  [dis]      Numbers 11-20    Number  LC  IPA    11  onz  [ɔ̃z]    12  douz  [duz]    13  trèz  [trɛz]    14  katòrz  [katɔrz]    15  kinz  [kɛ̃z]    16  sèz  [sɛz]    17  dis-sèt  [dis sɛt]    18  dis-wit  [dis wit]    19  dis-nœf  [dis nœf]    20  vin(t)  [vɛ̃]      For counting 21 - 59 we just say the word for the tens number with the word for the ones digit after.    Numbers 21-39    Number  LC  IPA    21  vint-ènn  [vɛ̃t-ɛ̃n]    22  vin-de  [vɛ̃ dø]    23  vin-trwa  [vɛ̃ trwa]         29  vin-nœf  [vɛ̃ nœf]    30  trent  [trɑ̃t]    31  trent-ènn  [trɑ̃t ɛ̃n]         39  trent-nœf  [trɑ̃t nœf]      Numbers 40-59    Number  LC  IPA    40  karant  [karɑ̃t]    41  karant-ènn  [karɑ̃t ɛ̃n]         41  karant-nœf  [karɑ̃t nœf]    50  sinkant  [sɛ̃kɑ̃t]    51  sinkant ènn  [sɛ̃kɑ̃t ɛ̃n]         59  sinkant-nœf  [sɛ̃kɑ̃t nœf]    60  swasant  [swasɑ̃t]      For 60 - 79 we say the word for sixty and then count to 20. So we can think of 70 - 79 as sixty-ten, sixty-eleven, ..., sixty-nineteen.    Numbers 61-69    Number  LC  IPA    61  swasant-ènn  [swasɑ̃t ɛ̃n]    62  swasant-de  [swasɑ̃t dø]    63  swasant-trwa  [swasɑ̃t trwa]    64  swasant-kat(r)  [swasɑ̃t kat]    65  swasant-sink  [swasɑ̃t sɛ̃k]    66  swasant-sis  [swasɑ̃t sis]    67  swasant-sèt  [swasɑ̃t sɛt]    68  swasant-wit  [swasɑ̃t wit]    69  swasant-nœf  [swasɑ̃t nœf]      Numbers 70-79    Number  LC  IPA    70  swasant-dis  [swasɑ̃t dis]    71  swasant-onz  [swasɑ̃t ɔ̃z]    72  swasant-douz  [swasɑ̃t duz]    73  swasant-trèz  [swasɑ̃t trɛz]    74  swasant-katòrz  [swasɑ̃t katɔrz]    75  swasant-kinz  [swasɑ̃t kɛ̃z]    76  swasant-sèz  [swasɑ̃t sɛz]    77  swasant-dis-sèt  [swasɑ̃t dis sɛt]    78  swasant-dis-wit  [swasɑ̃t dis wit]    79  swasant-dis-nœf  [swasɑ̃t dis nœf]      For 80 - 99 we also say the word for eighty then count to twenty. Our word for 80 is four - twenties. So we count four-twenty, four-twenty-one, ..., four-twenty-ten, four-twenty-eleven, ..., four-twenty-nineteen.    Numbers 80-89    Number  LC  IPA    80  katre-vin  [katrə vɛ̃]    81  katre-vin-ènn  [katrə vɛ̃ ɛ̃n]    82  katre-vin-de  [katrə vɛ̃ dø]    83  katre-vin-trwa  [katrə vɛ̃ trwa]    84  katre-vin-kat  [katrə vɛ̃ kat]    85  katre-vin-sink  [katrə vɛ̃ sɛ̃k]    86  katre-vin-sis  [katrə vɛ̃ sis]    87  katre-vin-sèt  [katrə vɛ̃ sɛt]    88  katre-vin-wit  [katrə vɛ̃ wit]    89  katre-vin-nœf  [katrə vɛ̃ nœf]      Numbers 90-99    Number  LC  IPA    90  katre-vin-dis  [katrə vɛ̃ dis]    91  katre-vin-onz  [katrə vɛ̃ ɔ̃z]    92  katre-vin-douz  [katrə vɛ̃ duz]    93  katre-vin-trèz  [katrə vɛ̃ trɛz]    94  katre-vin-katòrz  [katrə vɛ̃ katɔrz]    95  katre-vin-kinz  [katrə vɛ̃ kɛ̃z]    96  katre-vin-sèz  [katrə vɛ̃ sɛz]    97  katre-vin-dis-sèt  [katrə vɛ̃ dis sɛt]    98  katre-vin-dis-wit  [katrə vɛ̃ dis wit]    99  katre-vin-dis-nœf  [katrə vɛ̃ dis nœf]      100 sen(t) [sɑ̃t]  For counting over one hundred we count just like we do in English, one-hundred-one,..., one-hundred-ninety-one (in LC that would then be one-hundred-four-twenty-eleven).  372 would be trwa-sen-swasant-douz.  mil [mil] is the word for 1000.    Examples  Here's a list of some random numbers:   Translating Some Numbers    Number  LC   42 Karant-de  87 Katre vin-sèt  153 Sen sinkant-trwa  490 Kat sen katre vin-dis  612 Sis sen douz  738 Sèt sen trent-wit  925 Nœf sen vin-sink  12,460 Douz mil kat sen swasant  54,301 Sinkant-kat mil trwa sen ènn  218,705 De sen dizwit mil sèt sen sink      Exercises    Parése Krèbis   Match each written number in the table to its numerical value to solve the riddle at the bottom.   What do you call a lazy crawdad?    The Number Bank    Number  Letter   Katre vin ènn P  Sink mil de sen katre vin E  Sen karant D  Sèt W  Sis O  Onz A  Wit san katre vin onz R  Sinkant wit B  Nœf mil de sen sèz U  Mil kat sen trent sink G  Karant de S  De mil sen kat K  Trwa sen kinz M  Vin nœf T  Sen sis N  Swasant sèz L    ANSWER:                          11    42  76  6  58  42  29  5,280  891      A Slobster     "
+  "body": " Counting   What's Covered  After completing this section you should be at least some what familiar with:  Counting in Louisiana Creole      We will learn how to write and pronounce the different numbers for Louisiana Creole. Note that there are many dialects of Louisiana Creole and it would be impossible to capture everything here. As such, when there are multiple ways to pronounce the same word I will put the IPA but not the LC spelling differences. It is up to the reader to understand how the variation would be written. Remember the general rules from to help guide you.  An example of this is \"de\" (two) in the next subsection . The IPA provided for it is [dø, de] but I did not write the entry for two as \"de, dé\". Some words can have up to 10 variations or more, some more similar to others (we saw this in one of the example problems ), and I don't want to bog this reader\/workbook down with focusing on the variation. Therefore, variations that are very different from each other will be noted with their IPA.  Another notation that you will see is letters in a word in parenthesis. This is to help designate other spellings of the same word. For instance, for 4 you will see kat(r). This is because we use \"kat\" if the next word after it in a sentence starts with a consonant and \"katr\" if the next word starts with a vowel. It is not the case that parenthesis are always used according to a potential liaison (blending of ending consonant of one word with beginning vowel of the next as seen in French) or not.  For instance the word \"(la)sal(i)té\" has been documented as being pronounced\/spelled as lasalité, lasalté, salité and as salté.  If you see terms separated backslash inside parenthesis then that means any of the terms in the parenthesis are valid as well. For instance \"(l\/n\/z)ami\" means that lami, nami, zami and ami are all commonly used words\/variations.   Counting 1 - 100   The numbers 1-20 are probably the most important to learn as well as the numbers for the 10's places. Knowing these will make it much easier to count. The last 40 numbers before 100 is us counting to 20 twice.     Numbers 1-10    Number  LC  IPA    1  ènn  [ɛ̃n]    2  de  [dø, de]    3  trwa  [trwa, trɔ]    4  kat(r)  [katr]    5  sink  [sɛ̃k]    6  sis  [sis]    7  sèt  [sɛt]    8  wit  [wit]    9  nœf  [nœf, nɛf]    10  dis  [dis]      Numbers 11-20    Number  LC  IPA    11  onz  [ɔ̃z]    12  douz  [duz]    13  trèz  [trɛz]    14  katòrz  [katɔrz]    15  kinz  [kɛ̃z]    16  sèz  [sɛz]    17  dis-sèt  [dis sɛt]    18  dis-wit  [dis wit]    19  dis-nœf  [dis nœf]    20  vin(t)  [vɛ̃]      For counting 21 - 59 we just say the word for the tens number with the word for the ones digit after.    Numbers 21-39    Number  LC  IPA    21  vint-ènn  [vɛ̃t-ɛ̃n]    22  vin-de  [vɛ̃ dø]    23  vin-trwa  [vɛ̃ trwa]         29  vin-nœf  [vɛ̃ nœf]    30  trent  [trɑ̃t]    31  trent-ènn  [trɑ̃t ɛ̃n]         39  trent-nœf  [trɑ̃t nœf]      Numbers 40-59    Number  LC  IPA    40  karant  [karɑ̃t]    41  karant-ènn  [karɑ̃t ɛ̃n]         41  karant-nœf  [karɑ̃t nœf]    50  sinkant  [sɛ̃kɑ̃t]    51  sinkant ènn  [sɛ̃kɑ̃t ɛ̃n]         59  sinkant-nœf  [sɛ̃kɑ̃t nœf]    60  swasant  [swasɑ̃t]      For 60 - 79 we say the word for sixty and then count to 20. So we can think of 70 - 79 as sixty-ten, sixty-eleven, ..., sixty-nineteen.    Numbers 61-69    Number  LC  IPA    61  swasant-ènn  [swasɑ̃t ɛ̃n]    62  swasant-de  [swasɑ̃t dø]    63  swasant-trwa  [swasɑ̃t trwa]    64  swasant-kat(r)  [swasɑ̃t kat]    65  swasant-sink  [swasɑ̃t sɛ̃k]    66  swasant-sis  [swasɑ̃t sis]    67  swasant-sèt  [swasɑ̃t sɛt]    68  swasant-wit  [swasɑ̃t wit]    69  swasant-nœf  [swasɑ̃t nœf]      Numbers 70-79    Number  LC  IPA    70  swasant-dis  [swasɑ̃t dis]    71  swasant-onz  [swasɑ̃t ɔ̃z]    72  swasant-douz  [swasɑ̃t duz]    73  swasant-trèz  [swasɑ̃t trɛz]    74  swasant-katòrz  [swasɑ̃t katɔrz]    75  swasant-kinz  [swasɑ̃t kɛ̃z]    76  swasant-sèz  [swasɑ̃t sɛz]    77  swasant-dis-sèt  [swasɑ̃t dis sɛt]    78  swasant-dis-wit  [swasɑ̃t dis wit]    79  swasant-dis-nœf  [swasɑ̃t dis nœf]      For 80 - 99 we also say the word for eighty then count to twenty. Our word for 80 is four - twenties. So we count four-twenty, four-twenty-one, ..., four-twenty-ten, four-twenty-eleven, ..., four-twenty-nineteen.    Numbers 80-89    Number  LC  IPA    80  katre-vin  [katrə vɛ̃]    81  katre-vin-ènn  [katrə vɛ̃ ɛ̃n]    82  katre-vin-de  [katrə vɛ̃ dø]    83  katre-vin-trwa  [katrə vɛ̃ trwa]    84  katre-vin-kat  [katrə vɛ̃ kat]    85  katre-vin-sink  [katrə vɛ̃ sɛ̃k]    86  katre-vin-sis  [katrə vɛ̃ sis]    87  katre-vin-sèt  [katrə vɛ̃ sɛt]    88  katre-vin-wit  [katrə vɛ̃ wit]    89  katre-vin-nœf  [katrə vɛ̃ nœf]      Numbers 90-99    Number  LC  IPA    90  katre-vin-dis  [katrə vɛ̃ dis]    91  katre-vin-onz  [katrə vɛ̃ ɔ̃z]    92  katre-vin-douz  [katrə vɛ̃ duz]    93  katre-vin-trèz  [katrə vɛ̃ trɛz]    94  katre-vin-katòrz  [katrə vɛ̃ katɔrz]    95  katre-vin-kinz  [katrə vɛ̃ kɛ̃z]    96  katre-vin-sèz  [katrə vɛ̃ sɛz]    97  katre-vin-dis-sèt  [katrə vɛ̃ dis sɛt]    98  katre-vin-dis-wit  [katrə vɛ̃ dis wit]    99  katre-vin-dis-nœf  [katrə vɛ̃ dis nœf]      100 sen(t) [sɑ̃t]  For counting over one hundred we count just like we do in English, one-hundred-one,..., one-hundred-ninety-one (in LC that would then be one-hundred-four-twenty-eleven).  372 would be trwa-sen-swasant-douz.  mil [mil] is the word for 1000.    Examples  Here's a list of some random numbers:   Translating Some Numbers    Number  LC   42 Karant-de  87 Katre vin-sèt  153 Sen sinkant-trwa  490 Kat sen katre vin-dis  612 Sis sen douz  738 Sèt sen trent-wit  925 Nœf sen vin-sink  12,460 Douz mil kat sen swasant  54,301 Sinkant-kat mil trwa sen ènn  218,705 De sen dizwit mil sèt sen sink      Exercises    Parése Krèbis   Match each written number in the table to its numerical value to solve the riddle at the bottom.   What do you call a lazy crawdad?    The Number Bank    Number  Letter   Katre vin ènn P  Sink mil de sen katre vin E  Sen karant D  Sèt W  Sis O  Onz A  Wit san katre vin onz R  Sinkant wit B  Nœf mil de sen sèz U  Mil kat sen trent sink G  Karant de S  De mil sen kat K  Trwa sen kinz M  Vin nœf T  Sen sis N  Swasant sèz L    ANSWER:                          11    42  76  6  58  42  29  5,280  891      A Slobster    Count to 100. Try this everyday for a week and see if you feel more familiar with you numbers.   "
 },
 {
   "id": "subsec-1-3-1-vocab-3-1",
@@ -361,31 +361,40 @@ var ptx_lunr_docs = [
   "body": " Parése Krèbis   Match each written number in the table to its numerical value to solve the riddle at the bottom.   What do you call a lazy crawdad?    The Number Bank    Number  Letter   Katre vin ènn P  Sink mil de sen katre vin E  Sen karant D  Sèt W  Sis O  Onz A  Wit san katre vin onz R  Sinkant wit B  Nœf mil de sen sèz U  Mil kat sen trent sink G  Karant de S  De mil sen kat K  Trwa sen kinz M  Vin nœf T  Sen sis N  Swasant sèz L    ANSWER:                          11    42  76  6  58  42  29  5,280  891      A Slobster   "
 },
 {
+  "id": "subsec-1-3-3-exercises-3",
+  "level": "2",
+  "url": "sec-1-3-Counting.html#subsec-1-3-3-exercises-3",
+  "type": "Worksheet Exercise",
+  "number": "1.3.3.2",
+  "title": "",
+  "body": "Count to 100. Try this everyday for a week and see if you feel more familiar with you numbers. "
+},
+{
   "id": "sec-2-1-Family",
   "level": "1",
   "url": "sec-2-1-Family.html",
   "type": "Section",
   "number": "2.1",
   "title": "Family",
-  "body": " Family    What's Covered  After completing this section you should be at least some what familiar with:  The structure of basic sentences  How to make a basic sentence           Vocabulary    Basic Sentence Structure    Immersive Reading: Famiy Duklos     nonm     fenm       fiy     garçon     garçon     fiy     Misyé Duclos çé in nonm. Madamm Duclos çé in fenm. Jean çé in garçon, é Henri çé in garçon. Jean é Henri çé de garçon. Nicole çé in fiy, é Yvonne çé in fiy osit. Nicole é Yvonne çé de fiy.     sha     shyin     shyin     Minet çé in sha. Médor çé in shyin. Fido çé in shyin osit. Médor é Fido çé de shyin.  Médor çé in shyin, li? Wé, li çé in shyin.  Minet çé in shyin itou, li? Non, li çé pa in shyin, li çé in sha.  Fido çé in shyin, li? Wé, li çé in shyin.  Misyé Duclos çé in nonm, li? Wé, li çé in nonm.  Madamm Duclos çé in fenm? Wé, li çé in fenm.  Jean çé in fenm itou,li? Non, li çé pa in fenm, li çé in garçon.  Yvonne çé in garcon itou, li? Non, li çé pa in garçon, li çé in fiy.  Henri çé in garçon? Wé, li çé in garçon.  Garçon-la1 çé Jean. Fiy-la çé Nicole. Shyin-layé2 çé Médor é Fido.  Ki fenm-la yê? Fenm-la çé Madamm Duclos.  Ki nonm-la yê? Nonm-la çé Misyé Duclos.  Ki de shyin yê? de shyin çé Médor é Fido.  Ki garçon-la yê? Garçon-la çé Jean.  Ki fiy-la yê? Fiy-la çé Nicole.  Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, de garçon, Jean é Henri, é de fiy, Nicole é Yvonne.  Jean gin in shyin, é Nicole gin in shyin osit. Médor shyin-la a Jean, é Fido shyin-la a Nicole. Yvonne gin in sha; Minet shat-la a Yvonne.  Médor çé shyin-la a Henri? Non, li çé shyin-la a Jean.  Minet çé sha-la a Nicole? Non, li çé sha-la a Yvonne.  Fido çé shyin-la a Nicole? Wé, li çé shyin-la a Nicole.  Nonm-la çé Misyé Duclos? Wé, nonm-la çé Misyé Duclos.  Fenm-la çé Madamm Duclos?, Wé, fenm-la çé Madamm Duclos.   Famiy Duklos     Misyé Duclos çé pær a Jean; Jean çé fis a Misyé Duclos. Henri çé fis a Misyé Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gin de fis; li gin de fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne. Madamm Duclos gin de fis é li gin de fiy.    Jean, li gin in pær, li? Wé, li gin in pær.  Ki çé pær a Jean? Misyé Duclos.  Misyé Duclos, li gin de fis, li? Wé, li gin de fis.  Ki çé lê fis a Misyé Duclos? Yé çé Jean é Henri.  Yvonne, li gin in mær? Wé, li gin in mær.    Ki çé mær a Yvonne? Madamm Duclos.  Madamm Duclos, li gin de fiy é de fis? Wé, li gin de fiy é de fis.  Ki çé lê fiy é fis a Misyé é Madamm Duclos? Yé çé Jean, Henri, Nicole é Yvonne.    Jean çé frær a Nicole; Nicole çé sœr a Jean. Nicole çé sœr a Henri é Yvonne itou. Li gin de frær é in sœr. Henri çé frær a Jean, Nicole é Yvonne; li gin de sœr é in frær. Jean é Henri gin de sœr; yé gin in pær é in mær itou. Nicole é Yvonne gin de frær, é yé gin in pær é in mær itou.    Jean é Henri, yé gin de sœr? Wé, yé gin de sœr.  Nicole é Yvonne, yé gin in pær? Wé, yé gin in pær.  Yé gin in mær osit? Wé, yé gin in mær.  Misyé é Madamm Duclos, yé gin de fiy é de fis? Wé, yé gin de fiy é de fis.  Nicole é Jean, yé gin in frær é in sœr? Wé, yé gin in frær é in sœr.  Ki ça çé yê? Henri é Yvonne.   Médor é Fido, lê shyin a Henri? Non, Médor é Fido pa lê shyin a Henri; Médor çé shyin a Jean é Fido çé shyin a Nicole.  Jean é Henri, yé de nonm? Non, yé pa de nonm; yé de garçon.  Nicole é Yvonne, yé osit de garçon? Non, yé pa de garçon, yé de fiy.  Jean çé pær a Henri? Non, li çé pa pær a Henri; li çé frær a Henri.  Yvonne çé mær a Nicole? Non, li çé pa mær a Nicole; li çé sœr a Nicole.  Nicole, li gin in sha? Non, li pa gin in sha, li gin in shyin.  Yvonne é Henri pa gin jish in sœr; Henri gin in frær é de sœr, Yvonne gin de frær é in sœr.    Exercises    "
+  "body": " Family    What's Covered  After completing this section you should be at least some what familiar with:  The structure of basic sentences  How to make a basic sentence           Vocabulary  Here are the words we will be using for this section:    Vocab List    LC  IPA  Meaning    wé  [we]  yes, yeah    çé  [se]  it is, to be    shyin  [ʃjɛ̃]  dog    sha(t)  [ʃat]  cat    misye  [misyø, misye]  mister, sir, gentleman    in  [ɛ̃]  a, an    fenm  [fɑ̃m]  woman, wife    madamm  [madɑ̃m]  Mrs., wife, lady    garçon  [garsɔ̃]  boy, son    fiy  [fij]  daughter, girl, woman    osi(t)  [osi]  also, too    li  [li]  it, he\/him, she\/her    itou  [itu]  also, too    non  [nɔ̃]  no        LC  IPA  Meaning    -la  [la]  the (post-nominal)    -layé  [laye]  those (post-nominal)    ki  [ki]  who, what, which    gin  [gɛ̃]  to have    a  [a]  to, at, per    é  [e]  and    pær  [pær]  father    mær  [mær]  mother    fis  [fis]  son    yé  [ye]  they    frær  [frær]  brother    sœr  [sœr]  sister    jish  [jiʃ]  just    pa  [pa]  not (negation marker)        Basic Sentence Structure    Immersive Reading: Famiy Duklos  Using the information we learned so far we should be able to get through the section below and answer some questions all in Louisiana Creole!     nonm     fenm       fiy     garçon     garçon     fiy     Misyé Duclos çé in nonm. Madamm Duclos çé in fenm. Jean çé in garçon, é Henri çé in garçon. Jean é Henri çé de garçon. Nicole çé in fiy, é Yvonne çé in fiy osit. Nicole é Yvonne çé de fiy.     sha     shyin     shyin     Minet çé in sha. Médor çé in shyin. Fido çé in shyin osit. Médor é Fido çé de shyin.  Médor çé in shyin, li? Wé, li çé in shyin.  Minet çé in shyin itou, li? Non, li çé pa in shyin, li çé in sha.  Fido çé in shyin, li? Wé, li çé in shyin.  Misyé Duclos çé in nonm, li? Wé, li çé in nonm.  Madamm Duclos çé in fenm? Wé, li çé in fenm.  Jean çé in fenm itou,li? Non, li çé pa in fenm, li çé in garçon.  Yvonne çé in garcon itou, li? Non, li çé pa in garçon, li çé in fiy.  Henri çé in garçon? Wé, li çé in garçon.  Garçon-la1 çé Jean. Fiy-la çé Nicole. Shyin-layé2 çé Médor é Fido.  Ki fenm-la yê? Fenm-la çé Madamm Duclos.  Ki nonm-la yê? Nonm-la çé Misyé Duclos.  Ki de shyin yê? de shyin çé Médor é Fido.  Ki garçon-la yê? Garçon-la çé Jean.  Ki fiy-la yê? Fiy-la çé Nicole.  Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, de garçon, Jean é Henri, é de fiy, Nicole é Yvonne.  Jean gin in shyin, é Nicole gin in shyin osit. Médor shyin-la a Jean, é Fido shyin-la a Nicole. Yvonne gin in sha; Minet shat-la a Yvonne.  Médor çé shyin-la a Henri? Non, li çé shyin-la a Jean.  Minet çé sha-la a Nicole? Non, li çé sha-la a Yvonne.  Fido çé shyin-la a Nicole? Wé, li çé shyin-la a Nicole.  Nonm-la çé Misyé Duclos? Wé, nonm-la çé Misyé Duclos.  Fenm-la çé Madamm Duclos?, Wé, fenm-la çé Madamm Duclos.   Famiy Duklos     Misyé Duclos çé pær a Jean; Jean çé fis a Misyé Duclos. Henri çé fis a Misyé Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gin de fis; li gin de fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne. Madamm Duclos gin de fis é li gin de fiy.    Jean, li gin in pær, li? Wé, li gin in pær.  Ki çé pær a Jean? Misyé Duclos.  Misyé Duclos, li gin de fis, li? Wé, li gin de fis.  Ki çé lê fis a Misyé Duclos? Yé çé Jean é Henri.  Yvonne, li gin in mær? Wé, li gin in mær.    Ki çé mær a Yvonne? Madamm Duclos.  Madamm Duclos, li gin de fiy é de fis? Wé, li gin de fiy é de fis.  Ki çé lê fiy é fis a Misyé é Madamm Duclos? Yé çé Jean, Henri, Nicole é Yvonne.    Jean çé frær a Nicole; Nicole çé sœr a Jean. Nicole çé sœr a Henri é Yvonne itou. Li gin de frær é in sœr. Henri çé frær a Jean, Nicole é Yvonne; li gin de sœr é in frær. Jean é Henri gin de sœr; yé gin in pær é in mær itou. Nicole é Yvonne gin de frær, é yé gin in pær é in mær itou.    Jean é Henri, yé gin de sœr? Wé, yé gin de sœr.  Nicole é Yvonne, yé gin in pær? Wé, yé gin in pær.  Yé gin in mær osit? Wé, yé gin in mær.  Misyé é Madamm Duclos, yé gin de fiy é de fis? Wé, yé gin de fiy é de fis.  Nicole é Jean, yé gin in frær é in sœr? Wé, yé gin in frær é in sœr.  Ki ça çé yê? Henri é Yvonne.   Médor é Fido, lê shyin a Henri? Non, Médor é Fido pa lê shyin a Henri; Médor çé shyin a Jean é Fido çé shyin a Nicole.  Jean é Henri, yé de nonm? Non, yé pa de nonm; yé de garçon.  Nicole é Yvonne, yé osit de garçon? Non, yé pa de garçon, yé de fiy.  Jean çé pær a Henri? Non, li çé pa pær a Henri; li çé frær a Henri.  Yvonne çé mær a Nicole? Non, li çé pa mær a Nicole; li çé sœr a Nicole.  Nicole, li gin in sha? Non, li pa gin in sha, li gin in shyin.  Yvonne é Henri pa gin jish in sœr; Henri gin in frær é de sœr, Yvonne gin de frær é in sœr.    Exercises    "
 },
 {
-  "id": "subsec-2-1-3-reading-2-1",
+  "id": "subsec-2-1-1-vocab-3-1",
   "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-2-1",
-  "type": "Figure",
+  "url": "sec-2-1-Family.html#subsec-2-1-1-vocab-3-1",
+  "type": "Table",
   "number": "2.1.1",
-  "title": "",
-  "body": " nonm   "
+  "title": "Vocab List",
+  "body": " Vocab List    LC  IPA  Meaning    wé  [we]  yes, yeah    çé  [se]  it is, to be    shyin  [ʃjɛ̃]  dog    sha(t)  [ʃat]  cat    misye  [misyø, misye]  mister, sir, gentleman    in  [ɛ̃]  a, an    fenm  [fɑ̃m]  woman, wife    madamm  [madɑ̃m]  Mrs., wife, lady    garçon  [garsɔ̃]  boy, son    fiy  [fij]  daughter, girl, woman    osi(t)  [osi]  also, too    li  [li]  it, he\/him, she\/her    itou  [itu]  also, too    non  [nɔ̃]  no    "
 },
 {
-  "id": "subsec-2-1-3-reading-2-2",
+  "id": "subsec-2-1-1-vocab-3-2",
   "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-2-2",
-  "type": "Figure",
+  "url": "sec-2-1-Family.html#subsec-2-1-1-vocab-3-2",
+  "type": "Table",
   "number": "2.1.2",
   "title": "",
-  "body": " fenm   "
+  "body": "   LC  IPA  Meaning    -la  [la]  the (post-nominal)    -layé  [laye]  those (post-nominal)    ki  [ki]  who, what, which    gin  [gɛ̃]  to have    a  [a]  to, at, per    é  [e]  and    pær  [pær]  father    mær  [mær]  mother    fis  [fis]  son    yé  [ye]  they    frær  [frær]  brother    sœr  [sœr]  sister    jish  [jiʃ]  just    pa  [pa]  not (negation marker)    "
 },
 {
   "id": "subsec-2-1-3-reading-3-1",
@@ -394,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.1.3",
   "title": "",
-  "body": " fiy   "
+  "body": " nonm   "
 },
 {
   "id": "subsec-2-1-3-reading-3-2",
@@ -403,59 +412,77 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.1.4",
   "title": "",
-  "body": " garçon   "
+  "body": " fenm   "
 },
 {
-  "id": "subsec-2-1-3-reading-3-3",
+  "id": "subsec-2-1-3-reading-4-1",
   "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-3-3",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-4-1",
   "type": "Figure",
   "number": "2.1.5",
-  "title": "",
-  "body": " garçon   "
-},
-{
-  "id": "subsec-2-1-3-reading-3-4",
-  "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-3-4",
-  "type": "Figure",
-  "number": "2.1.6",
   "title": "",
   "body": " fiy   "
 },
 {
-  "id": "subsec-2-1-3-reading-5-1",
+  "id": "subsec-2-1-3-reading-4-2",
   "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-5-1",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-4-2",
+  "type": "Figure",
+  "number": "2.1.6",
+  "title": "",
+  "body": " garçon   "
+},
+{
+  "id": "subsec-2-1-3-reading-4-3",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-4-3",
   "type": "Figure",
   "number": "2.1.7",
+  "title": "",
+  "body": " garçon   "
+},
+{
+  "id": "subsec-2-1-3-reading-4-4",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-4-4",
+  "type": "Figure",
+  "number": "2.1.8",
+  "title": "",
+  "body": " fiy   "
+},
+{
+  "id": "subsec-2-1-3-reading-6-1",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-6-1",
+  "type": "Figure",
+  "number": "2.1.9",
   "title": "",
   "body": " sha   "
 },
 {
-  "id": "subsec-2-1-3-reading-5-2",
+  "id": "subsec-2-1-3-reading-6-2",
   "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-5-2",
-  "type": "Figure",
-  "number": "2.1.8",
-  "title": "",
-  "body": " shyin   "
-},
-{
-  "id": "subsec-2-1-3-reading-5-3",
-  "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-5-3",
-  "type": "Figure",
-  "number": "2.1.9",
-  "title": "",
-  "body": " shyin   "
-},
-{
-  "id": "subsec-2-1-3-reading-28",
-  "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-28",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-6-2",
   "type": "Figure",
   "number": "2.1.10",
+  "title": "",
+  "body": " shyin   "
+},
+{
+  "id": "subsec-2-1-3-reading-6-3",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-6-3",
+  "type": "Figure",
+  "number": "2.1.11",
+  "title": "",
+  "body": " shyin   "
+},
+{
+  "id": "subsec-2-1-3-reading-29",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-29",
+  "type": "Figure",
+  "number": "2.1.12",
   "title": "",
   "body": " Famiy Duklos    "
 },
