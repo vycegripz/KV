@@ -15,10 +15,7 @@
       <today />
     </date>
 
-    <p>
-      If on mobile, this content is best viewed in landscape mode. If not in landscape mode swipe/scroll left
-      and on tables as some information may appear to be hidden.
-    </p>
+    
     <website>
       <url href="https://sites.google.com/view/kouri-vini/home">Learn Kouri Vini (a repository of learning materials)</url>
     </website>

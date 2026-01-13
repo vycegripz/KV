@@ -4,9 +4,180 @@
 <title>Vocabulary</title>
 
 
+<p>
+    Here are the words we will be using for this section:
+</p>
 
 
+<sidebyside>
+<table>
+    <title>Vocab List</title>
+           
+    
+    <tabular>
+        <row header="yes" bottom="minor">
+            <cell>LC</cell>
+            <cell>IPA</cell>
+            <cell>Meaning</cell>
+        </row>
+        <row>
+            <cell>wé</cell>
+            <cell>[we]</cell>
+            <cell>yes, yeah</cell>
+        </row>
+        <row>
+            <cell>çé</cell>
+            <cell>[se]</cell>
+            <cell>it is, to be</cell>
+        </row>
+        <row>
+            <cell>shyin</cell>
+            <cell>[ʃjɛ̃]</cell>
+            <cell>dog</cell>
+        </row>
+        <row>
+            <cell>sha(t)</cell>
+            <cell>[ʃat]</cell>
+            <cell>cat</cell>
+        </row>
+        <row>
+            <cell>misye</cell>
+            <cell>[misyø, misye]</cell>
+            <cell>mister, sir, gentleman</cell>
+        </row>
+        <row>
+            <cell>in</cell>
+            <cell>[ɛ̃]</cell>
+            <cell>a, an</cell>
+        </row>
+        <row>
+            <cell>fenm</cell>
+            <cell>[fɑ̃m]</cell>
+            <cell>woman, wife</cell>
+        </row>
+        <row>
+            <cell>madamm</cell>
+            <cell>[madɑ̃m]</cell>
+            <cell>Mrs., wife, lady</cell>
+        </row>
+        <row>
+            <cell>garçon</cell>
+            <cell>[garsɔ̃]</cell>
+            <cell>boy, son</cell>
+        </row>
+        <row>
+            <cell>fiy</cell>
+            <cell>[fij]</cell>
+            <cell>daughter, girl, woman</cell>
+        </row>
+        <row>
+            <cell>osi(t)</cell>
+            <cell>[osi]</cell>
+            <cell>also, too</cell>
+        </row>
+        <row>
+            <cell>li</cell>
+            <cell>[li]</cell>
+            <cell>it, he/him, she/her</cell>
+        </row>
+        <row>
+            <cell>itou</cell>
+            <cell>[itu]</cell>
+            <cell>also, too</cell>
+        </row>
+        <row>
+            <cell>non</cell>
+            <cell>[nɔ̃]</cell>
+            <cell>no</cell>
+        </row>
+        
+        
+    </tabular>
+</table>
+<table>
+    <tabular>
+        <row header="yes" bottom="minor">
+            <cell>LC</cell>
+            <cell>IPA</cell>
+            <cell>Meaning</cell>
+        </row>
+        <row>
+            <cell>-la</cell>
+            <cell>[la]</cell>
+            <cell>the (post-nominal)</cell>
+        </row>
+        <row>
+            <cell>-layé</cell>
+            <cell>[laye]</cell>
+            <cell>those (post-nominal)</cell>
+        </row>
+        <row>
+            <cell>ki</cell>
+            <cell>[ki]</cell>
+            <cell>who, what, which</cell>
+        </row>
+        <row>
+            <cell>gin</cell>
+            <cell>[gɛ̃]</cell>
+            <cell>to have</cell>
+        </row>
+        <row>
+            <cell>a</cell>
+            <cell>[a]</cell>
+            <cell>to, at, per</cell>
+        </row>
+        <row>
+            <cell>é</cell>
+            <cell>[e]</cell>
+            <cell>and</cell>
+        </row>
+        <row>
+            <cell>pær</cell>
+            <cell>[pær]</cell>
+            <cell>father</cell>
+        </row>
+        <row>
+            <cell>mær</cell>
+            <cell>[mær]</cell>
+            <cell>mother</cell>
+        </row>
+        <row>
+            <cell>fis</cell>
+            <cell>[fis]</cell>
+            <cell>son</cell>
+        </row>
+        <row>
+            <cell>yé</cell>
+            <cell>[ye]</cell>
+            <cell>they</cell>
+        </row>
+        <row>
+            <cell>frær</cell>
+            <cell>[frær]</cell>
+            <cell>brother</cell>
+        </row>
+        <row>
+            <cell>sœr</cell>
+            <cell>[sœr]</cell>
+            <cell>sister</cell>
+        </row>
+        <row>
+            <cell>jish</cell>
+            <cell>[jiʃ]</cell>
+            <cell>just</cell>
+        </row>
+        <row>
+            <cell>pa</cell>
+            <cell>[pa]</cell>
+            <cell>not (negation marker)</cell>
+        </row>
+        
+    </tabular>
 
+
+</table>
+
+</sidebyside>
 
 
 
