@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <subsection xml:id="subsec-2-1-3-reading" xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Immersive Reading</title>
+<title>Immersive Reading: Famiy Duklos</title>
 
 
 
@@ -10,75 +10,93 @@
 
 <figure >
     <caption>nonm</caption>
-    <image source="misyeD.png" width="33%"></image>
+    <image source="misyeD.jpg" width="33%"></image>
     </figure>
 
     <figure >
     <caption>fenm</caption>
-    <image source="madammD.png" width="33%"></image>
+    <image source="madammD.jpg" width="33%"></image>
     </figure>
 </sidebyside>
 
 <sidebyside>
     <figure >
     <caption>fiy</caption>
-    <image source="nikolD-14.png" width="25%"></image>
+    <image source="nikolD-14.jpg" width="25%"></image>
     </figure>
 
     <figure >
     <caption>garçon</caption>
-    <image source="leoD-11.png" width="25%"></image>
+    <image source="leoD-11.jpg" width="25%"></image>
     </figure>
 
     <figure >
     <caption>garçon</caption>
-    <image source="kofiD-7.png" width="25%"></image>
+    <image source="kofiD-7.jpg" width="25%"></image>
     </figure>
 
     <figure >
     <caption>fiy</caption>
-    <image source="lilouD-4.png" width="25%"></image>
+    <image source="lilouD-4.jpg" width="25%"></image>
 </figure>
 
 </sidebyside>
 
 <p>
-    Misyé Duclos çé ìn nonm. Madamm Duclos çé ìn fenm. Jean çé ìn garçon, é Henri çé ìn 
-    garçon. Jean é Henri çé dé garçon. Nicole çé ìn fiy, é Yvonne çé ìn fiy osit. Nicole 
-    é Yvonne çé dé fiy.
+    Misyé Duclos çé in nonm. Madamm Duclos çé in fenm. Jean çé in garçon, é Henri çé in 
+    garçon. Jean é Henri çé de garçon. Nicole çé in fiy, é Yvonne çé in fiy osit. Nicole 
+    é Yvonne çé de fiy.
 </p>
 
 <!--Picture of dogs and cats go here-->
+<sidebyside>
+    <figure >
+    <caption>sha</caption>
+    <image source="minet-sha.jpg" width="25%"></image>
+    </figure>
+
+    <figure >
+    <caption>shyin</caption>
+    <image source="médor.jpg" width="25%"></image>
+    </figure>
+
+    <figure >
+    <caption>shyin</caption>
+    <image source="fido.jpg" width="25%"></image>
+    </figure>
+
+
+</sidebyside>
 
 <p>
-    Minet çé ìn sha. Médor çé ìn shyin. Fido çé ìn shyin osit. Médor é Fido çé dé shyin.</p>
+    Minet çé in sha. Médor çé in shyin. Fido çé in shyin osit. Médor é Fido çé de shyin.</p>
 
 <p>
-Médor çé ìn shyin, li?  Wé, li çé ìn shyin. </p>
+Médor çé in shyin, li?  Wé, li çé in shyin. </p>
 
 <p>
-Minet çé ìn shyin itou, li? Non, li çé pa ìn shyin, li çé ìn sha. </p>
+Minet çé in shyin itou, li? Non, li çé pa in shyin, li çé in sha. </p>
 
 <p>
-Fido çé ìn shyin, li? Wé, li çé ìn shyin. </p>
+Fido çé in shyin, li? Wé, li çé in shyin. </p>
 
 <p>
-Misyé Duclos çé ìn nonm, li? Wé, li çé ìn nonm. </p>
+Misyé Duclos çé in nonm, li? Wé, li çé in nonm. </p>
 
 <p>
-Madamm Duclos çé ìn fenm? Wé, li çé ìn fenm. </p>
+Madamm Duclos çé in fenm? Wé, li çé in fenm. </p>
 
 <p>
-Jean çé ìn fenm itou,li? Non, li çé pa ìn fenm, li çé ìn garçon. </p>
+Jean çé in fenm itou,li? Non, li çé pa in fenm, li çé in garçon. </p>
 
 <p>
-Yvonne çé ìn garcon itou, li? Non, li çé pa ìn garçon, li çé ìn fiy. 
+Yvonne çé in garcon itou, li? Non, li çé pa in garçon, li çé in fiy. 
 </p>
 
 
 
 <p>
-Henri çé ìn garçon? Wé, li çé ìn garçon.</p>
+Henri çé in garçon? Wé, li çé in garçon.</p>
 
 <p>
 Garçon-la1 çé Jean. Fiy-la çé Nicole.  Shyin-layé2 çé Médor é Fido. </p>
@@ -90,7 +108,7 @@ Ki fenm-la yê? Fenm-la çé Madamm Duclos.</p>
 Ki nonm-la yê? Nonm-la çé Misyé Duclos.</p>
 
 <p>
-Ki dé shyin yê? Dé shyin çé Médor é Fido.</p>
+Ki de shyin yê? de shyin çé Médor é Fido.</p>
 
 <p>
 Ki garçon-la yê?  Garçon-la çé Jean.</p>
@@ -99,13 +117,13 @@ Ki garçon-la yê?  Garçon-la çé Jean.</p>
 Ki fiy-la yê? Fiy-la çé Nicole.</p>
 
 <p>
-Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, dé garçon, Jean é Henri, é dé fiy, 
+Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, de garçon, Jean é Henri, é de fiy, 
 Nicole é Yvonne. </p>
 
 
 <p>
-    Jean gìn ìn shyin, é Nicole gìn ìn shyin osit. Médor shyin-la a Jean, é Fido 
-    shyin-la a Nicole. Yvonne gìn ìn sha; Minet shat-la a Yvonne.
+    Jean gin in shyin, é Nicole gin in shyin osit. Médor shyin-la a Jean, é Fido 
+    shyin-la a Nicole. Yvonne gin in sha; Minet shat-la a Yvonne.
 </p>
 
 
@@ -129,34 +147,92 @@ Nicole é Yvonne. </p>
 
 <figure >
     <caption>Famiy Duklos</caption>
-    <image source="famiyD.png" width="50%">
+    <image source="familyportrait.jpg" width="50%">
         
     </image>
 </figure>
 
 <p>
     Misyé Duclos çé pær a Jean; Jean çé fis a Misyé Duclos. Henri çé fis a Misyé
-     Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gìn dé fis;
-      li gìn dé fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne.
-       Madamm Duclos gìn dé fis é li gìn dé fiy.
+     Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gin de fis;
+      li gin de fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne.
+       Madamm Duclos gin de fis é li gin de fiy.
 </p>
 
 <p>
 </p>
 
 <p>
-    Jean, li gin in pær, li? Wé, li gin ìn pær. </p>
+    Jean, li gin in pær, li? Wé, li gin in pær. </p>
 
 <p> Ki çé pær a Jean? Misyé Duclos. </p>
 
-<p> Misyé Duclos, li gìn dé fis, li? Wé, li gìn dé fis. </p>
+<p> Misyé Duclos, li gin de fis, li? Wé, li gin de fis. </p>
 
 <p> Ki çé lê fis a Misyé Duclos? Yé çé Jean é Henri. </p>
 
-<p> Yvonne, li gìn ìn mær? Wé, li gìn ìn mær. </p>
+<p> Yvonne, li gin in mær? Wé, li gin in mær. </p>
 
 <p>
 </p>
+
+<p>
+    Ki çé mær a Yvonne? Madamm Duclos.</p>
+ 
+<p> Madamm Duclos, li gin de fiy é de fis? Wé, li gin de fiy é de fis.</p>
+
+<p>
+Ki çé lê fiy é fis a Misyé é Madamm Duclos? Yé çé Jean, Henri, Nicole é Yvonne.
+</p>
+
+
+<p>   
+</p>
+
+
+<p>
+    Jean çé frær a Nicole; Nicole çé sœr a Jean. Nicole çé sœr a Henri é Yvonne itou.
+     Li gin de frær é in sœr. Henri çé frær a Jean, Nicole é Yvonne; li gin de sœr é
+      in frær. Jean é Henri gin de sœr; yé gin in pær é in mær itou. Nicole é Yvonne 
+      gin de frær, é yé gin in pær é in mær itou.
+</p>
+
+<p>   
+</p>
+
+
+<p>
+    Jean é Henri, yé gin de sœr? Wé, yé gin de sœr. </p>
+
+ <p>   Nicole é Yvonne, yé gin in pær? Wé, yé gin in pær. </p>
+
+  <p>  Yé gin in mær osit? Wé, yé gin in mær. </p>
+
+ <p>   Misyé é Madamm Duclos, yé gin de fiy é de fis? Wé, yé gin de fiy é de fis. </p>
+
+ <p>   Nicole é Jean, yé gin in frær é in sœr? Wé, yé gin in frær é in sœr. </p>
+
+ <p>   Ki ça çé yê?  Henri é Yvonne. </p>
+
+<p></p>
+
+
+
+<p>
+    Médor é Fido, lê shyin a Henri? Non, Médor é Fido pa lê shyin a Henri; 
+    Médor çé shyin a Jean é Fido çé shyin a Nicole. </p>
+    
+<p> Jean é Henri, yé de nonm? Non, yé pa de nonm; yé de garçon. </p>
+
+<p> Nicole é Yvonne, yé osit de garçon? Non, yé pa de garçon, yé de fiy. </p>
+
+<p> Jean çé pær a Henri? Non, li çé pa pær a Henri; li çé frær a Henri. </p>
+<p> Yvonne çé mær a Nicole? Non, li çé pa mær a Nicole; li çé sœr a Nicole. </p>
+<p> Nicole, li gin in sha? Non, li pa gin in sha, li gin in shyin. </p>
+<p> Yvonne é Henri pa gin jish in sœr; Henri gin in frær é de sœr, Yvonne gin de frær é in sœr. </p>
+
+
+
 
 
 
