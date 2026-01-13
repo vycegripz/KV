@@ -367,7 +367,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Family",
-  "body": " Family    What's Covered  After completing this section you should be at least some what familiar with:  The structure of basic sentences  How to make a basic sentence           Vocabulary    Basic Sentence Structure    Immersive Reading     nonm     fenm       fiy     garçon     garçon     fiy     Misyé Duclos çé ìn nonm. Madamm Duclos çé ìn fenm. Jean çé ìn garçon, é Henri çé ìn garçon. Jean é Henri çé dé garçon. Nicole çé ìn fiy, é Yvonne çé ìn fiy osit. Nicole é Yvonne çé dé fiy.   Minet çé ìn sha. Médor çé ìn shyin. Fido çé ìn shyin osit. Médor é Fido çé dé shyin.  Médor çé ìn shyin, li? Wé, li çé ìn shyin.  Minet çé ìn shyin itou, li? Non, li çé pa ìn shyin, li çé ìn sha.  Fido çé ìn shyin, li? Wé, li çé ìn shyin.  Misyé Duclos çé ìn nonm, li? Wé, li çé ìn nonm.  Madamm Duclos çé ìn fenm? Wé, li çé ìn fenm.  Jean çé ìn fenm itou,li? Non, li çé pa ìn fenm, li çé ìn garçon.  Yvonne çé ìn garcon itou, li? Non, li çé pa ìn garçon, li çé ìn fiy.  Henri çé ìn garçon? Wé, li çé ìn garçon.  Garçon-la1 çé Jean. Fiy-la çé Nicole. Shyin-layé2 çé Médor é Fido.  Ki fenm-la yê? Fenm-la çé Madamm Duclos.  Ki nonm-la yê? Nonm-la çé Misyé Duclos.  Ki dé shyin yê? Dé shyin çé Médor é Fido.  Ki garçon-la yê? Garçon-la çé Jean.  Ki fiy-la yê? Fiy-la çé Nicole.  Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, dé garçon, Jean é Henri, é dé fiy, Nicole é Yvonne.  Jean gìn ìn shyin, é Nicole gìn ìn shyin osit. Médor shyin-la a Jean, é Fido shyin-la a Nicole. Yvonne gìn ìn sha; Minet shat-la a Yvonne.  Médor çé shyin-la a Henri? Non, li çé shyin-la a Jean.  Minet çé sha-la a Nicole? Non, li çé sha-la a Yvonne.  Fido çé shyin-la a Nicole? Wé, li çé shyin-la a Nicole.  Nonm-la çé Misyé Duclos? Wé, nonm-la çé Misyé Duclos.  Fenm-la çé Madamm Duclos?, Wé, fenm-la çé Madamm Duclos.   Famiy Duklos     Misyé Duclos çé pær a Jean; Jean çé fis a Misyé Duclos. Henri çé fis a Misyé Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gìn dé fis; li gìn dé fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne. Madamm Duclos gìn dé fis é li gìn dé fiy.    Jean, li gin in pær, li? Wé, li gin ìn pær.  Ki çé pær a Jean? Misyé Duclos.  Misyé Duclos, li gìn dé fis, li? Wé, li gìn dé fis.  Ki çé lê fis a Misyé Duclos? Yé çé Jean é Henri.  Yvonne, li gìn ìn mær? Wé, li gìn ìn mær.      Exercises    "
+  "body": " Family    What's Covered  After completing this section you should be at least some what familiar with:  The structure of basic sentences  How to make a basic sentence           Vocabulary    Basic Sentence Structure    Immersive Reading: Famiy Duklos     nonm     fenm       fiy     garçon     garçon     fiy     Misyé Duclos çé in nonm. Madamm Duclos çé in fenm. Jean çé in garçon, é Henri çé in garçon. Jean é Henri çé de garçon. Nicole çé in fiy, é Yvonne çé in fiy osit. Nicole é Yvonne çé de fiy.     sha     shyin     shyin     Minet çé in sha. Médor çé in shyin. Fido çé in shyin osit. Médor é Fido çé de shyin.  Médor çé in shyin, li? Wé, li çé in shyin.  Minet çé in shyin itou, li? Non, li çé pa in shyin, li çé in sha.  Fido çé in shyin, li? Wé, li çé in shyin.  Misyé Duclos çé in nonm, li? Wé, li çé in nonm.  Madamm Duclos çé in fenm? Wé, li çé in fenm.  Jean çé in fenm itou,li? Non, li çé pa in fenm, li çé in garçon.  Yvonne çé in garcon itou, li? Non, li çé pa in garçon, li çé in fiy.  Henri çé in garçon? Wé, li çé in garçon.  Garçon-la1 çé Jean. Fiy-la çé Nicole. Shyin-layé2 çé Médor é Fido.  Ki fenm-la yê? Fenm-la çé Madamm Duclos.  Ki nonm-la yê? Nonm-la çé Misyé Duclos.  Ki de shyin yê? de shyin çé Médor é Fido.  Ki garçon-la yê? Garçon-la çé Jean.  Ki fiy-la yê? Fiy-la çé Nicole.  Ki lê3 Duclos yê? Yé çé Misyé é Madamm Duclos, de garçon, Jean é Henri, é de fiy, Nicole é Yvonne.  Jean gin in shyin, é Nicole gin in shyin osit. Médor shyin-la a Jean, é Fido shyin-la a Nicole. Yvonne gin in sha; Minet shat-la a Yvonne.  Médor çé shyin-la a Henri? Non, li çé shyin-la a Jean.  Minet çé sha-la a Nicole? Non, li çé sha-la a Yvonne.  Fido çé shyin-la a Nicole? Wé, li çé shyin-la a Nicole.  Nonm-la çé Misyé Duclos? Wé, nonm-la çé Misyé Duclos.  Fenm-la çé Madamm Duclos?, Wé, fenm-la çé Madamm Duclos.   Famiy Duklos     Misyé Duclos çé pær a Jean; Jean çé fis a Misyé Duclos. Henri çé fis a Misyé Duclos osit. Misyé Duclos çé pær a Nicole é Yvonne. Misyé Duclos gin de fis; li gin de fiy itou. Madamm Duclos çé mær a Jean, Henri, Nicole é Yvonne. Madamm Duclos gin de fis é li gin de fiy.    Jean, li gin in pær, li? Wé, li gin in pær.  Ki çé pær a Jean? Misyé Duclos.  Misyé Duclos, li gin de fis, li? Wé, li gin de fis.  Ki çé lê fis a Misyé Duclos? Yé çé Jean é Henri.  Yvonne, li gin in mær? Wé, li gin in mær.    Ki çé mær a Yvonne? Madamm Duclos.  Madamm Duclos, li gin de fiy é de fis? Wé, li gin de fiy é de fis.  Ki çé lê fiy é fis a Misyé é Madamm Duclos? Yé çé Jean, Henri, Nicole é Yvonne.    Jean çé frær a Nicole; Nicole çé sœr a Jean. Nicole çé sœr a Henri é Yvonne itou. Li gin de frær é in sœr. Henri çé frær a Jean, Nicole é Yvonne; li gin de sœr é in frær. Jean é Henri gin de sœr; yé gin in pær é in mær itou. Nicole é Yvonne gin de frær, é yé gin in pær é in mær itou.    Jean é Henri, yé gin de sœr? Wé, yé gin de sœr.  Nicole é Yvonne, yé gin in pær? Wé, yé gin in pær.  Yé gin in mær osit? Wé, yé gin in mær.  Misyé é Madamm Duclos, yé gin de fiy é de fis? Wé, yé gin de fiy é de fis.  Nicole é Jean, yé gin in frær é in sœr? Wé, yé gin in frær é in sœr.  Ki ça çé yê? Henri é Yvonne.   Médor é Fido, lê shyin a Henri? Non, Médor é Fido pa lê shyin a Henri; Médor çé shyin a Jean é Fido çé shyin a Nicole.  Jean é Henri, yé de nonm? Non, yé pa de nonm; yé de garçon.  Nicole é Yvonne, yé osit de garçon? Non, yé pa de garçon, yé de fiy.  Jean çé pær a Henri? Non, li çé pa pær a Henri; li çé frær a Henri.  Yvonne çé mær a Nicole? Non, li çé pa mær a Nicole; li çé sœr a Nicole.  Nicole, li gin in sha? Non, li pa gin in sha, li gin in shyin.  Yvonne é Henri pa gin jish in sœr; Henri gin in frær é de sœr, Yvonne gin de frær é in sœr.    Exercises    "
 },
 {
   "id": "subsec-2-1-3-reading-2-1",
@@ -424,11 +424,38 @@ var ptx_lunr_docs = [
   "body": " fiy   "
 },
 {
-  "id": "subsec-2-1-3-reading-27",
+  "id": "subsec-2-1-3-reading-5-1",
   "level": "2",
-  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-27",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-5-1",
   "type": "Figure",
   "number": "2.1.7",
+  "title": "",
+  "body": " sha   "
+},
+{
+  "id": "subsec-2-1-3-reading-5-2",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-5-2",
+  "type": "Figure",
+  "number": "2.1.8",
+  "title": "",
+  "body": " shyin   "
+},
+{
+  "id": "subsec-2-1-3-reading-5-3",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-5-3",
+  "type": "Figure",
+  "number": "2.1.9",
+  "title": "",
+  "body": " shyin   "
+},
+{
+  "id": "subsec-2-1-3-reading-28",
+  "level": "2",
+  "url": "sec-2-1-Family.html#subsec-2-1-3-reading-28",
+  "type": "Figure",
+  "number": "2.1.10",
   "title": "",
   "body": " Famiy Duklos    "
 },
