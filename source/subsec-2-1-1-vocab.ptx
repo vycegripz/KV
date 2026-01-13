@@ -149,7 +149,7 @@
         <row>
             <cell>yé</cell>
             <cell>[ye]</cell>
-            <cell>they</cell>
+            <cell>they, to be (at end of a sentence)</cell>
         </row>
         <row>
             <cell>frær</cell>
@@ -170,6 +170,11 @@
             <cell>pa</cell>
             <cell>[pa]</cell>
             <cell>not (negation marker)</cell>
+        </row>
+        <row>
+            <cell>le</cell>
+            <cell>[le]</cell>
+            <cell>"the" for plurality of nouns</cell>
         </row>
         
     </tabular>
