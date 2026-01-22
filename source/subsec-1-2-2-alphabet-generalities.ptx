@@ -184,8 +184,10 @@
                     </tabular>
                 </table>
 
-<p> Some important points to note:</p>
- 
+
+ <subsubsection xml:id="important-points">
+    <title>Some Important Points to Note</title>
+    
 <p>
  <ul>
     <li> <p> All accented vowels are non-nasalized if they show up before "n" or "m" except <em>ènn</em>
@@ -241,9 +243,12 @@
     </li>
  </ul> 
 </p>
+</subsubsection>
 
 
-<p>Some helpful videos:</p>
+<subsubsection xml:id="helpful-videos-1-2-2">
+    <title>Some Helpful Videos</title>
+
 <p>
 <ul><li> <p> <url href="https://en.wikipedia.org/wiki/Help:IPA/French">French IPA with examples and audio</url>
     </p>
@@ -259,7 +264,7 @@
     </li>
 </ul>
 </p>   
-
+</subsubsection>
 
 
             </subsection>
