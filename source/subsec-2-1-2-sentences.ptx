@@ -37,126 +37,93 @@
 
 
     <example>
-   <p> Example: The ball rolls down the hill.
-</p>
+   <p> The boy has a dog.</p>
 </example>
 
 <solution>
 <p>
-    Subject: ball
+    Subject: boy
 </p>
 
 <p>
-    Verb: rolls
+    Verb: has
 </p>
 
 <p>
-    Object: hill
+    Object: dog
 </p>
 
-<p>
-    down is used as an adverb since it modifies the verb "rolls".
-</p>
+
 </solution>
 
 <p>
-    In LC the example sentence above would be: Laplòt roulé enba koto.
-</p>
+    In LC the example sentence above would be:
+    
+    
+    <tabular>
+            <row halign="center">
+                <cell>"Garçon gin in shyin."</cell>
+            </row>
+        </tabular>
+</p>  
 
 <p>
     A general rule for speaking in LC is to leave out any unnecessary information. 
-    Many prepositions are left out of sentences if they can be implied. Notice we don't use a
-    "the" term for the hill (koto) or ball (laplòt) since it adds no additional information to
-     the sentence.  "The" would only be necessary if there were several hills or balls present and we needed to specify a 
-    certain one or group.
+    Many prepositions are left out of sentences if they can be implied.  We provide just enough information to get out point across.  Notice we don't use a "the" term for the boy (garçon) since it adds no additional information to the sentence.  "The" would only be necessary if there were several boys present and we needed to specify a certain one or group.
 </p>
 
+
+<subsubsection xml:id="sub-determiners">
+    <title>The Word for "The" (Post-Nominal Determiners)</title>
 <p>
-    Post-nominal determinaers are little words or phrases we add to the end of a noun to indicate
-    plural and specifics. Think about it as when we say "the", the term for "the" goes at the end.
+    Post-nominal determiners are little words or phrases we add to the end of a noun to indicate plural and specifics. Think about it as when we say "the", the term for "the" goes at the end. We could have said 
+    
+    <tabular>
+            <row halign="center">
+                <cell>"Garçon-la gin in shyin."</cell>
+            </row>
+        </tabular>
+    
+     and it would have been an equivalent sentence.
     We can use the standard French form of "la" in front of a noun as well.
+    
+    
+    <tabular>
+            <row halign="center">
+                <cell>"La garçon gin in shyin."</cell>
+            </row>
+        </tabular>
+
+    When we see the dash we want to make sure that we pronounce it as a separate syllable with a pause. "Shyin-la" is pronounced as "shyin la" not "shyinla".
+
+    Post nominal determiners will always be denoted with a hyphen "-" in front when given in the vocab sections, like "-la" and "-layé" above.
 </p>
-
-<example>
- <p>la shyin and shyin-la both mean "the dog". </p>
-</example>
-
- <solution>
-   <p> The first is a more acrolectal form (Fr) and the second
-  is more basilectal (LC). </p>
-  </solution>
-
-
-
-
-
-
 
   <!--begin notebookLM section w/ several sources-->
-  <subsubsection xml:id="sub-svo-order">
-    <title>Basic Word Order (SVO)</title>
-    <p>
-      Just like in English, Kouri-Vini follows a <b>Subject-Verb-Object (SVO)</b> word order [1, 3]. 
-      This means you start with the person or thing doing the action, followed by the action itself, and then the person or thing receiving the action [1, 4].
-    </p>
-    <example>
-      <p>
-        English: "The man has a dog."
-      </p>
-      <p>
-        Creole: <b>Nonm-la gin in shyin.</b> [1]
-      </p>
-      <ul>
-        <li><b>Nonm</b> (Man) is the Subject [1].</li>
-        <li><b>Gin</b> (To have) is the Verb [1, 4].</li>
-        <li><b>Shyin</b> (Dog) is the Object [1].</li>
-      </ul>
-    </example>
-  </subsubsection>
-
-  <subsubsection xml:id="sub-determiners">
-    <title>The Word for "The" (Post-Nominal Determiners)</title>
-    <p>
-      In English, we put the word "the" in front of a noun. In Kouri-Vini, we usually snap it onto the <b>back</b> of the word using a hyphen [5-7]. 
-      These are called post-nominal determiners [8-10].
-    </p>
-    <ul>
-      <li>
-        <p>
-          <b>For one thing (Singular):</b> Use <b>-la</b> [6, 7].
-          <br />Example: <i>gaçon-la</i> (the boy) [11].
-        </p>
-      </li>
-      <li>
-        <p>
-          <b>For many things (Plural):</b> Use <b>-yé</b> [6, 12].
-          <br />Example: <i>fiy-yé</i> (the girls) [11].
-        </p>
-      </li>
-    </ul>
-    <p>
-      <b>Note:</b> Some nouns are "sticky" and have old markers fused to the front of them, like <b>latab</b> (table) or <b>dizèf</b> (egg) [13-15]. 
-      The word for "a" or "an" (<b>in</b> or <b>un</b>) still stays in the front [16, 17].
-    </p>
+    
   </subsubsection>
 
   <subsubsection xml:id="sub-negation">
     <title>Saying "No" (Negation)</title>
     <p>
-      To make a sentence negative, you use the word <b>pa</b> [18-20]. 
+      To make a sentence negative, you use the word <b>pa</b>. 
       Where you put this word depends on the type of action:
     </p>
     <ul>
       <li>
         <p>
-          <b>Action Verbs:</b> For most actions happening now, <b>pa</b> follows the verb [18, 19, 21].
-          <br />Example: <i>Mo bwa pa diven.</i> (I don't drink wine) [18, 19].
+          "pa" before a verb means no for this moment or in general.
+          <example>
+            <p>Mo pa konné. (I don't know.)</p>
+          </example>
         </p>
       </li>
       <li>
         <p>
-          <b>Stative Verbs:</b> For verbs that describe a state or "having" something (like <i>gin</i> for have, or <i>konné</i> for know), <b>pa</b> goes <b>before</b> the verb [18, 19, 22, 23].
-          <br />Example: <i>Mo pa gin shyin.</i> (I don't have a dog) [19].
+          "pa" after a verb is a harder, more permanent no.
+          <example>
+            <p>Mo konné pa. (I don't know [and I never will].)</p>
+          </example>
         </p>
       </li>
     </ul>
@@ -165,49 +132,34 @@
   <subsubsection xml:id="sub-to-be">
     <title>The Verb "To Be"</title>
     <p>
-      Kouri-Vini handles the verb "to be" differently than English. Sometimes you use a word for it, and sometimes you don't.
+      LC handles the verb "to be" differently than English. Sometimes you use a word for it, and sometimes you don't.
     </p>
     <ul>
       <li>
         <p>
-          <b>Zero Copula:</b> When you are using an <b>adjective</b> to describe someone (like "He is sick"), you do not need a word for "is" or "am" [24-27].
-          <br />Example: <b>Li malad.</b> (He [is] sick) [26-28].
+          <b>Zero Copula:</b> When you are using an <b>adjective</b> to describe someone (like "He is sick"), you do not need a word for "is" or "am".
+          <example>: 
+            <p>Li malad. (He [is] sick.)</p>
+          </example>
         </p>
       </li>
       <li>
         <p>
-          <b>Equating Nouns:</b> If you are saying one thing <i>is</i> another thing (like "He is a man"), you must use <b>çé</b> (or <i>se</i>) [24, 25, 29, 30].
-          <br />Example: <b>Li çé in nonm.</b> (He is a man) [29, 30].
+          <b>Equating Nouns:</b> If you are saying one thing <i>is</i> another thing (like "He is a man"), you must use <b>çé</b> .
+          <example> <p>Li çé in nonm. (He is a man.)</p>
+          </example>
         </p>
       </li>
       <li>
         <p>
-          <b>Questions:</b> When asking a question like "Where are you?", the verb "to be" changes to <b>yê</b> and moves to the end [31-33].
-          <br />Example: <b>Éyou to yê?</b> (Where are you?) [33].
-        </p>
-      </li>
+          <b>Questions:</b> When asking a question like "Where are you?", the verb "to be" changes to <b>yê</b> and moves to the end.
+          <example>: <p>Aou to yê? (Where are you?) </p>
+          </example>
+        </p>      </li>
     </ul>
   </subsubsection>
 
-  <exercise>
-    <statement>
-      <p>
-        Try to translate these simple sentences into English using what you learned:
-      </p>
-      <ol>
-        <li>Mô pær çé in mèt-lékol.</li>
-        <li>Mo konné pa.</li>
-        <li>Shyin-yé faim.</li>
-      </ol>
-    </statement>
-    <solution>
-      <ol>
-        <li>My father is a teacher. [8, 31, 34]</li>
-        <li>I don't know. [18, 35]</li>
-        <li>The dogs are hungry. [15, 26]</li>
-      </ol>
-    </solution>
-  </exercise>
+  
 
 
 

@@ -9,7 +9,7 @@
 </p>
 
 
-<sidebyside>
+
 <table>
     <title>Vocab List</title>
            
@@ -90,17 +90,7 @@
             <cell>[nɔ̃]</cell>
             <cell>no</cell>
         </row>
-        
-        
-    </tabular>
-</table>
-<table>
-    <tabular>
-        <row header="yes" bottom="minor">
-            <cell>LC</cell>
-            <cell>IPA</cell>
-            <cell>Meaning</cell>
-        </row>
+    
         <row>
             <cell>-la</cell>
             <cell>[la]</cell>
@@ -182,7 +172,7 @@
 
 </table>
 
-</sidebyside>
+
 
 
 
