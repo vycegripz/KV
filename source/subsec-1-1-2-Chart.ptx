@@ -9,11 +9,11 @@
 
             <p> We will be learning how to use the IPA Chart.</p>  
 
-<p></p>
 
-           <p> <em><insert> Vowels</insert></em> </p>
-
-
+           
+<subsubsection xml:id="subsubsec-Vowels">
+    <title>Vowels</title>
+    
 
 <p> For vowels two things to consider is rounded vs. un-rounded:
 
@@ -54,8 +54,7 @@
     </li>
 </ul> </p>
     
-
-    
+   
 
 <p>Top vs. Bottom:
 
@@ -75,8 +74,6 @@
 </ul></p>
     
 
-
-
 <p>All vowels live within the boundaries created by these utmost top, bottom, front and back 
 positions. The chart for the vowels of the IPA is made by modeling the position of the 
 tongue within these same boundaries.  </p>
@@ -90,9 +87,6 @@ tongue within these same boundaries.  </p>
 <image source="vowel_comp2.jpg" ></image>
  
 </sidebyside>
-
-
-
 
 
 
@@ -152,10 +146,11 @@ tongue within these same boundaries.  </p>
 <p><url href="https://www.acelinguist.com/p/crash-course-international-phonetic.html">IPA Crash Course</url></p>  
 
 
-<p></p>
+</subsubsection>
 
-<p><em><insert>Consonants</insert></em></p>
 
+<subsubsection xml:id="subsubsec-COnsonants">
+    <title>COnsonants</title>
 
 
 <p>Voiced vs un-voiced (s vs. z):</p>
@@ -164,5 +159,8 @@ tongue within these same boundaries.  </p>
 
 <p>Voiced means that your vocal cords are vibrating. Say "ssssssssssss" and then say "zzzzzzzzz" and you should notice that your throat is vibrating. "zzz" is the voiced version of "sss".  [ʒ] is the voiced version of [ʃ].</p>
 
-                
+</subsubsection>
+
+
+
 </subsection>

@@ -159,7 +159,24 @@
     </ul>
   </subsubsection>
 
-  
+  <subsubsection xml:id="subsubsec-possessive-noun-phrases">
+    <title>Possessive Noun Phrases</title>
+    
+    <p>In Enlish when a noun (person, place or thing) owns or possesses another noun we usually add an apostrophe and "s" to the possessor noun. For example: John's car.</p>
+
+    <p>In French we use "de/du" to indicate possession ("of" or "from"). The noun being possessed comes first, "car of John" in this case. In Louisiana Creole we follow the same structure as French but we can use "de", which is not common, except for some already made constructs like "dekann" (sugar cane) or "ark-d-syel" (rainbow), "a", or more importantly, as stated above, we leave all of that out as unnecessary information and just say "car John".</p>
+
+    <example>
+      <p><ul>
+        <li><p>Shyin John. (most common)</p></li>
+        <li><p>Shyin a John. (not common)</p></li>
+        <li><p>Shyin d John. (least common unless a pre-construct)</p></li>
+      </ul></p>
+      John's car.
+    </example>
+
+
+  </subsubsection>
 
 
 
