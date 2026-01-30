@@ -130,15 +130,15 @@
   </subsubsection>
 
   <subsubsection xml:id="sub-to-be">
-    <title>The Verb "To Be"</title>
+    <title>"To Be"</title>
     <p>
-      LC handles the verb "to be" differently than English. Sometimes you use a word for it, and sometimes you don't.
+      LC handles the "to be" differently than English. Sometimes we have a verb for it, and sometimes we don't.
     </p>
     <ul>
       <li>
         <p>
           <b>Zero Copula:</b> When you are using an <b>adjective</b> to describe someone (like "He is sick"), you do not need a word for "is" or "am".
-          <example>: 
+          <example> 
             <p>Li malad. (He [is] sick.)</p>
           </example>
         </p>
@@ -153,7 +153,7 @@
       <li>
         <p>
           <b>Questions:</b> When asking a question like "Where are you?", the verb "to be" changes to <b>yê</b> and moves to the end.
-          <example>: <p>Aou to yê? (Where are you?) </p>
+          <example> <p>Aou to yê? (Where are you?) </p>
           </example>
         </p>      </li>
     </ul>

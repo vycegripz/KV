@@ -4,7 +4,124 @@
 <title>Exercises</title>
 
 
+ <exercise xml:id="ex-kouri-wordsearch-lower">
+    <statement>
+      <figure xml:id="fig-kouri-lower-grid">
+        <caption>Kouri-Vini 15x15 Lower-case Grid</caption>
+        <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+          <row>
+            <cell>f</cell><cell>r</cell><cell>æ</cell><cell>r</cell><cell>e</cell>
+            <cell>p</cell><cell>m</cell><cell>æ</cell><cell>o</cell><cell>s</cell>
+            <cell>é</cell><cell>j</cell><cell>r</cell><cell>æ</cell><cell>h</cell>
+          </row>
+          <row>
+            <cell>t</cell><cell>d</cell><cell>æ</cell><cell>œ</cell><cell>m</cell>
+            <cell>æ</cell><cell>r</cell><cell>é</cell><cell>o</cell><cell>n</cell>
+            <cell>s</cell><cell>p</cell><cell>h</cell><cell>j</cell><cell>æ</cell>
+          </row>
+          <row>
+            <cell>œ</cell><cell>p</cell><cell>h</cell><cell>t</cell><cell>m</cell>
+            <cell>s</cell><cell>é</cell><cell>n</cell><cell>d</cell><cell>p</cell>
+            <cell>æ</cell><cell>r</cell><cell>r</cell><cell>œ</cell><cell>s</cell>
+          </row>
+          <row>
+            <cell>s</cell><cell>œ</cell><cell>r</cell><cell>é</cell><cell>o</cell>
+            <cell>m</cell><cell>f</cell><cell>n</cell><cell>s</cell><cell>e</cell>
+            <cell>p</cell><cell>æ</cell><cell>œ</cell><cell>f</cell><cell>é</cell>
+          </row>
+          <row>
+            <cell>æ</cell><cell>d</cell><cell>s</cell><cell>e</cell><cell>p</cell>
+            <cell>m</cell><cell>n</cell><cell>s</cell><cell>h</cell><cell>y</cell>
+            <cell>i</cell><cell>n</cell><cell>t</cell><cell>d</cell><cell>é</cell>
+          </row>
+          <row>
+            <cell>œ</cell><cell>m</cell><cell>a</cell><cell>d</cell><cell>a</cell>
+            <cell>m</cell><cell>m</cell><cell>e</cell><cell>p</cell><cell>j</cell>
+            <cell>h</cell><cell>s</cell><cell>æ</cell><cell>r</cell><cell>é</cell>
+          </row>
+          <row>
+            <cell>r</cell><cell>f</cell><cell>é</cell><cell>t</cell><cell>s</cell>
+            <cell>d</cell><cell>h</cell><cell>y</cell><cell>s</cell><cell>n</cell>
+            <cell>o</cell><cell>n</cell><cell>m</cell><cell>œ</cell><cell>r</cell>
+          </row>
+          <row>
+            <cell>s</cell><cell>h</cell><cell>a</cell><cell>e</cell><cell>p</cell>
+            <cell>j</cell><cell>n</cell><cell>s</cell><cell>œ</cell><cell>æ</cell>
+            <cell>r</cell><cell>t</cell><cell>d</cell><cell>o</cell><cell>é</cell>
+          </row>
+          <row>
+            <cell>r</cell><cell>m</cell><cell>é</cell><cell>o</cell><cell>i</cell>
+            <cell>t</cell><cell>o</cell><cell>u</cell><cell>p</cell><cell>h</cell>
+            <cell>y</cell><cell>n</cell><cell>e</cell><cell>d</cell><cell>s</cell>
+          </row>
+          <row>
+            <cell>œ</cell><cell>f</cell><cell>s</cell><cell>e</cell><cell>h</cell>
+            <cell>d</cell><cell>y</cell><cell>æ</cell><cell>œ</cell><cell>r</cell>
+            <cell>é</cell><cell>o</cell><cell>s</cell><cell>i</cell><cell>n</cell>
+          </row>
+          <row>
+            <cell>æ</cell><cell>œ</cell><cell>m</cell><cell>i</cell><cell>s</cell>
+            <cell>y</cell><cell>e</cell><cell>r</cell><cell>p</cell><cell>d</cell>
+            <cell>t</cell><cell>o</cell><cell>æ</cell><cell>e</cell><cell>n</cell>
+          </row>
+          <row>
+            <cell>r</cell><cell>f</cell><cell>é</cell><cell>h</cell><cell>m</cell>
+            <cell>n</cell><cell>s</cell><cell>e</cell><cell>j</cell><cell>i</cell>
+            <cell>s</cell><cell>h</cell><cell>œ</cell><cell>s</cell><cell>é</cell>
+          </row>
+          <row>
+            <cell>f</cell><cell>i</cell><cell>y</cell><cell>p</cell><cell>h</cell>
+            <cell>d</cell><cell>e</cell><cell>o</cell><cell>r</cell><cell>æ</cell>
+            <cell>œ</cell><cell>é</cell><cell>p</cell><cell>t</cell><cell>j</cell>
+          </row>
+          <row>
+            <cell>œ</cell><cell>r</cell><cell>é</cell><cell>s</cell><cell>p</cell>
+            <cell>h</cell><cell>t</cell><cell>m</cell><cell>n</cell><cell>é</cell>
+            <cell>s</cell><cell>p</cell><cell>f</cell><cell>i</cell><cell>s</cell>
+          </row>
+          <row>
+            <cell>m</cell><cell>æ</cell><cell>œ</cell><cell>r</cell><cell>f</cell>
+            <cell>é</cell><cell>o</cell><cell>n</cell><cell>s</cell><cell>e</cell>
+            <cell>p</cell><cell>j</cell><cell>h</cell><cell>y</cell><cell>t</cell>
+          </row>
+        </tabular>
+      </figure>
 
+      <p><b>Word Bank:</b></p>
+      <sidebyside widths="33% 33% 33%">
+        <ul>
+          <li>frær (brother)</li>
+          <li>mær (mother)</li>
+          <li>pær (father)</li>
+          <li>sœr (sister)</li>
+          <li>fis (son)</li>
+        </ul>
+        <ul>
+          <li>fiy (girl)</li>
+          <li>shyin (dog)</li>
+          <li>sha (cat)</li>
+          <li>nonm (man)</li>
+          <li>madamm (mrs)</li>
+        </ul>
+        <ul>
+          <li>misye (mr)</li>
+          <li>jish (just)</li>
+          <li>itou (also)</li>
+          <li>osi (also)</li>
+        </ul>
+      </sidebyside>
+    </statement>
+    
+    <solution>
+      <p>
+        Words are primarily horizontal:
+        r1: frær; r2: mær; r3: pær; r4: sœr; r5: shyin; 
+        r6: madamm; r7: nonm; r8: sha; r9: itou; r10: osi; 
+        r11: misye; r12: jish; r13: fiy; r14: fis.
+      </p>
+    </solution>
+  </exercise>
+ 
 
 
 
