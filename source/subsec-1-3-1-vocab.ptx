@@ -20,8 +20,8 @@
 
                         
 
-                    <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -83,8 +83,8 @@
                 </table>
             <table>
                <title>Numbers 11-20</title>
-                     <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                     <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -154,8 +154,8 @@
         <sidebyside>
  <table>
                <title>Numbers 21-39</title>
-                     <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                     <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -210,8 +210,8 @@
                     </table>
         <table>
                <title>Numbers 40-59</title>
-                     <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                     <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -277,8 +277,8 @@
                     <title>Numbers 61-69</title>
                         
 
-                    <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -335,8 +335,8 @@
                 </table>
             <table>
                <title>Numbers 70-79</title>
-                     <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                     <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -409,8 +409,8 @@
                     <title>Numbers 80-89</title>
                         
 
-                    <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>
@@ -472,8 +472,8 @@
                 </table>
             <table>
                <title>Numbers 90-99</title>
-                     <tabular halign="center">
-                        <row header="yes" bottom="minor">
+                     <tabular halign="center" bottom="minor">
+                        <row header="yes" >
                             <cell>Number</cell>
                             <cell>LC</cell>
                             <cell>IPA</cell>

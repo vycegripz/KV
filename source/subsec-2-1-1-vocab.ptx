@@ -14,8 +14,8 @@
     <title>Vocab List</title>
            
     
-    <tabular>
-        <row header="yes" bottom="minor">
+    <tabular bottom="minor">
+        <row header="yes" >
             <cell>LC</cell>
             <cell>IPA</cell>
             <cell>Meaning</cell>
