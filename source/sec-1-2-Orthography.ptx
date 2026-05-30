@@ -22,7 +22,7 @@
             </ul>
                 </p>            
             </p> 
-    </introduction>
+    
 
 
     <p> We start with the orthography because it is an important guide that forms the 
@@ -56,7 +56,7 @@
           this workbook contains all of the entries from the Dictionary and is <em>extremely</em> helpful for building vocabulary in LC.
      </p>
 
-
+</introduction>
     <xi:include href="subsec-1-2-1-nasalized-vowels.ptx" />
 
     <xi:include href="subsec-1-2-2-alphabet-generalities.ptx" />

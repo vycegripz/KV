@@ -2,7 +2,7 @@
 
 <subsection xml:id="subsec-1-2-2-alphabet-generalities" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Louisiana Creole Alphabet</title>
-                
+          <introduction>        
 <p>
     In <xref ref="sec-1-1-IPA"/> we covered the symbols we will need from the IPA. However, 
     we have not talked about the letters that represent them in LC. We will list the full list here
@@ -183,7 +183,7 @@
                         </row>
                     </tabular>
                 </table>
-
+  </introduction>
 
  <subsubsection xml:id="important-points">
     <title>Some Important Points to Note</title>

@@ -2,22 +2,23 @@
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- we first include a file which contains the docinfo element: -->
-  <xi:include href="./docinfo.ptx" />
+  <xi:include href="docinfo.ptx" />
 
-  <book xml:id="Kouri-Vini_Workbook">
+  <book xml:id="Kouri-Vini-Workbook">
     <title>Kouri Vini</title>
     <subtitle>An Interactive Workbook</subtitle>
-
+    
+  
     <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" /> 
+   <xi:include href="frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-1-IPA.ptx" />
-    <xi:include href="./ch-2-Grammar.ptx" />
+    <xi:include href="ch-1-IPA.ptx" />
+    <xi:include href="ch-2-Grammar.ptx" />
 
 
     <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+    <xi:include href="backmatter.ptx" />
 
   </book>
 </pretext>

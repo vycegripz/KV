@@ -7,13 +7,13 @@
                     <statement>
                         <p>Match the IPA symbol to its closest English sound approximation:</p>
                         <sidebyside margins="auto">
-                        <ol label="A">
+                        <ol marker="A">
                             <li>[y]</li>
                             <li>[ə]</li>
                             <li>[ɔ]</li>
                             <li>[ʒ]</li>
                         </ol>
-                        <ol label="1">
+                        <ol marker="1">
                             <li>The "au" in <em>bought</em> </li>
                             <li>The "ew" in <em>pewter</em> </li>
                             <li>The "s" in <em>leisure</em> </li>
