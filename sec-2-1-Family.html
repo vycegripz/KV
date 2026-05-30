@@ -20,62 +20,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<script type="module">import { startMathJax } from './_static/pretext/js/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="Kouri Vini">
@@ -102,21 +54,21 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.12';
+eBookConfig.runestone_version = '8.1.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body id="changeme" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="Kouri-Vini_Workbook.html"><span class="title">Kouri Vini</span> <span class="subtitle">An Interactive Workbook</span></a></h1>
+<h1 class="heading"><a href="Kouri-Vini-Workbook.html"><span class="title">Kouri Vini</span> <span class="subtitle">An Interactive Workbook</span></a></h1>
 <p class="byline">Ékri par Vycegripz</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
@@ -206,10 +158,14 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-2-1-Family"><h2 class="heading hide-type">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-2-1-Family">
+<h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Family</span>
 </h2>
-<section class="introduction" id="sec-2-1-Family-2"><div class="para" id="sec-2-1-Family-2-1"> <div class="para logical" id="sec-2-1-Family-2-1-2">
+<section class="introduction" id="sec-2-1-Family-2">
+<div class="para" id="sec-2-1-Family-2-1"> 
+<div class="para logical" id="sec-2-1-Family-2-1-2">
 <div class="para">After completing this section you should be at least some what familiar with:</div>
 <ul class="disc" id="sec-2-1-Family-2-1-2-1">
 <li id="sec-2-1-Family-2-1-2-1-1">
@@ -226,8 +182,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Paragraph"><a href="#sec-2-1-Family-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Paragraph: What’s Covered"><a href="#sec-2-1-Family-2-1" title="Copy heading and permalink for Paragraph: What’s Covered" aria-label="Copy heading and permalink for Paragraph: What’s Covered">🔗</a></div>
-</div></section><div class="para" id="sec-2-1-Family-3"><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-1-Family-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<section class="subsection" id="subsec-2-1-1-vocab"><h3 class="heading hide-type">
+</div>
+<div class="para" id="sec-2-1-Family-2-2"><div class="autopermalink" data-description="Paragraph"><a href="#sec-2-1-Family-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></section>
+<section class="subsection" id="subsec-2-1-1-vocab">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Vocabulary</span>
 </h3>
 <div class="para" id="subsec-2-1-1-vocab-2">Here are the words we will be using for this section:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-1-vocab-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -383,102 +341,159 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r0 l0 t0 lines">[le]</td>
 <td class="l m b1 r0 l0 t0 lines">"the" for plurality of nouns</td>
 </tr>
-</table></div></figure><div class="autopermalink" data-description="Subsection 2.1.1: Vocabulary"><a href="#subsec-2-1-1-vocab" title="Copy heading and permalink for Subsection 2.1.1: Vocabulary" aria-label="Copy heading and permalink for Subsection 2.1.1: Vocabulary">🔗</a></div></section><section class="subsection" id="subsec-2-1-2-sentences"><h3 class="heading hide-type">
+</table></div>
+</figure><div class="autopermalink" data-description="Subsection 2.1.1: Vocabulary"><a href="#subsec-2-1-1-vocab" title="Copy heading and permalink for Subsection 2.1.1: Vocabulary" aria-label="Copy heading and permalink for Subsection 2.1.1: Vocabulary">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-2-1-2-sentences">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Basic Sentence Structure</span>
 </h3>
-<div class="para" id="subsec-2-1-2-sentences-2">Basic sentence structure for Louisiana Creole is SVO just like in English:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="subsec-2-1-2-sentences-2">
+<div class="para" id="subsec-2-1-2-sentences-2-1">Basic sentence structure for Louisiana Creole is SVO just like in English:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="tabular-box natural-width"><table class="tabular"><tr><td class="c m b0 r0 l0 t0 lines"><em class="emphasis">subject + verb + object</em></td></tr></table></div>
-<div class="para" id="subsec-2-1-2-sentences-4"><div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="para" id="subsec-2-1-2-sentences-5"><div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="para" id="subsec-2-1-2-sentences-6">Subject is what we are talking about. It can be a noun or a pronoun.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><em class="emphasis">subject + verb + object</em></td>
+</tr>
+</table></div>
+<div class="para" id="subsec-2-1-2-sentences-2-3"><div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="subsec-2-1-2-sentences-2-4"><div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="subsec-2-1-2-sentences-2-5">Subject is what we are talking about. It can be a noun or a pronoun.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-2-1-2-sentences-7">We will discuss verbs and tenses in a later section.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-2-1-2-sentences-2-6">We will discuss verbs and tenses in a later section.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-2-1-2-sentences-8">Object is a noun or pronoun that receives or is the target of the subject.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-2-1-2-sentences-2-7">Object is a noun or pronoun that receives or is the target of the subject.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-2-sentences-9" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<details id="subsec-2-1-2-sentences-2-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-2-1-2-sentences-9-1">The boy has a dog.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h4></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="subsec-2-1-2-sentences-2-8-1">The boy has a dog.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.2"><a href="#subsec-2-1-2-sentences-9" title="Copy heading and permalink for Example 2.1.2" aria-label="Copy heading and permalink for Example 2.1.2">🔗</a></div></article></details><details id="subsec-2-1-2-sentences-10" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="subsec-2-1-2-sentences-10-1">Subject: boy<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 2.1.2"><a href="#subsec-2-1-2-sentences-2-8" title="Copy heading and permalink for Example 2.1.2" aria-label="Copy heading and permalink for Example 2.1.2">🔗</a></div>
+</article></details>
+<details id="subsec-2-1-2-sentences-2-9" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="subsec-2-1-2-sentences-2-9-1">Subject: boy<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-2-1-2-sentences-10-2">Verb: has<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-2-1-2-sentences-2-9-2">Verb: has<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-2-1-2-sentences-10-3">Object: dog<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-10-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-2-1-2-sentences-2-9-3">Object: dog<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-9-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Solution 2.1.2.1"><a href="#subsec-2-1-2-sentences-10" title="Copy heading and permalink for Solution 2.1.2.1" aria-label="Copy heading and permalink for Solution 2.1.2.1">🔗</a></div>
-</div></details><div class="para" id="subsec-2-1-2-sentences-11">In LC the example sentence above would be: <div class="tabular-box natural-width"><table class="tabular"><tr><td class="c m b0 r0 l0 t0 lines">"Garçon gin in shyin."</td></tr></table></div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Solution 1"><a href="#subsec-2-1-2-sentences-2-9" title="Copy heading and permalink for Solution 1" aria-label="Copy heading and permalink for Solution 1">🔗</a></div>
+</div></details>
+<div class="para" id="subsec-2-1-2-sentences-2-10">In LC the example sentence above would be: <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r0 l0 t0 lines">"Garçon gin in shyin."</td>
+</tr>
+</table></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-2-1-2-sentences-12">A general rule for speaking in LC is to leave out any unnecessary information. Many prepositions are left out of sentences if they can be implied.  We provide just enough information to get out point across.  Notice we don’t use a "the" term for the boy (garçon) since it adds no additional information to the sentence.  "The" would only be necessary if there were several boys present and we needed to specify a certain one or group.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<section class="subsubsection" id="sub-determiners"><h4 class="heading hide-type">
+<div class="para" id="subsec-2-1-2-sentences-2-11">A general rule for speaking in LC is to leave out any unnecessary information. Many prepositions are left out of sentences if they can be implied.  We provide just enough information to get out point across.  Notice we don’t use a "the" term for the boy (garçon) since it adds no additional information to the sentence.  "The" would only be necessary if there were several boys present and we needed to specify a certain one or group.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-2-sentences-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsubsection" id="sub-determiners">
+<h4 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Word for "The" (Post-Nominal Determiners)</span>
 </h4>
-<div class="para" id="sub-determiners-2">Post-nominal determiners are little words or phrases we add to the end of a noun to indicate plural and specifics. Think about it as when we say "the", the term for "the" goes at the end. We could have said <div class="tabular-box natural-width"><table class="tabular"><tr><td class="c m b0 r0 l0 t0 lines">"Garçon-la gin in shyin."</td></tr></table></div> and it would have been an equivalent sentence. We can use the standard French form of "la" in front of a noun as well. <div class="tabular-box natural-width"><table class="tabular"><tr><td class="c m b0 r0 l0 t0 lines">"La garçon gin in shyin."</td></tr></table></div> When we see the dash we want to make sure that we pronounce it as a separate syllable with a pause. "Shyin-la" is pronounced as "shyin la" not "shyinla". Post nominal determiners will always be denoted with a hyphen "-" in front when given in the vocab sections, like "-la" and "-layé" above.<div class="autopermalink" data-description="Paragraph"><a href="#sub-determiners-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sub-determiners-2">Post-nominal determiners are little words or phrases we add to the end of a noun to indicate plural and specifics. Think about it as when we say "the", the term for "the" goes at the end. We could have said <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r0 l0 t0 lines">"Garçon-la gin in shyin."</td>
+</tr>
+</table></div> and it would have been an equivalent sentence. We can use the standard French form of "la" in front of a noun as well. <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r0 l0 t0 lines">"La garçon gin in shyin."</td>
+</tr>
+</table></div> When we see the dash we want to make sure that we pronounce it as a separate syllable with a pause. "Shyin-la" is pronounced as "shyin la" not "shyinla". Post nominal determiners will always be denoted with a hyphen "-" in front when given in the vocab sections, like "-la" and "-layé" above.<div class="autopermalink" data-description="Paragraph"><a href="#sub-determiners-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description='Subsubsection 2.1.2.1: The Word for "The" (Post-Nominal Determiners)'><a href="#sub-determiners" title='Copy heading and permalink for Subsubsection 2.1.2.1: The Word for "The" (Post-Nominal Determiners)' aria-label='Copy heading and permalink for Subsubsection 2.1.2.1: The Word for "The" (Post-Nominal Determiners)'>🔗</a></div></section><section class="subsubsection" id="sub-negation"><h4 class="heading hide-type">
+<div class="autopermalink" data-description='Subsubsection 2.1.2.1: The Word for "The" (Post-Nominal Determiners)'><a href="#sub-determiners" title='Copy heading and permalink for Subsubsection 2.1.2.1: The Word for "The" (Post-Nominal Determiners)' aria-label='Copy heading and permalink for Subsubsection 2.1.2.1: The Word for "The" (Post-Nominal Determiners)'>🔗</a></div>
+</section>
+<section class="subsubsection" id="sub-negation">
+<h4 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Saying "No" (Negation)</span>
 </h4>
 <div class="para" id="sub-negation-2">To make a sentence negative, you use the word pa. Where you put this word depends on the type of action:<div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="sub-negation-3">
 <li id="sub-negation-3-1">
-<div class="para" id="sub-negation-3-1-1">"pa" before a verb means no for this moment or in general. <details id="sub-negation-3-1-1-1" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<div class="para" id="sub-negation-3-1-1">"pa" before a verb means no for this moment or in general. 
+<details id="sub-negation-3-1-1-1" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="sub-negation-3-1-1-1-1">Mo pa konné. (I don’t know.)<div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h5></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="sub-negation-3-1-1-1-1">Mo pa konné. (I don’t know.)<div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.3"><a href="#sub-negation-3-1-1-1" title="Copy heading and permalink for Example 2.1.3" aria-label="Copy heading and permalink for Example 2.1.3">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 2.1.3"><a href="#sub-negation-3-1-1-1" title="Copy heading and permalink for Example 2.1.3" aria-label="Copy heading and permalink for Example 2.1.3">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#sub-negation-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="sub-negation-3-2">
-<div class="para" id="sub-negation-3-2-1">"pa" after a verb is a harder, more permanent no. <details id="sub-negation-3-2-1-1" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<div class="para" id="sub-negation-3-2-1">"pa" after a verb is a harder, more permanent no. 
+<details id="sub-negation-3-2-1-1" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="sub-negation-3-2-1-1-1">Mo konné pa. (I don’t know [and I never will].)<div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h5></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="sub-negation-3-2-1-1-1">Mo konné pa. (I don’t know [and I never will].)<div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.4"><a href="#sub-negation-3-2-1-1" title="Copy heading and permalink for Example 2.1.4" aria-label="Copy heading and permalink for Example 2.1.4">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 2.1.4"><a href="#sub-negation-3-2-1-1" title="Copy heading and permalink for Example 2.1.4" aria-label="Copy heading and permalink for Example 2.1.4">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-negation-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#sub-negation-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description='Subsubsection 2.1.2.2: Saying "No" (Negation)'><a href="#sub-negation" title='Copy heading and permalink for Subsubsection 2.1.2.2: Saying "No" (Negation)' aria-label='Copy heading and permalink for Subsubsection 2.1.2.2: Saying "No" (Negation)'>🔗</a></div></section><section class="subsubsection" id="sub-to-be"><h4 class="heading hide-type">
+<div class="autopermalink" data-description='Subsubsection 2.1.2.2: Saying "No" (Negation)'><a href="#sub-negation" title='Copy heading and permalink for Subsubsection 2.1.2.2: Saying "No" (Negation)' aria-label='Copy heading and permalink for Subsubsection 2.1.2.2: Saying "No" (Negation)'>🔗</a></div>
+</section>
+<section class="subsubsection" id="sub-to-be">
+<h4 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">"To Be"</span>
 </h4>
 <div class="para" id="sub-to-be-2">LC handles the "to be" differently than English. Sometimes we have a verb for it, and sometimes we don’t.<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="sub-to-be-3">
 <li id="sub-to-be-3-1">
-<div class="para" id="sub-to-be-3-1-1">Zero Copula: When you are using an adjective to describe someone (like "He is sick"), you do not need a word for "is" or "am". <details id="sub-to-be-3-1-1-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<div class="para" id="sub-to-be-3-1-1">Zero Copula: When you are using an adjective to describe someone (like "He is sick"), you do not need a word for "is" or "am". 
+<details id="sub-to-be-3-1-1-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="sub-to-be-3-1-1-3-1">Li malad. (He [is] sick.)<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h5></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="sub-to-be-3-1-1-3-1">Li malad. (He [is] sick.)<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.5"><a href="#sub-to-be-3-1-1-3" title="Copy heading and permalink for Example 2.1.5" aria-label="Copy heading and permalink for Example 2.1.5">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 2.1.5"><a href="#sub-to-be-3-1-1-3" title="Copy heading and permalink for Example 2.1.5" aria-label="Copy heading and permalink for Example 2.1.5">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#sub-to-be-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="sub-to-be-3-2">
-<div class="para" id="sub-to-be-3-2-1">Equating Nouns: If you are saying one thing is another thing (like "He is a man"), you must use çé . <details id="sub-to-be-3-2-1-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<div class="para" id="sub-to-be-3-2-1">Equating Nouns: If you are saying one thing is another thing (like "He is a man"), you must use çé . 
+<details id="sub-to-be-3-2-1-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="sub-to-be-3-2-1-4-1">Li çé in nonm. (He is a man.)<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h5></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="sub-to-be-3-2-1-4-1">Li çé in nonm. (He is a man.)<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.6"><a href="#sub-to-be-3-2-1-4" title="Copy heading and permalink for Example 2.1.6" aria-label="Copy heading and permalink for Example 2.1.6">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 2.1.6"><a href="#sub-to-be-3-2-1-4" title="Copy heading and permalink for Example 2.1.6" aria-label="Copy heading and permalink for Example 2.1.6">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#sub-to-be-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="sub-to-be-3-3">
-<div class="para" id="sub-to-be-3-3-1">Questions: When asking a question like "Where are you?", the verb "to be" changes to yê and moves to the end. <details id="sub-to-be-3-3-1-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<div class="para" id="sub-to-be-3-3-1">Questions: When asking a question like "Where are you?", the verb "to be" changes to yê and moves to the end. 
+<details id="sub-to-be-3-3-1-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="sub-to-be-3-3-1-3-1">Aou to yê? (Where are you?)<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h5></summary>
+<article class="example example-like knowl__content">
+<div class="para" id="sub-to-be-3-3-1-3-1">Aou to yê? (Where are you?)<div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.7"><a href="#sub-to-be-3-3-1-3" title="Copy heading and permalink for Example 2.1.7" aria-label="Copy heading and permalink for Example 2.1.7">🔗</a></div></article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 2.1.7"><a href="#sub-to-be-3-3-1-3" title="Copy heading and permalink for Example 2.1.7" aria-label="Copy heading and permalink for Example 2.1.7">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Paragraph"><a href="#sub-to-be-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#sub-to-be-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description='Subsubsection 2.1.2.3: "To Be"'><a href="#sub-to-be" title='Copy heading and permalink for Subsubsection 2.1.2.3: "To Be"' aria-label='Copy heading and permalink for Subsubsection 2.1.2.3: "To Be"'>🔗</a></div></section><section class="subsubsection" id="subsubsec-possessive-noun-phrases"><h4 class="heading hide-type">
+<div class="autopermalink" data-description='Subsubsection 2.1.2.3: "To Be"'><a href="#sub-to-be" title='Copy heading and permalink for Subsubsection 2.1.2.3: "To Be"' aria-label='Copy heading and permalink for Subsubsection 2.1.2.3: "To Be"'>🔗</a></div>
+</section>
+<section class="subsubsection" id="subsubsec-possessive-noun-phrases">
+<h4 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Possessive Noun Phrases</span>
 </h4>
 <div class="para" id="subsubsec-possessive-noun-phrases-2">In Enlish when a noun (person, place or thing) owns or possesses another noun we usually add an apostrophe and "s" to the possessor noun. For example: John’s car.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-possessive-noun-phrases-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -487,7 +502,9 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <details id="subsubsec-possessive-noun-phrases-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para logical" id="subsubsec-possessive-noun-phrases-4-1">
+</h5></summary>
+<article class="example example-like knowl__content">
+<div class="para logical" id="subsubsec-possessive-noun-phrases-4-1">
 <ul class="disc" id="subsubsec-possessive-noun-phrases-4-1-1">
 <li id="subsubsec-possessive-noun-phrases-4-1-1-1">
 <div class="para" id="subsubsec-possessive-noun-phrases-4-1-1-1-1">Shyin John. (most common)<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-possessive-noun-phrases-4-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -507,28 +524,75 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-possessive-noun-phrases-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 2.1.8"><a href="#subsubsec-possessive-noun-phrases-4" title="Copy heading and permalink for Example 2.1.8" aria-label="Copy heading and permalink for Example 2.1.8">🔗</a></div></article></details><div class="autopermalink" data-description="Subsubsection 2.1.2.4: Possessive Noun Phrases"><a href="#subsubsec-possessive-noun-phrases" title="Copy heading and permalink for Subsubsection 2.1.2.4: Possessive Noun Phrases" aria-label="Copy heading and permalink for Subsubsection 2.1.2.4: Possessive Noun Phrases">🔗</a></div></section><div class="autopermalink" data-description="Subsection 2.1.2: Basic Sentence Structure"><a href="#subsec-2-1-2-sentences" title="Copy heading and permalink for Subsection 2.1.2: Basic Sentence Structure" aria-label="Copy heading and permalink for Subsection 2.1.2: Basic Sentence Structure">🔗</a></div></section><section class="subsection" id="subsec-2-1-3-reading"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Example 2.1.8"><a href="#subsubsec-possessive-noun-phrases-4" title="Copy heading and permalink for Example 2.1.8" aria-label="Copy heading and permalink for Example 2.1.8">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Subsubsection 2.1.2.4: Possessive Noun Phrases"><a href="#subsubsec-possessive-noun-phrases" title="Copy heading and permalink for Subsubsection 2.1.2.4: Possessive Noun Phrases" aria-label="Copy heading and permalink for Subsubsection 2.1.2.4: Possessive Noun Phrases">🔗</a></div>
+</section><div class="autopermalink" data-description="Subsection 2.1.2: Basic Sentence Structure"><a href="#subsec-2-1-2-sentences" title="Copy heading and permalink for Subsection 2.1.2: Basic Sentence Structure" aria-label="Copy heading and permalink for Subsection 2.1.2: Basic Sentence Structure">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-2-1-3-reading">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Immersive Reading: Famiy Duklos</span>
 </h3>
 <div class="para" id="subsec-2-1-3-reading-2">Using the information we learned so far we should be able to get through the section below and answer some questions all in Louisiana Creole!<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-3-1"><img src="external/misyeD.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>nonm<div class="autopermalink" data-description="Figure 2.1.9"><a href="#subsec-2-1-3-reading-3-1" title="Copy heading and permalink for Figure 2.1.9" aria-label="Copy heading and permalink for Figure 2.1.9">🔗</a></div></figcaption></figure></div>
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-3-2"><img src="external/madammD.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>fenm<div class="autopermalink" data-description="Figure 2.1.10"><a href="#subsec-2-1-3-reading-3-2" title="Copy heading and permalink for Figure 2.1.10" aria-label="Copy heading and permalink for Figure 2.1.10">🔗</a></div></figcaption></figure></div>
-</div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:25% 25% 25% 25%;column-gap:0%;">
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-4-1"><img src="external/nikolD-14.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>fiy<div class="autopermalink" data-description="Figure 2.1.11"><a href="#subsec-2-1-3-reading-4-1" title="Copy heading and permalink for Figure 2.1.11" aria-label="Copy heading and permalink for Figure 2.1.11">🔗</a></div></figcaption></figure></div>
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-4-2"><img src="external/leoD-11.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>garçon<div class="autopermalink" data-description="Figure 2.1.12"><a href="#subsec-2-1-3-reading-4-2" title="Copy heading and permalink for Figure 2.1.12" aria-label="Copy heading and permalink for Figure 2.1.12">🔗</a></div></figcaption></figure></div>
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-4-3"><img src="external/kofiD-7.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>garçon<div class="autopermalink" data-description="Figure 2.1.13"><a href="#subsec-2-1-3-reading-4-3" title="Copy heading and permalink for Figure 2.1.13" aria-label="Copy heading and permalink for Figure 2.1.13">🔗</a></div></figcaption></figure></div>
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-4-4"><img src="external/lilouD-4.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>fiy<div class="autopermalink" data-description="Figure 2.1.14"><a href="#subsec-2-1-3-reading-4-4" title="Copy heading and permalink for Figure 2.1.14" aria-label="Copy heading and permalink for Figure 2.1.14">🔗</a></div></figcaption></figure></div>
-</div></div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-3-1"><div class="image-box"><img src="external/misyeD.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>nonm<div class="autopermalink" data-description="Figure 2.1.9"><a href="#subsec-2-1-3-reading-3-1" title="Copy heading and permalink for Figure 2.1.9" aria-label="Copy heading and permalink for Figure 2.1.9">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-3-2"><div class="image-box"><img src="external/madammD.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>fenm<div class="autopermalink" data-description="Figure 2.1.10"><a href="#subsec-2-1-3-reading-3-2" title="Copy heading and permalink for Figure 2.1.10" aria-label="Copy heading and permalink for Figure 2.1.10">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:25% 25% 25% 25%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-4-1"><div class="image-box"><img src="external/nikolD-14.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>fiy<div class="autopermalink" data-description="Figure 2.1.11"><a href="#subsec-2-1-3-reading-4-1" title="Copy heading and permalink for Figure 2.1.11" aria-label="Copy heading and permalink for Figure 2.1.11">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-4-2"><div class="image-box"><img src="external/leoD-11.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>garçon<div class="autopermalink" data-description="Figure 2.1.12"><a href="#subsec-2-1-3-reading-4-2" title="Copy heading and permalink for Figure 2.1.12" aria-label="Copy heading and permalink for Figure 2.1.12">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-4-3"><div class="image-box"><img src="external/kofiD-7.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>garçon<div class="autopermalink" data-description="Figure 2.1.13"><a href="#subsec-2-1-3-reading-4-3" title="Copy heading and permalink for Figure 2.1.13" aria-label="Copy heading and permalink for Figure 2.1.13">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-4-4"><div class="image-box"><img src="external/lilouD-4.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>fiy<div class="autopermalink" data-description="Figure 2.1.14"><a href="#subsec-2-1-3-reading-4-4" title="Copy heading and permalink for Figure 2.1.14" aria-label="Copy heading and permalink for Figure 2.1.14">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
 <div class="para" id="subsec-2-1-3-reading-5">Misye Duklos çé in nonm. Madamm Duklos çé in fenm. Jean çé in garçon, é Henri çé in garçon. Jean é Henri çé de garçon. Nicole çé in fiy, é Yvonne çé in fiy osit. Nicole é Yvonne çé de fiy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:33.3333333333333% 33.3333333333333% 33.3333333333333%;column-gap:0%;">
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-6-1"><img src="external/minet-sha.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>sha<div class="autopermalink" data-description="Figure 2.1.15"><a href="#subsec-2-1-3-reading-6-1" title="Copy heading and permalink for Figure 2.1.15" aria-label="Copy heading and permalink for Figure 2.1.15">🔗</a></div></figcaption></figure></div>
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-6-2"><img src="external/m%C3%A9dor.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>shyin<div class="autopermalink" data-description="Figure 2.1.16"><a href="#subsec-2-1-3-reading-6-2" title="Copy heading and permalink for Figure 2.1.16" aria-label="Copy heading and permalink for Figure 2.1.16">🔗</a></div></figcaption></figure></div>
-<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="subsec-2-1-3-reading-6-3"><img src="external/fido.jpg" class="contained"><figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>shyin<div class="autopermalink" data-description="Figure 2.1.17"><a href="#subsec-2-1-3-reading-6-3" title="Copy heading and permalink for Figure 2.1.17" aria-label="Copy heading and permalink for Figure 2.1.17">🔗</a></div></figcaption></figure></div>
-</div></div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:33.3333333333333% 33.3333333333333% 33.3333333333333%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-6-1"><div class="image-box"><img src="external/minet-sha.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>sha<div class="autopermalink" data-description="Figure 2.1.15"><a href="#subsec-2-1-3-reading-6-1" title="Copy heading and permalink for Figure 2.1.15" aria-label="Copy heading and permalink for Figure 2.1.15">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-6-2"><div class="image-box"><img src="external/m%C3%A9dor.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>shyin<div class="autopermalink" data-description="Figure 2.1.16"><a href="#subsec-2-1-3-reading-6-2" title="Copy heading and permalink for Figure 2.1.16" aria-label="Copy heading and permalink for Figure 2.1.16">🔗</a></div></figcaption>
+</figure>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="subsec-2-1-3-reading-6-3"><div class="image-box"><img src="external/fido.jpg" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>shyin<div class="autopermalink" data-description="Figure 2.1.17"><a href="#subsec-2-1-3-reading-6-3" title="Copy heading and permalink for Figure 2.1.17" aria-label="Copy heading and permalink for Figure 2.1.17">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
 <div class="para" id="subsec-2-1-3-reading-7">Minet çé in sha. Médor çé in shyin. Fido çé in shyin osit. Médor é Fido çé de shyin.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsec-2-1-3-reading-8">
@@ -536,7 +600,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-1">
 <div class="para" id="subsec-2-1-3-reading-8-1-1-1">Médor çé in shyin, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-1-2-1">Wé, li çé in shyin.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-1-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -545,7 +610,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-2">
 <div class="para" id="subsec-2-1-3-reading-8-1-2-1">Minet çé in shyin itou, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-2-2-1">Non, li çé pa in shyin, li çé in sha.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -554,7 +620,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-3">
 <div class="para" id="subsec-2-1-3-reading-8-1-3-1">Fido çé in shyin, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-3-2-1">Wé, li çé in shyin.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -563,7 +630,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-4">
 <div class="para" id="subsec-2-1-3-reading-8-1-4-1">Misye Duklos çé in nonm, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-4-2-1">Wé, li çé in nonm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-4-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -572,7 +640,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-5">
 <div class="para" id="subsec-2-1-3-reading-8-1-5-1">Madamm Duklos çé in fenm?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-5-2-1">Wé, li çé in fenm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-5-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -581,7 +650,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-6">
 <div class="para" id="subsec-2-1-3-reading-8-1-6-1">Jean çé in fenm itou, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-6-2-1">Non, li çé pa in fenm, li çé in garçon.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-6-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -590,7 +660,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-7">
 <div class="para" id="subsec-2-1-3-reading-8-1-7-1">Yvonne çé in garcon itou, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-7-2-1">Non, li çé pa in garçon, li çé in fiy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-7-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -599,7 +670,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-8-1-8">
 <div class="para" id="subsec-2-1-3-reading-8-1-8-1">Henri çé in garçon?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-8-1-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-8-1-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-8-1-8-2-1">Wé, li çé in garçon.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-8-1-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-8-1-8-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -615,7 +687,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-10-1-1">
 <div class="para" id="subsec-2-1-3-reading-10-1-1-1">Ki fenm-la yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-10-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-10-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-10-1-1-2-1">Fenm-la çé Madamm Duklos.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-10-1-1-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -624,7 +697,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-10-1-2">
 <div class="para" id="subsec-2-1-3-reading-10-1-2-1">Ki nonm-la yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-10-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-10-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-10-1-2-2-1">Nonm-la çé Misye Duklos.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-10-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -633,7 +707,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-10-1-3">
 <div class="para" id="subsec-2-1-3-reading-10-1-3-1">Ki de shyin yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-10-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-10-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-10-1-3-2-1">De shyin çé Médor é Fido.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-10-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -642,7 +717,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-10-1-4">
 <div class="para" id="subsec-2-1-3-reading-10-1-4-1">Ki garçon-la yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-10-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-10-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-10-1-4-2-1">Garçon-la çé Jean.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-10-1-4-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -651,7 +727,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-10-1-5">
 <div class="para" id="subsec-2-1-3-reading-10-1-5-1">Ki fiy-la yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-10-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-10-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-10-1-5-2-1">Fiy-la çé Nicole.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-10-1-5-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -660,7 +737,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-10-1-6">
 <div class="para" id="subsec-2-1-3-reading-10-1-6-1">Ki lê Duklos yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-10-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-10-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-10-1-6-2-1">Yé çé Misye é Madamm Duklos, de garçon, Jean é Henri, é de fiy, Nicole é Yvonne.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-10-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-10-1-6-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -676,7 +754,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-12-1-1">
 <div class="para" id="subsec-2-1-3-reading-12-1-1-1">Médor çé shyin-la a Henri?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-12-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-12-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-12-1-1-2-1">Non, li çé shyin-la a Jean.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-12-1-1-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -685,7 +764,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-12-1-2">
 <div class="para" id="subsec-2-1-3-reading-12-1-2-1">Minet çé sha-la Nicole?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-12-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-12-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-12-1-2-2-1">Non, li çé sha-la Yvonne.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-12-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -694,7 +774,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-12-1-3">
 <div class="para" id="subsec-2-1-3-reading-12-1-3-1">Fido çé shyin-la a Nicole?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-12-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-12-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-12-1-3-2-1">Wé, li çé shyin-la a Nicole.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-12-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -703,7 +784,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-12-1-4">
 <div class="para" id="subsec-2-1-3-reading-12-1-4-1">Nonm-la çé Misye Duklos?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-12-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-12-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-12-1-4-2-1">Wé, nonm-la çé Misye Duklos.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-12-1-4-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -712,7 +794,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-12-1-5">
 <div class="para" id="subsec-2-1-3-reading-12-1-5-1">Fenm-la çé Madamm Duklos?,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-12-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-12-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-12-1-5-2-1">Wé, fenm-la çé Madamm Duklos.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-12-1-5-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -722,7 +805,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="subsec-2-1-3-reading-13"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/familyportrait.jpg" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Famiy Duklos<div class="autopermalink" data-description="Figure 2.1.18"><a href="#subsec-2-1-3-reading-13" title="Copy heading and permalink for Figure 2.1.18" aria-label="Copy heading and permalink for Figure 2.1.18">🔗</a></div></figcaption></figure><div class="para" id="subsec-2-1-3-reading-14">Misye Duklos çé pær Jean; Jean çé fis Misye Duklos. Henri çé fis Misye Duklos osit. Misye Duklos çé pær Nicole é Yvonne. Misye Duklos gin de fis; li gin de fiy itou. Madamm Duklos çé mær Jean, Henri, Nicole é Yvonne. Madamm Duklos gin de fis é li gin de fiy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Famiy Duklos<div class="autopermalink" data-description="Figure 2.1.18"><a href="#subsec-2-1-3-reading-13" title="Copy heading and permalink for Figure 2.1.18" aria-label="Copy heading and permalink for Figure 2.1.18">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="subsec-2-1-3-reading-14">Misye Duklos çé pær Jean; Jean çé fis Misye Duklos. Henri çé fis Misye Duklos osit. Misye Duklos çé pær Nicole é Yvonne. Misye Duklos gin de fis; li gin de fiy itou. Madamm Duklos çé mær Jean, Henri, Nicole é Yvonne. Madamm Duklos gin de fis é li gin de fiy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="subsec-2-1-3-reading-15"><div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
 <div class="para logical" id="subsec-2-1-3-reading-16">
@@ -730,7 +815,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-16-1-1">
 <div class="para" id="subsec-2-1-3-reading-16-1-1-1">Jean, li gin in pær, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-16-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-16-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-16-1-1-2-1">Wé, li gin in pær.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-16-1-1-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -739,7 +825,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-16-1-2">
 <div class="para" id="subsec-2-1-3-reading-16-1-2-1">Ki çé pær a Jean?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-16-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-16-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-16-1-2-2-1">Misye Duklos.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-16-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -748,7 +835,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-16-1-3">
 <div class="para" id="subsec-2-1-3-reading-16-1-3-1">Misye Duklos, li gin de fis, li?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-16-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-16-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-16-1-3-2-1">Wé, li gin de fis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-16-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -757,7 +845,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-16-1-4">
 <div class="para" id="subsec-2-1-3-reading-16-1-4-1">Ki çé lê fis a Misye Duklos?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-16-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-16-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-16-1-4-2-1">Yé çé Jean é Henri.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-16-1-4-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -766,7 +855,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-16-1-5">
 <div class="para" id="subsec-2-1-3-reading-16-1-5-1">Yvonne, li gin in mær?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-16-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-16-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-16-1-5-2-1">Wé, li gin in mær.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-16-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-16-1-5-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -781,7 +871,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-18-1-1">
 <div class="para" id="subsec-2-1-3-reading-18-1-1-1">Ki çé mær Yvonne?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-18-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-18-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-18-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-18-1-1-2-1">Madamm Duklos.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-18-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-18-1-1-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -790,7 +881,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-18-1-2">
 <div class="para" id="subsec-2-1-3-reading-18-1-2-1">Madamm Duklos, li gin de fiy é de fis?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-18-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-18-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-18-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-18-1-2-2-1">Wé, li gin de fiy é de fis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-18-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-18-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -799,7 +891,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-18-1-3">
 <div class="para" id="subsec-2-1-3-reading-18-1-3-1">Ki çé lê fiy é fis Misye é Madamm Duklos?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-18-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-18-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-18-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-18-1-3-2-1">Yé çé Jean, Henri, Nicole é Yvonne.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-18-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-18-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -817,7 +910,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-22-1-1">
 <div class="para" id="subsec-2-1-3-reading-22-1-1-1">Jean é Henri, yé gin de sœr?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-22-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-22-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-22-1-1-2-1">Wé, yé gin de sœr.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-22-1-1-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -826,7 +920,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-22-1-2">
 <div class="para" id="subsec-2-1-3-reading-22-1-2-1">Nicole é Yvonne, yé gin in pær?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-22-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-22-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-22-1-2-2-1">Wé, yé gin in pær.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-22-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -835,7 +930,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-22-1-3">
 <div class="para" id="subsec-2-1-3-reading-22-1-3-1">Yé gin in mær osit?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-22-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-22-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-22-1-3-2-1">Wé, yé gin in mær.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-22-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -844,7 +940,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-22-1-4">
 <div class="para" id="subsec-2-1-3-reading-22-1-4-1">Misye é Madamm Duklos, yé gin de fiy é de fis?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-22-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-22-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-22-1-4-2-1">Wé, yé gin de fiy é de fis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-22-1-4-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -853,7 +950,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-22-1-5">
 <div class="para" id="subsec-2-1-3-reading-22-1-5-1">Nicole é Jean, yé gin in frær é in sœr?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-22-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-22-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-22-1-5-2-1">Wé, yé gin in frær é in sœr.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-22-1-5-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -862,7 +960,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-22-1-6">
 <div class="para" id="subsec-2-1-3-reading-22-1-6-1">Ki ça yê?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-22-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-22-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-22-1-6-2-1">Henri é Yvonne.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-22-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-22-1-6-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -882,7 +981,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-24-1-2">
 <div class="para" id="subsec-2-1-3-reading-24-1-2-1">Jean é Henri, yé de nonm?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-24-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-24-1-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-24-1-2-2-1">Non, yé pa de nonm; yé de garçon.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-24-1-2-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -891,7 +991,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-24-1-3">
 <div class="para" id="subsec-2-1-3-reading-24-1-3-1">Nicole é Yvonne, yé osit de garçon?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-24-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-24-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-24-1-3-2-1">Non, yé pa de garçon, yé de fiy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-24-1-3-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -900,7 +1001,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-24-1-4">
 <div class="para" id="subsec-2-1-3-reading-24-1-4-1">Jean çé pær Henri?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-24-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-24-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-24-1-4-2-1">Non, li çé pa pær Henri; li çé frær Henri.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-24-1-4-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -909,7 +1011,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-24-1-5">
 <div class="para" id="subsec-2-1-3-reading-24-1-5-1">Yvonne çé mær Nicole?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-24-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-24-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-24-1-5-2-1">Non, li çé pa mær Nicole; li çé sœr Nicole.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-24-1-5-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -918,7 +1021,8 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsec-2-1-3-reading-24-1-6">
 <div class="para" id="subsec-2-1-3-reading-24-1-6-1">Nicole, li gin in sha?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsec-2-1-3-reading-24-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<details id="subsec-2-1-3-reading-24-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
 <div class="para" id="subsec-2-1-3-reading-24-1-6-2-1">Non, li pa gin in sha, li gin in shyin.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-24-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1"><a href="#subsec-2-1-3-reading-24-1-6-2" title="Copy heading and permalink for Answer 1" aria-label="Copy heading and permalink for Answer 1">🔗</a></div>
@@ -929,12 +1033,17 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="para" id="subsec-2-1-3-reading-25">Yvonne é Henri pa gin jish in sœr; Henri gin in frær é de sœr, Yvonne gin de frær é in sœr.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-2-1-3-reading-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 2.1.3: Immersive Reading: Famiy Duklos"><a href="#subsec-2-1-3-reading" title="Copy heading and permalink for Subsection 2.1.3: Immersive Reading: Famiy Duklos" aria-label="Copy heading and permalink for Subsection 2.1.3: Immersive Reading: Famiy Duklos">🔗</a></div></section><section class="subsection" id="subsec-2-1-4-Exercises"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 2.1.3: Immersive Reading: Famiy Duklos"><a href="#subsec-2-1-3-reading" title="Copy heading and permalink for Subsection 2.1.3: Immersive Reading: Famiy Duklos" aria-label="Copy heading and permalink for Subsection 2.1.3: Immersive Reading: Famiy Duklos">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-2-1-4-Exercises">
+<h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
 </h3>
 <details id="ex-kouri-wordsearch-lower" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><figure class="figure figure-like" id="fig-kouri-lower-grid"><div class="tabular-box natural-width"><table class="tabular">
+</h4></summary>
+<article class="exercise exercise-like knowl__content">
+<figure class="figure figure-like" id="fig-kouri-lower-grid"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">f</td>
 <td class="c m b1 r1 l0 t1 lines">r</td>
@@ -1191,9 +1300,14 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r1 l0 t0 lines">t</td>
 </tr>
 </table></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Kouri-Vini 15x15 Lower-case Grid<div class="autopermalink" data-description="Figure 2.1.20"><a href="#fig-kouri-lower-grid" title="Copy heading and permalink for Figure 2.1.20" aria-label="Copy heading and permalink for Figure 2.1.20">🔗</a></div></figcaption></figure> <div class="para" id="ex-kouri-wordsearch-lower-1-2">Word Bank:<div class="autopermalink" data-description="Paragraph"><a href="#ex-kouri-wordsearch-lower-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;grid-template-columns:33.1103678929766% 33.1103678929766% 33.1103678929766%;column-gap:0.333333333333333%;">
-<div class="sbspanel sbspanel--top top" style=""><ul class="disc" id="ex-kouri-wordsearch-lower-1-3-1">
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Kouri-Vini 15x15 Lower-case Grid<div class="autopermalink" data-description="Figure 2.1.20"><a href="#fig-kouri-lower-grid" title="Copy heading and permalink for Figure 2.1.20" aria-label="Copy heading and permalink for Figure 2.1.20">🔗</a></div></figcaption>
+</figure> 
+<div class="para" id="ex-kouri-wordsearch-lower-1-2">Word Bank:<div class="autopermalink" data-description="Paragraph"><a href="#ex-kouri-wordsearch-lower-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;grid-template-columns:33.1103678929766% 33.1103678929766% 33.1103678929766%;column-gap:0.333333333333333%;">
+<div class="sbspanel sbspanel--top top" style="">
+<ul class="disc" id="ex-kouri-wordsearch-lower-1-3-1">
 <li id="ex-kouri-wordsearch-lower-1-3-1-1">
 <div class="para" id="p-derived-ex-kouri-wordsearch-lower-1-3-1-1">frær (brother)</div>
 <div class="autopermalink" data-description="Item"><a href="#ex-kouri-wordsearch-lower-1-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
@@ -1214,8 +1328,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="p-derived-ex-kouri-wordsearch-lower-1-3-1-5">fis (son)</div>
 <div class="autopermalink" data-description="Item"><a href="#ex-kouri-wordsearch-lower-1-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ul></div>
-<div class="sbspanel sbspanel--top top" style=""><ul class="disc" id="ex-kouri-wordsearch-lower-1-3-2">
+</ul>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<ul class="disc" id="ex-kouri-wordsearch-lower-1-3-2">
 <li id="ex-kouri-wordsearch-lower-1-3-2-1">
 <div class="para" id="p-derived-ex-kouri-wordsearch-lower-1-3-2-1">fiy (girl)</div>
 <div class="autopermalink" data-description="Item"><a href="#ex-kouri-wordsearch-lower-1-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
@@ -1236,8 +1352,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="p-derived-ex-kouri-wordsearch-lower-1-3-2-5">madamm (mrs)</div>
 <div class="autopermalink" data-description="Item"><a href="#ex-kouri-wordsearch-lower-1-3-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ul></div>
-<div class="sbspanel sbspanel--top top" style=""><ul class="disc" id="ex-kouri-wordsearch-lower-1-3-3">
+</ul>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<ul class="disc" id="ex-kouri-wordsearch-lower-1-3-3">
 <li id="ex-kouri-wordsearch-lower-1-3-3-1">
 <div class="para" id="p-derived-ex-kouri-wordsearch-lower-1-3-3-1">misye (mr)</div>
 <div class="autopermalink" data-description="Item"><a href="#ex-kouri-wordsearch-lower-1-3-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
@@ -1254,14 +1372,23 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="p-derived-ex-kouri-wordsearch-lower-1-3-3-4">osi (also)</div>
 <div class="autopermalink" data-description="Item"><a href="#ex-kouri-wordsearch-lower-1-3-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ul></div>
-</div></div>
-<div class="solutions"><details id="ex-kouri-wordsearch-lower-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+</ul>
+</div>
+</div>
+</div>
+<div class="solutions">
+<details id="ex-kouri-wordsearch-lower-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
 <div class="para" id="ex-kouri-wordsearch-lower-2-1">Words are primarily horizontal: r1: frær; r2: mær; r3: pær; r4: sœr; r5: shyin; r6: madamm; r7: nonm; r8: sha; r9: itou; r10: osi; r11: misye; r12: jish; r13: fiy; r14: fis.<div class="autopermalink" data-description="Paragraph"><a href="#ex-kouri-wordsearch-lower-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Solution 2.1.19.1"><a href="#ex-kouri-wordsearch-lower-2" title="Copy heading and permalink for Solution 2.1.19.1" aria-label="Copy heading and permalink for Solution 2.1.19.1">🔗</a></div>
-</div></details></div>
-<div class="autopermalink" data-description="Checkpoint 2.1.19"><a href="#ex-kouri-wordsearch-lower" title="Copy heading and permalink for Checkpoint 2.1.19" aria-label="Copy heading and permalink for Checkpoint 2.1.19">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 2.1.4: Exercises"><a href="#subsec-2-1-4-Exercises" title="Copy heading and permalink for Subsection 2.1.4: Exercises" aria-label="Copy heading and permalink for Subsection 2.1.4: Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 2.1: Family"><a href="#sec-2-1-Family" title="Copy heading and permalink for Section 2.1: Family" aria-label="Copy heading and permalink for Section 2.1: Family">🔗</a></div></section></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 2.1.19"><a href="#ex-kouri-wordsearch-lower" title="Copy heading and permalink for Checkpoint 2.1.19" aria-label="Copy heading and permalink for Checkpoint 2.1.19">🔗</a></div>
+</article></details><div class="autopermalink" data-description="Subsection 2.1.4: Exercises"><a href="#subsec-2-1-4-Exercises" title="Copy heading and permalink for Subsection 2.1.4: Exercises" aria-label="Copy heading and permalink for Subsection 2.1.4: Exercises">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 2.1: Family"><a href="#sec-2-1-Family" title="Copy heading and permalink for Section 2.1: Family" aria-label="Copy heading and permalink for Section 2.1: Family">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-2-Grammar.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
